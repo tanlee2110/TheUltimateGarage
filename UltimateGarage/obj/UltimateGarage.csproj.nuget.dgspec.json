@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UltimateGarage\\UltimateGarage\\UltimateGarage\\UltimateGarage.csproj": {}
+    "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj": {}
   },
   "projects": {
-    "D:\\UltimateGarage\\UltimateGarage\\UltimateGarage\\UltimateGarage.csproj": {
+    "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UltimateGarage\\UltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
+        "projectUniqueName": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
         "projectName": "UltimateGarage",
-        "projectPath": "D:\\UltimateGarage\\UltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
-        "packagesPath": "C:\\Users\\Tan Lee\\.nuget\\packages\\",
-        "outputPath": "D:\\UltimateGarage\\UltimateGarage\\UltimateGarage\\obj\\",
+        "projectPath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tan Lee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
