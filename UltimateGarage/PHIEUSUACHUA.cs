@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace UltimateGarage
 {
-    public partial class PHIEUNHAPVTPT : Form
+    public partial class PHIEUSUACHUA : Form
     {
-        public PHIEUNHAPVTPT()
+        public PHIEUSUACHUA()
         {
             InitializeComponent();
         }
 
-        private void PHIEUNHAPVTPT_Load(object sender, EventArgs e)
+        private void PHIEUSUACHUA_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void thembtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
         {
 
         }

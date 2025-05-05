@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\hoang\\source\\repos\\TheUltimateGarage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hoang\\source\\repos\\theultimategarage\\ultimategarage\\phieunhapvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\phieunhapvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\hoang\\source\\repos\\TheUltimateGarage\\ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hoang\\source\\repos\\theultimategarage\\ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hoang\\source\\repos\\theultimategarage\\ultimategarage\\phieunhapvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\phieunhapvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 417,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PHIEUNHAPVTPT.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hoang\\source\\repos\\TheUltimateGarage\\UltimateGarage\\PHIEUNHAPVTPT.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\PHIEUNHAPVTPT.cs",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hoang\\source\\repos\\TheUltimateGarage\\UltimateGarage\\Form1.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\Form1.cs",
