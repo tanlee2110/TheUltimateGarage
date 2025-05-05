@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wX+ATOngPjQ=",
+  "dgSpecHash": "gcLq+MbVmFg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hoang\\source\\repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
+  "projectFilePath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
