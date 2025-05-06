@@ -21,3 +21,5 @@ C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-wi
 C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DangNhap.resources
 C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.Properties.Resources.resources
 C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\Ultimate.09D54452.Up2Date
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUNHAPVTPT.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUSUACHUA.resources

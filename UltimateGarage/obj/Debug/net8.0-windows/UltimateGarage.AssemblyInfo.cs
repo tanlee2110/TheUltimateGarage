@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UltimateGarage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f58dc531edefc524f406c33e37718661bfbe2d88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525eacffbf9c1e99bac55b7ef04ded30efc45763")]
 [assembly: System.Reflection.AssemblyProductAttribute("UltimateGarage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UltimateGarage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
