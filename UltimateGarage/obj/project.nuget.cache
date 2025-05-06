@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wSCcgj+7pHg=",
+  "dgSpecHash": "7JV5zoxV9E7RWCyT0KdWxLIS/qUozNCeQHXJzZIf8GKgVOAFH8qo3/d8+WXP+ugeLOWiml7TkZLgRoz3wrO6OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
+  "projectFilePath": "C:\\Users\\Hao Tran\\Source\\Repos\\TheUltimateGarage1111\\UltimateGarage\\UltimateGarage.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hoang\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+    "C:\\Users\\Hao Tran\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
+    "C:\\Users\\Hao Tran\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Hao Tran\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
