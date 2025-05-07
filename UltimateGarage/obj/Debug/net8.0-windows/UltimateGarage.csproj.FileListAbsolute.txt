@@ -49,3 +49,5 @@ C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\ne
 C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.pdb
 C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.genruntimeconfig.cache
 C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\ref\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.BAOCAODOANHSO.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSPHIEUTHUTIEN.resources
