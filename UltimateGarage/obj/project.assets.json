@@ -150,11 +150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hao Tran\\Source\\Repos\\TheUltimateGarage1111\\UltimateGarage\\UltimateGarage.csproj",
+      "projectUniqueName": "C:\\Users\\Hao Tran\\Source\\Repos\\TheUltimateGarage11111\\UltimateGarage\\UltimateGarage.csproj",
       "projectName": "UltimateGarage",
-      "projectPath": "C:\\Users\\Hao Tran\\Source\\Repos\\TheUltimateGarage1111\\UltimateGarage\\UltimateGarage.csproj",
+      "projectPath": "C:\\Users\\Hao Tran\\Source\\Repos\\TheUltimateGarage11111\\UltimateGarage\\UltimateGarage.csproj",
       "packagesPath": "C:\\Users\\Hao Tran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hao Tran\\Source\\Repos\\TheUltimateGarage1111\\UltimateGarage\\obj\\",
+      "outputPath": "C:\\Users\\Hao Tran\\Source\\Repos\\TheUltimateGarage11111\\UltimateGarage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hao Tran\\AppData\\Roaming\\NuGet\\NuGet.Config",

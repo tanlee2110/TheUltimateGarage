@@ -1,6 +1,6 @@
 ﻿namespace UltimateGarage
 {
-    partial class BAOCAODOANHSO
+    partial class BAOCAOTON
     {
         /// <summary>
         /// Required designer variable.
@@ -36,7 +36,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BAOCAODOANHSO));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -50,8 +49,6 @@
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             label1 = new Label();
             guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -69,8 +66,8 @@
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
-            label5 = new Label();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            Column5 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
             button1 = new Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
@@ -97,12 +94,12 @@
             label1.Anchor = AnchorStyles.Top;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(424, 12);
+            label1.Location = new Point(472, 12);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
             label1.Size = new Size(578, 54);
             label1.TabIndex = 0;
-            label1.Text = "BÁO CÁO DOANH SỐ THÁNG";
+            label1.Text = "BÁO CÁO TỒN KHO";
             label1.UseMnemonic = false;
             // 
             // guna2DataGridView1
@@ -197,7 +194,6 @@
             guna2Button2.FillColor = SystemColors.HighlightText;
             guna2Button2.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button2.ForeColor = SystemColors.ActiveCaptionText;
-            guna2Button2.Image = (Image)resources.GetObject("guna2Button2.Image");
             guna2Button2.ImageAlign = HorizontalAlignment.Left;
             guna2Button2.ImageSize = new Size(30, 30);
             guna2Button2.Location = new Point(1011, 47);
@@ -276,15 +272,15 @@
             guna2NumericUpDown1.ForeColor = SystemColors.WindowText;
             guna2NumericUpDown1.Location = new Point(452, 68);
             guna2NumericUpDown1.Margin = new Padding(4, 5, 4, 5);
-            guna2NumericUpDown1.Maximum = new decimal(new int[] { 12, 0, 0, 0 });
-            guna2NumericUpDown1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            guna2NumericUpDown1.Maximum = new decimal(new int[] { 2050, 0, 0, 0 });
+            guna2NumericUpDown1.Minimum = new decimal(new int[] { 2000, 0, 0, 0 });
             guna2NumericUpDown1.Name = "guna2NumericUpDown1";
             guna2NumericUpDown1.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2NumericUpDown1.Size = new Size(171, 33);
             guna2NumericUpDown1.TabIndex = 56;
             guna2NumericUpDown1.UpDownButtonFillColor = Color.MidnightBlue;
             guna2NumericUpDown1.UpDownButtonForeColor = Color.White;
-            guna2NumericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            guna2NumericUpDown1.Value = new decimal(new int[] { 2000, 0, 0, 0 });
             // 
             // label3
             // 
@@ -341,7 +337,7 @@
             guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             guna2DataGridView2.ColumnHeadersHeight = 33;
             guna2DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            guna2DataGridView2.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
+            guna2DataGridView2.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6 });
             dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = Color.White;
             dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
@@ -390,62 +386,39 @@
             // 
             // Column1
             // 
-            Column1.HeaderText = "Hiệu xe";
+            Column1.HeaderText = "Mã VTPT";
             Column1.MinimumWidth = 8;
             Column1.Name = "Column1";
             // 
             // Column2
             // 
-            Column2.HeaderText = "Thành tiền";
+            Column2.HeaderText = "Tên VTPT";
             Column2.MinimumWidth = 8;
             Column2.Name = "Column2";
             // 
             // Column3
             // 
-            Column3.HeaderText = "Số lượt sửa chữa";
+            Column3.HeaderText = "Tồn đầu";
             Column3.MinimumWidth = 8;
             Column3.Name = "Column3";
             // 
             // Column4
             // 
-            Column4.HeaderText = "Tỉ lệ";
+            Column4.HeaderText = "Phát sinh";
             Column4.MinimumWidth = 8;
             Column4.Name = "Column4";
             // 
-            // label5
+            // Column5
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(347, 803);
-            label5.Margin = new Padding(4, 0, 4, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(191, 32);
-            label5.TabIndex = 16;
-            label5.Text = "Tổng thành tiền:";
+            Column5.HeaderText = "Sử dụng";
+            Column5.MinimumWidth = 8;
+            Column5.Name = "Column5";
             // 
-            // guna2TextBox1
+            // Column6
             // 
-            guna2TextBox1.BackColor = Color.Transparent;
-            guna2TextBox1.BorderRadius = 18;
-            guna2TextBox1.CustomizableEdges = customizableEdges15;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F);
-            guna2TextBox1.ForeColor = SystemColors.WindowText;
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(543, 802);
-            guna2TextBox1.Margin = new Padding(4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2TextBox1.Size = new Size(495, 40);
-            guna2TextBox1.TabIndex = 17;
-            guna2TextBox1.TextChanged += guna2TextBox1_TextChanged;
+            Column6.HeaderText = "Tồn cuối";
+            Column6.MinimumWidth = 8;
+            Column6.Name = "Column6";
             // 
             // button1
             // 
@@ -458,21 +431,18 @@
             button1.Text = "Thoát";
             button1.UseVisualStyleBackColor = true;
             // 
-            // BAOCAODOANHSO
+            // BAOCAOTON
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = guna2Button1;
             ClientSize = new Size(1384, 862);
             Controls.Add(button1);
-            Controls.Add(guna2TextBox1);
-            Controls.Add(label5);
             Controls.Add(guna2GroupBox2);
             Controls.Add(guna2GroupBox1);
             Controls.Add(guna2DataGridView1);
             Controls.Add(guna2Panel1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "BAOCAODOANHSO";
+            Name = "BAOCAOTON";
             Text = "BAOCAODOANHSO";
             guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
@@ -483,7 +453,6 @@
             guna2GroupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView2).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -501,12 +470,12 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox2;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
+        private Button button1;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
-        private Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Button button1;
+        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn Column6;
     }
 }
