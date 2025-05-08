@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\",
+  "WorkspaceRootPath": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hao tran\\source\\repos\\theultimategarage11111\\ultimategarage\\baocaoton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\baocaoton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hao tran\\source\\repos\\theultimategarage11111\\ultimategarage\\dsvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\dsvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hao tran\\source\\repos\\theultimategarage11111\\ultimategarage\\dstiencong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\dstiencong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\dstiencong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\baocaodoanhso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\dsvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\dsvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hao tran\\source\\repos\\theultimategarage\\ultimategarage\\baocaoton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\baocaoton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\baocaodoanhso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\baocaodoanhso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\dsphieuthutien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\dsphieuthutien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\dsphieuthutien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hao tran\\source\\repos\\theultimategarage11111\\ultimategarage\\dstiencong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\dstiencong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\dstiencong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\dsvtpt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\dsvtpt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\dsvtpt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hao tran\\source\\repos\\theultimategarage11111\\ultimategarage\\ultimategarage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\ultimategarage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\ultimategarage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|c:\\users\\hao tran\\source\\repos\\theultimategarage11111\\ultimategarage\\baocaoton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\baocaoton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\baocaoton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\dsvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\dsvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\dsvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\phieunhapvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\phieunhapvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\phieunhapvtpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\ultimategarage\\phieusuachua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\ultimategarage\\phieusuachua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A2B8AB70-5A8B-4A12-86E8-0939AE470BA6}|UltimateGarage\\UltimateGarage.csproj|solutionrelative:ultimategarage\\phieusuachua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 417,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,12 +97,16 @@
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DSTIENCONG.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSTIENCONG.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSTIENCONG.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\DSTIENCONG.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSTIENCONG.cs [Design]",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSTIENCONG.cs [Design]",
               "RelativeToolTip": "UltimateGarage\\DSTIENCONG.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T16:49:28.488Z",
@@ -112,9 +116,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DSVTPT.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSVTPT.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSVTPT.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\DSVTPT.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSVTPT.cs [Design]",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSVTPT.cs [Design]",
               "RelativeToolTip": "UltimateGarage\\DSVTPT.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T16:29:20.164Z",
@@ -122,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BAOCAOTON.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\BAOCAOTON.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\BAOCAOTON.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\BAOCAOTON.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\BAOCAOTON.cs [Design]",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\BAOCAOTON.cs [Design]",
               "RelativeToolTip": "UltimateGarage\\BAOCAOTON.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T16:24:39.803Z",
@@ -136,9 +140,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BAOCAODOANHSO.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\BAOCAODOANHSO.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\BAOCAODOANHSO.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\BAOCAODOANHSO.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\BAOCAODOANHSO.cs [Design]",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\BAOCAODOANHSO.cs [Design]",
               "RelativeToolTip": "UltimateGarage\\BAOCAODOANHSO.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T10:35:07.6Z",
@@ -148,21 +152,20 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DSPHIEUTHUTIEN.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSPHIEUTHUTIEN.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSPHIEUTHUTIEN.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\DSPHIEUTHUTIEN.cs",
               "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSPHIEUTHUTIEN.cs [Design]",
-              "RelativeToolTip": "UltimateGarage\\DSPHIEUTHUTIEN.cs [Design]",
+              "RelativeToolTip": "..\\TheUltimateGarage11111\\UltimateGarage\\DSPHIEUTHUTIEN.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:20:30.773Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-08T16:20:30.773Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "DSTIENCONG.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSTIENCONG.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSTIENCONG.Designer.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\DSTIENCONG.Designer.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSTIENCONG.Designer.cs",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSTIENCONG.Designer.cs",
               "RelativeToolTip": "UltimateGarage\\DSTIENCONG.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,22 +176,21 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "UltimateGarage.csproj",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\UltimateGarage.csproj",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
               "RelativeDocumentMoniker": "UltimateGarage\\UltimateGarage.csproj",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\UltimateGarage.csproj",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
               "RelativeToolTip": "UltimateGarage\\UltimateGarage.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-08T15:14:01.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T15:14:01.322Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "DSVTPT.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSVTPT.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSVTPT.Designer.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\DSVTPT.Designer.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSVTPT.Designer.cs",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSVTPT.Designer.cs",
               "RelativeToolTip": "UltimateGarage\\DSVTPT.Designer.cs",
               "ViewState": "AQIAAEwCAAAAAAAAAAAYwHICAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,9 +201,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "BAOCAOTON.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\BAOCAOTON.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\BAOCAOTON.Designer.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\BAOCAOTON.Designer.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\BAOCAOTON.Designer.cs",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\BAOCAOTON.Designer.cs",
               "RelativeToolTip": "UltimateGarage\\BAOCAOTON.Designer.cs",
               "ViewState": "AQIAAJcBAAAAAAAAAAAgwOUBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -212,9 +214,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "DSVTPT.cs",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSVTPT.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSVTPT.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\DSVTPT.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\DSVTPT.cs",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\DSVTPT.cs",
               "RelativeToolTip": "UltimateGarage\\DSVTPT.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,10 +227,10 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "PHIEUNHAPVTPT.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\PHIEUNHAPVTPT.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\PHIEUNHAPVTPT.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\PHIEUNHAPVTPT.cs",
               "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\PHIEUNHAPVTPT.cs [Design]",
-              "RelativeToolTip": "UltimateGarage\\PHIEUNHAPVTPT.cs [Design]",
+              "RelativeToolTip": "..\\TheUltimateGarage11111\\UltimateGarage\\PHIEUNHAPVTPT.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T09:03:13.05Z"
             },
@@ -236,10 +238,10 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\Form1.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\Form1.cs",
               "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\Form1.cs [Design]",
-              "RelativeToolTip": "UltimateGarage\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\TheUltimateGarage11111\\UltimateGarage\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:46:50.997Z"
             },
@@ -247,9 +249,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\Form1.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\Form1.cs",
-              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\Form1.cs",
+              "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\Form1.cs",
               "RelativeToolTip": "UltimateGarage\\Form1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,10 +261,10 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "PHIEUSUACHUA.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\PHIEUSUACHUA.cs",
+              "DocumentMoniker": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage\\UltimateGarage\\PHIEUSUACHUA.cs",
               "RelativeDocumentMoniker": "UltimateGarage\\PHIEUSUACHUA.cs",
               "ToolTip": "C:\\Users\\Hao Tran\\source\\repos\\TheUltimateGarage11111\\UltimateGarage\\PHIEUSUACHUA.cs [Design]",
-              "RelativeToolTip": "UltimateGarage\\PHIEUSUACHUA.cs [Design]",
+              "RelativeToolTip": "..\\TheUltimateGarage11111\\UltimateGarage\\PHIEUSUACHUA.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T13:36:50.996Z"
             }
