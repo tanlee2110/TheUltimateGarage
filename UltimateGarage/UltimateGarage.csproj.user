@@ -10,6 +10,12 @@
     <Compile Update="DSPHIEUTHUTIEN.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="DSTIENCONG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DSVTPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

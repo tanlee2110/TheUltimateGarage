@@ -1,1 +1,19 @@
 .vs/
+# Visual Studio
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.dbmdl
+*.bak
+*.v2
+*.tmp
+
+# Build output
+bin/
+obj/
+
+# Others
+*.DS_Store
+Thumbs.db
