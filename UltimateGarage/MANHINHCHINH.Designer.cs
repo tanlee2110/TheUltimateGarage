@@ -30,6 +30,8 @@
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -40,50 +42,49 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             dangxuatbtn = new Guna.UI2.WinForms.Guna2Button();
             thutienbtn = new Guna.UI2.WinForms.Guna2Button();
             RepairButton = new Guna.UI2.WinForms.Guna2Button();
@@ -92,11 +93,9 @@
             menuStrip1 = new MenuStrip();
             thôngTinCáNhânToolStripMenuItem = new ToolStripMenuItem();
             báoCáoToolStripMenuItem = new ToolStripMenuItem();
-            danhSáchToolStripMenuItem = new ToolStripMenuItem();
-            trợGiúpToolStripMenuItem = new ToolStripMenuItem();
-            guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem = new ToolStripMenuItem();
             báoCáoDoanhSốThángToolStripMenuItem = new ToolStripMenuItem();
+            danhSáchToolStripMenuItem = new ToolStripMenuItem();
             danhSáchVậtTưPhụTùngToolStripMenuItem = new ToolStripMenuItem();
             danhSáchLoạiTiềnCôngToolStripMenuItem = new ToolStripMenuItem();
             danhSáchHiệuXeToolStripMenuItem = new ToolStripMenuItem();
@@ -105,6 +104,7 @@
             danhSáchPhiếuThuTiềnToolStripMenuItem = new ToolStripMenuItem();
             cậpNhậnSốXeSửaChữaTốiToolStripMenuItem = new ToolStripMenuItem();
             cậpNhậtTỉLệLãiToolStripMenuItem = new ToolStripMenuItem();
+            trợGiúpToolStripMenuItem = new ToolStripMenuItem();
             thôngTinPhầnMềmToolStripMenuItem = new ToolStripMenuItem();
             liênHệToolStripMenuItem = new ToolStripMenuItem();
             xedtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -117,46 +117,46 @@
             TienNo = new DataGridViewTextBoxColumn();
             NgayTiepNhan = new DataGridViewTextBoxColumn();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            label3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            dangsudungtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
-            SearchLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            timtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
-            timkiembtn = new Guna.UI2.WinForms.Guna2Button();
-            NameSearchRadiobtn = new Guna.UI2.WinForms.Guna2RadioButton();
-            sdttimradio = new Guna.UI2.WinForms.Guna2RadioButton();
-            biensotimradio = new Guna.UI2.WinForms.Guna2RadioButton();
-            timtheongayradio = new Guna.UI2.WinForms.Guna2RadioButton();
-            xuatbtn = new Guna.UI2.WinForms.Guna2Button();
             xetiepnhantrongngaybtn = new Guna.UI2.WinForms.Guna2Button();
+            xuatbtn = new Guna.UI2.WinForms.Guna2Button();
+            timtheongayradio = new Guna.UI2.WinForms.Guna2RadioButton();
+            biensotimradio = new Guna.UI2.WinForms.Guna2RadioButton();
+            sdttimradio = new Guna.UI2.WinForms.Guna2RadioButton();
+            NameSearchRadiobtn = new Guna.UI2.WinForms.Guna2RadioButton();
+            timkiembtn = new Guna.UI2.WinForms.Guna2Button();
+            timtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            SearchLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            dangsudungtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            label3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            button11 = new Guna.UI2.WinForms.Guna2Button();
+            button10 = new Guna.UI2.WinForms.Guna2Button();
             groupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
-            LicenseLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            BrandLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            label2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            NameLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            ngaydtpicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
             DateLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             label1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             PhoneLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             label4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            ngaydtpicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            button10 = new Guna.UI2.WinForms.Guna2Button();
-            button11 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            NameLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            label2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            BrandLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            LicenseLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             panel1.SuspendLayout();
-            menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
+            menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)xedtgrid).BeginInit();
             guna2Panel1.SuspendLayout();
             guna2Panel2.SuspendLayout();
-            groupBox1.SuspendLayout();
             guna2Panel3.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -178,6 +178,21 @@
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
+            // guna2PictureBox1
+            // 
+            guna2PictureBox1.BackColor = Color.FromArgb(251, 249, 244);
+            guna2PictureBox1.CustomizableEdges = customizableEdges1;
+            guna2PictureBox1.Image = Properties.Resources.UltimateGarageIcon1;
+            guna2PictureBox1.ImageRotate = 0F;
+            guna2PictureBox1.InitialImage = null;
+            guna2PictureBox1.Location = new Point(3, 3);
+            guna2PictureBox1.Name = "guna2PictureBox1";
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2PictureBox1.Size = new Size(223, 202);
+            guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            guna2PictureBox1.TabIndex = 6;
+            guna2PictureBox1.TabStop = false;
+            // 
             // dangxuatbtn
             // 
             dangxuatbtn.BackColor = Color.White;
@@ -190,7 +205,7 @@
             dangxuatbtn.FillColor = Color.FromArgb(222, 227, 62);
             dangxuatbtn.Font = new Font("Segoe UI", 10.8F);
             dangxuatbtn.ForeColor = Color.Black;
-            dangxuatbtn.Location = new Point(11, 403);
+            dangxuatbtn.Location = new Point(11, 459);
             dangxuatbtn.Name = "dangxuatbtn";
             dangxuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
             dangxuatbtn.Size = new Size(203, 56);
@@ -210,7 +225,7 @@
             thutienbtn.FillColor = Color.FromArgb(222, 227, 62);
             thutienbtn.Font = new Font("Segoe UI", 10.8F);
             thutienbtn.ForeColor = Color.Black;
-            thutienbtn.Location = new Point(11, 341);
+            thutienbtn.Location = new Point(11, 397);
             thutienbtn.Name = "thutienbtn";
             thutienbtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
             thutienbtn.Size = new Size(203, 56);
@@ -230,7 +245,7 @@
             RepairButton.FillColor = Color.FromArgb(222, 227, 62);
             RepairButton.Font = new Font("Segoe UI", 10.8F);
             RepairButton.ForeColor = Color.Black;
-            RepairButton.Location = new Point(11, 279);
+            RepairButton.Location = new Point(11, 335);
             RepairButton.Name = "RepairButton";
             RepairButton.ShadowDecoration.CustomizableEdges = customizableEdges8;
             RepairButton.Size = new Size(203, 56);
@@ -250,7 +265,7 @@
             lapphieuvtptbtn.FillColor = Color.FromArgb(222, 227, 62);
             lapphieuvtptbtn.Font = new Font("Segoe UI", 10.8F);
             lapphieuvtptbtn.ForeColor = Color.Black;
-            lapphieuvtptbtn.Location = new Point(11, 217);
+            lapphieuvtptbtn.Location = new Point(11, 273);
             lapphieuvtptbtn.Name = "lapphieuvtptbtn";
             lapphieuvtptbtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
             lapphieuvtptbtn.Size = new Size(203, 56);
@@ -270,7 +285,7 @@
             AddCarButton.FillColor = Color.FromArgb(222, 227, 62);
             AddCarButton.Font = new Font("Segoe UI", 10.8F);
             AddCarButton.ForeColor = Color.Black;
-            AddCarButton.Location = new Point(11, 155);
+            AddCarButton.Location = new Point(11, 211);
             AddCarButton.Name = "AddCarButton";
             AddCarButton.ShadowDecoration.CustomizableEdges = customizableEdges12;
             AddCarButton.Size = new Size(203, 56);
@@ -301,35 +316,6 @@
             báoCáoToolStripMenuItem.Size = new Size(77, 24);
             báoCáoToolStripMenuItem.Text = "Báo cáo";
             // 
-            // danhSáchToolStripMenuItem
-            // 
-            danhSáchToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { danhSáchVậtTưPhụTùngToolStripMenuItem, danhSáchLoạiTiềnCôngToolStripMenuItem, danhSáchHiệuXeToolStripMenuItem, danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem, danhSáchPhiếuSửaChữaToolStripMenuItem, danhSáchPhiếuThuTiềnToolStripMenuItem, cậpNhậnSốXeSửaChữaTốiToolStripMenuItem, cậpNhậtTỉLệLãiToolStripMenuItem });
-            danhSáchToolStripMenuItem.Name = "danhSáchToolStripMenuItem";
-            danhSáchToolStripMenuItem.Size = new Size(73, 24);
-            danhSáchToolStripMenuItem.Text = "Quản lý";
-            // 
-            // trợGiúpToolStripMenuItem
-            // 
-            trợGiúpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thôngTinPhầnMềmToolStripMenuItem, liênHệToolStripMenuItem });
-            trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
-            trợGiúpToolStripMenuItem.Size = new Size(78, 24);
-            trợGiúpToolStripMenuItem.Text = "Trợ giúp";
-            // 
-            // guna2PictureBox1
-            // 
-            guna2PictureBox1.BackColor = Color.FromArgb(251, 249, 244);
-            guna2PictureBox1.CustomizableEdges = customizableEdges1;
-            guna2PictureBox1.Image = Properties.Resources.UltimateGarageIcon1;
-            guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.InitialImage = null;
-            guna2PictureBox1.Location = new Point(31, 3);
-            guna2PictureBox1.Name = "guna2PictureBox1";
-            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2PictureBox1.Size = new Size(165, 145);
-            guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            guna2PictureBox1.TabIndex = 6;
-            guna2PictureBox1.TabStop = false;
-            // 
             // báoCáoTồnVậtTưPhụTùngToolStripMenuItem
             // 
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Name = "báoCáoTồnVậtTưPhụTùngToolStripMenuItem";
@@ -341,6 +327,13 @@
             báoCáoDoanhSốThángToolStripMenuItem.Name = "báoCáoDoanhSốThángToolStripMenuItem";
             báoCáoDoanhSốThángToolStripMenuItem.Size = new Size(277, 26);
             báoCáoDoanhSốThángToolStripMenuItem.Text = "Báo cáo doanh số tháng";
+            // 
+            // danhSáchToolStripMenuItem
+            // 
+            danhSáchToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { danhSáchVậtTưPhụTùngToolStripMenuItem, danhSáchLoạiTiềnCôngToolStripMenuItem, danhSáchHiệuXeToolStripMenuItem, danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem, danhSáchPhiếuSửaChữaToolStripMenuItem, danhSáchPhiếuThuTiềnToolStripMenuItem, cậpNhậnSốXeSửaChữaTốiToolStripMenuItem, cậpNhậtTỉLệLãiToolStripMenuItem });
+            danhSáchToolStripMenuItem.Name = "danhSáchToolStripMenuItem";
+            danhSáchToolStripMenuItem.Size = new Size(73, 24);
+            danhSáchToolStripMenuItem.Text = "Quản lý";
             // 
             // danhSáchVậtTưPhụTùngToolStripMenuItem
             // 
@@ -390,6 +383,13 @@
             cậpNhậtTỉLệLãiToolStripMenuItem.Size = new Size(374, 26);
             cậpNhậtTỉLệLãiToolStripMenuItem.Text = "Cập nhật tỉ lệ lãi";
             // 
+            // trợGiúpToolStripMenuItem
+            // 
+            trợGiúpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thôngTinPhầnMềmToolStripMenuItem, liênHệToolStripMenuItem });
+            trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
+            trợGiúpToolStripMenuItem.Size = new Size(78, 24);
+            trợGiúpToolStripMenuItem.Text = "Trợ giúp";
+            // 
             // thôngTinPhầnMềmToolStripMenuItem
             // 
             thôngTinPhầnMềmToolStripMenuItem.Name = "thôngTinPhầnMềmToolStripMenuItem";
@@ -415,7 +415,8 @@
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             xedtgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            xedtgrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            xedtgrid.ColumnHeadersHeight = 22;
+            xedtgrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             xedtgrid.Columns.AddRange(new DataGridViewColumn[] { BienSo, TenChuxe, HieuXe, DiaChi, DienThoai, Email, TienNo, NgayTiepNhan });
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.FromArgb(251, 243, 207);
@@ -444,7 +445,7 @@
             xedtgrid.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
             xedtgrid.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
             xedtgrid.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            xedtgrid.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            xedtgrid.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             xedtgrid.ThemeStyle.HeaderStyle.Height = 22;
             xedtgrid.ThemeStyle.ReadOnly = false;
             xedtgrid.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(251, 243, 207);
@@ -524,14 +525,161 @@
             guna2Panel1.Size = new Size(1296, 94);
             guna2Panel1.TabIndex = 5;
             // 
-            // label3
+            // xetiepnhantrongngaybtn
             // 
-            label3.BackColor = Color.Transparent;
-            label3.Location = new Point(115, 14);
-            label3.Name = "label3";
-            label3.Size = new Size(167, 22);
-            label3.TabIndex = 0;
-            label3.Text = "Nhân viên đang sử dụng:";
+            xetiepnhantrongngaybtn.BorderRadius = 10;
+            xetiepnhantrongngaybtn.CustomizableEdges = customizableEdges15;
+            xetiepnhantrongngaybtn.DisabledState.BorderColor = Color.DarkGray;
+            xetiepnhantrongngaybtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            xetiepnhantrongngaybtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            xetiepnhantrongngaybtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            xetiepnhantrongngaybtn.FillColor = Color.FromArgb(222, 227, 62);
+            xetiepnhantrongngaybtn.Font = new Font("Segoe UI", 9F);
+            xetiepnhantrongngaybtn.ForeColor = Color.Black;
+            xetiepnhantrongngaybtn.Location = new Point(1081, 51);
+            xetiepnhantrongngaybtn.Name = "xetiepnhantrongngaybtn";
+            xetiepnhantrongngaybtn.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            xetiepnhantrongngaybtn.Size = new Size(212, 40);
+            xetiepnhantrongngaybtn.TabIndex = 10;
+            xetiepnhantrongngaybtn.Text = "Xe tiếp nhận trong ngày";
+            // 
+            // xuatbtn
+            // 
+            xuatbtn.BorderRadius = 10;
+            xuatbtn.CustomizableEdges = customizableEdges17;
+            xuatbtn.DisabledState.BorderColor = Color.DarkGray;
+            xuatbtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            xuatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            xuatbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            xuatbtn.FillColor = Color.FromArgb(222, 227, 62);
+            xuatbtn.Font = new Font("Segoe UI", 9F);
+            xuatbtn.ForeColor = Color.Black;
+            xuatbtn.Location = new Point(1081, 4);
+            xuatbtn.Name = "xuatbtn";
+            xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            xuatbtn.Size = new Size(212, 41);
+            xuatbtn.TabIndex = 9;
+            xuatbtn.Text = "Xuất file danh sách";
+            // 
+            // timtheongayradio
+            // 
+            timtheongayradio.AutoSize = true;
+            timtheongayradio.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
+            timtheongayradio.CheckedState.BorderThickness = 0;
+            timtheongayradio.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
+            timtheongayradio.CheckedState.InnerColor = Color.White;
+            timtheongayradio.CheckedState.InnerOffset = -4;
+            timtheongayradio.Location = new Point(819, 57);
+            timtheongayradio.Name = "timtheongayradio";
+            timtheongayradio.Size = new Size(99, 24);
+            timtheongayradio.TabIndex = 8;
+            timtheongayradio.Text = "Theo ngày";
+            timtheongayradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            timtheongayradio.UncheckedState.BorderThickness = 2;
+            timtheongayradio.UncheckedState.FillColor = Color.Transparent;
+            timtheongayradio.UncheckedState.InnerColor = Color.Transparent;
+            // 
+            // biensotimradio
+            // 
+            biensotimradio.AutoSize = true;
+            biensotimradio.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
+            biensotimradio.CheckedState.BorderThickness = 0;
+            biensotimradio.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
+            biensotimradio.CheckedState.InnerColor = Color.White;
+            biensotimradio.CheckedState.InnerOffset = -4;
+            biensotimradio.Location = new Point(698, 57);
+            biensotimradio.Name = "biensotimradio";
+            biensotimradio.Size = new Size(115, 24);
+            biensotimradio.TabIndex = 7;
+            biensotimradio.Text = "Theo biển số";
+            biensotimradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            biensotimradio.UncheckedState.BorderThickness = 2;
+            biensotimradio.UncheckedState.FillColor = Color.Transparent;
+            biensotimradio.UncheckedState.InnerColor = Color.Transparent;
+            // 
+            // sdttimradio
+            // 
+            sdttimradio.AutoSize = true;
+            sdttimradio.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
+            sdttimradio.CheckedState.BorderThickness = 0;
+            sdttimradio.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
+            sdttimradio.CheckedState.InnerColor = Color.White;
+            sdttimradio.CheckedState.InnerOffset = -4;
+            sdttimradio.Location = new Point(539, 57);
+            sdttimradio.Name = "sdttimradio";
+            sdttimradio.Size = new Size(153, 24);
+            sdttimradio.TabIndex = 6;
+            sdttimradio.Text = "Theo số điện thoại";
+            sdttimradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            sdttimradio.UncheckedState.BorderThickness = 2;
+            sdttimradio.UncheckedState.FillColor = Color.Transparent;
+            sdttimradio.UncheckedState.InnerColor = Color.Transparent;
+            // 
+            // NameSearchRadiobtn
+            // 
+            NameSearchRadiobtn.AutoSize = true;
+            NameSearchRadiobtn.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
+            NameSearchRadiobtn.CheckedState.BorderThickness = 0;
+            NameSearchRadiobtn.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
+            NameSearchRadiobtn.CheckedState.InnerColor = Color.White;
+            NameSearchRadiobtn.CheckedState.InnerOffset = -4;
+            NameSearchRadiobtn.Location = new Point(399, 57);
+            NameSearchRadiobtn.Name = "NameSearchRadiobtn";
+            NameSearchRadiobtn.Size = new Size(134, 24);
+            NameSearchRadiobtn.TabIndex = 5;
+            NameSearchRadiobtn.Text = "Theo tên chủ xe";
+            NameSearchRadiobtn.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            NameSearchRadiobtn.UncheckedState.BorderThickness = 2;
+            NameSearchRadiobtn.UncheckedState.FillColor = Color.Transparent;
+            NameSearchRadiobtn.UncheckedState.InnerColor = Color.Transparent;
+            // 
+            // timkiembtn
+            // 
+            timkiembtn.BorderRadius = 10;
+            timkiembtn.CustomizableEdges = customizableEdges19;
+            timkiembtn.DisabledState.BorderColor = Color.DarkGray;
+            timkiembtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            timkiembtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            timkiembtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            timkiembtn.FillColor = Color.FromArgb(222, 227, 62);
+            timkiembtn.Font = new Font("Segoe UI", 9F);
+            timkiembtn.ForeColor = Color.Black;
+            timkiembtn.Location = new Point(880, 4);
+            timkiembtn.Name = "timkiembtn";
+            timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            timkiembtn.Size = new Size(94, 41);
+            timkiembtn.TabIndex = 4;
+            timkiembtn.Text = "Search";
+            // 
+            // timtxtbox
+            // 
+            timtxtbox.BorderRadius = 10;
+            timtxtbox.CustomizableEdges = customizableEdges21;
+            timtxtbox.DefaultText = "";
+            timtxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            timtxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            timtxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            timtxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            timtxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            timtxtbox.Font = new Font("Segoe UI", 9F);
+            timtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            timtxtbox.Location = new Point(485, 4);
+            timtxtbox.Margin = new Padding(3, 4, 3, 4);
+            timtxtbox.Name = "timtxtbox";
+            timtxtbox.PlaceholderText = "";
+            timtxtbox.SelectedText = "";
+            timtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            timtxtbox.Size = new Size(389, 41);
+            timtxtbox.TabIndex = 3;
+            // 
+            // SearchLabel
+            // 
+            SearchLabel.BackColor = Color.Transparent;
+            SearchLabel.Location = new Point(399, 14);
+            SearchLabel.Name = "SearchLabel";
+            SearchLabel.Size = new Size(67, 22);
+            SearchLabel.TabIndex = 2;
+            SearchLabel.Text = "Tìm kiếm:";
             // 
             // dangsudungtxtbox
             // 
@@ -555,161 +703,14 @@
             dangsudungtxtbox.Size = new Size(286, 38);
             dangsudungtxtbox.TabIndex = 1;
             // 
-            // SearchLabel
+            // label3
             // 
-            SearchLabel.BackColor = Color.Transparent;
-            SearchLabel.Location = new Point(399, 14);
-            SearchLabel.Name = "SearchLabel";
-            SearchLabel.Size = new Size(67, 22);
-            SearchLabel.TabIndex = 2;
-            SearchLabel.Text = "Tìm kiếm:";
-            // 
-            // timtxtbox
-            // 
-            timtxtbox.BorderRadius = 10;
-            timtxtbox.CustomizableEdges = customizableEdges21;
-            timtxtbox.DefaultText = "";
-            timtxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            timtxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            timtxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            timtxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            timtxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            timtxtbox.Font = new Font("Segoe UI", 9F);
-            timtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            timtxtbox.Location = new Point(485, 4);
-            timtxtbox.Margin = new Padding(3, 4, 3, 4);
-            timtxtbox.Name = "timtxtbox";
-            timtxtbox.PlaceholderText = "";
-            timtxtbox.SelectedText = "";
-            timtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            timtxtbox.Size = new Size(389, 41);
-            timtxtbox.TabIndex = 3;
-            // 
-            // timkiembtn
-            // 
-            timkiembtn.BorderRadius = 10;
-            timkiembtn.CustomizableEdges = customizableEdges19;
-            timkiembtn.DisabledState.BorderColor = Color.DarkGray;
-            timkiembtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            timkiembtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            timkiembtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            timkiembtn.FillColor = Color.FromArgb(222, 227, 62);
-            timkiembtn.Font = new Font("Segoe UI", 9F);
-            timkiembtn.ForeColor = Color.Black;
-            timkiembtn.Location = new Point(880, 4);
-            timkiembtn.Name = "timkiembtn";
-            timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            timkiembtn.Size = new Size(94, 41);
-            timkiembtn.TabIndex = 4;
-            timkiembtn.Text = "Search";
-            // 
-            // NameSearchRadiobtn
-            // 
-            NameSearchRadiobtn.AutoSize = true;
-            NameSearchRadiobtn.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
-            NameSearchRadiobtn.CheckedState.BorderThickness = 0;
-            NameSearchRadiobtn.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
-            NameSearchRadiobtn.CheckedState.InnerColor = Color.White;
-            NameSearchRadiobtn.CheckedState.InnerOffset = -4;
-            NameSearchRadiobtn.Location = new Point(399, 57);
-            NameSearchRadiobtn.Name = "NameSearchRadiobtn";
-            NameSearchRadiobtn.Size = new Size(134, 24);
-            NameSearchRadiobtn.TabIndex = 5;
-            NameSearchRadiobtn.Text = "Theo tên chủ xe";
-            NameSearchRadiobtn.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            NameSearchRadiobtn.UncheckedState.BorderThickness = 2;
-            NameSearchRadiobtn.UncheckedState.FillColor = Color.Transparent;
-            NameSearchRadiobtn.UncheckedState.InnerColor = Color.Transparent;
-            // 
-            // sdttimradio
-            // 
-            sdttimradio.AutoSize = true;
-            sdttimradio.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
-            sdttimradio.CheckedState.BorderThickness = 0;
-            sdttimradio.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
-            sdttimradio.CheckedState.InnerColor = Color.White;
-            sdttimradio.CheckedState.InnerOffset = -4;
-            sdttimradio.Location = new Point(539, 57);
-            sdttimradio.Name = "sdttimradio";
-            sdttimradio.Size = new Size(153, 24);
-            sdttimradio.TabIndex = 6;
-            sdttimradio.Text = "Theo số điện thoại";
-            sdttimradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            sdttimradio.UncheckedState.BorderThickness = 2;
-            sdttimradio.UncheckedState.FillColor = Color.Transparent;
-            sdttimradio.UncheckedState.InnerColor = Color.Transparent;
-            // 
-            // biensotimradio
-            // 
-            biensotimradio.AutoSize = true;
-            biensotimradio.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
-            biensotimradio.CheckedState.BorderThickness = 0;
-            biensotimradio.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
-            biensotimradio.CheckedState.InnerColor = Color.White;
-            biensotimradio.CheckedState.InnerOffset = -4;
-            biensotimradio.Location = new Point(698, 57);
-            biensotimradio.Name = "biensotimradio";
-            biensotimradio.Size = new Size(115, 24);
-            biensotimradio.TabIndex = 7;
-            biensotimradio.Text = "Theo biển số";
-            biensotimradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            biensotimradio.UncheckedState.BorderThickness = 2;
-            biensotimradio.UncheckedState.FillColor = Color.Transparent;
-            biensotimradio.UncheckedState.InnerColor = Color.Transparent;
-            // 
-            // timtheongayradio
-            // 
-            timtheongayradio.AutoSize = true;
-            timtheongayradio.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
-            timtheongayradio.CheckedState.BorderThickness = 0;
-            timtheongayradio.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
-            timtheongayradio.CheckedState.InnerColor = Color.White;
-            timtheongayradio.CheckedState.InnerOffset = -4;
-            timtheongayradio.Location = new Point(819, 57);
-            timtheongayradio.Name = "timtheongayradio";
-            timtheongayradio.Size = new Size(99, 24);
-            timtheongayradio.TabIndex = 8;
-            timtheongayradio.Text = "Theo ngày";
-            timtheongayradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            timtheongayradio.UncheckedState.BorderThickness = 2;
-            timtheongayradio.UncheckedState.FillColor = Color.Transparent;
-            timtheongayradio.UncheckedState.InnerColor = Color.Transparent;
-            // 
-            // xuatbtn
-            // 
-            xuatbtn.BorderRadius = 10;
-            xuatbtn.CustomizableEdges = customizableEdges17;
-            xuatbtn.DisabledState.BorderColor = Color.DarkGray;
-            xuatbtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            xuatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            xuatbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            xuatbtn.FillColor = Color.FromArgb(222, 227, 62);
-            xuatbtn.Font = new Font("Segoe UI", 9F);
-            xuatbtn.ForeColor = Color.Black;
-            xuatbtn.Location = new Point(1081, 4);
-            xuatbtn.Name = "xuatbtn";
-            xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            xuatbtn.Size = new Size(212, 41);
-            xuatbtn.TabIndex = 9;
-            xuatbtn.Text = "Xuất file danh sách";
-            // 
-            // xetiepnhantrongngaybtn
-            // 
-            xetiepnhantrongngaybtn.BorderRadius = 10;
-            xetiepnhantrongngaybtn.CustomizableEdges = customizableEdges15;
-            xetiepnhantrongngaybtn.DisabledState.BorderColor = Color.DarkGray;
-            xetiepnhantrongngaybtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            xetiepnhantrongngaybtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            xetiepnhantrongngaybtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            xetiepnhantrongngaybtn.FillColor = Color.FromArgb(222, 227, 62);
-            xetiepnhantrongngaybtn.Font = new Font("Segoe UI", 9F);
-            xetiepnhantrongngaybtn.ForeColor = Color.Black;
-            xetiepnhantrongngaybtn.Location = new Point(1081, 51);
-            xetiepnhantrongngaybtn.Name = "xetiepnhantrongngaybtn";
-            xetiepnhantrongngaybtn.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            xetiepnhantrongngaybtn.Size = new Size(212, 40);
-            xetiepnhantrongngaybtn.TabIndex = 10;
-            xetiepnhantrongngaybtn.Text = "Xe tiếp nhận trong ngày";
+            label3.BackColor = Color.Transparent;
+            label3.Location = new Point(115, 14);
+            label3.Name = "label3";
+            label3.Size = new Size(167, 22);
+            label3.TabIndex = 0;
+            label3.Text = "Nhân viên đang sử dụng:";
             // 
             // guna2Panel2
             // 
@@ -722,6 +723,54 @@
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges52;
             guna2Panel2.Size = new Size(1296, 217);
             guna2Panel2.TabIndex = 6;
+            // 
+            // guna2Panel3
+            // 
+            guna2Panel3.BackColor = SystemColors.Control;
+            guna2Panel3.Controls.Add(button11);
+            guna2Panel3.Controls.Add(button10);
+            guna2Panel3.CustomizableEdges = customizableEdges31;
+            guna2Panel3.Location = new Point(1042, 3);
+            guna2Panel3.Name = "guna2Panel3";
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            guna2Panel3.Size = new Size(251, 209);
+            guna2Panel3.TabIndex = 1;
+            // 
+            // button11
+            // 
+            button11.BorderRadius = 10;
+            button11.CustomizableEdges = customizableEdges27;
+            button11.DisabledState.BorderColor = Color.DarkGray;
+            button11.DisabledState.CustomBorderColor = Color.DarkGray;
+            button11.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            button11.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            button11.FillColor = Color.FromArgb(222, 227, 62);
+            button11.Font = new Font("Segoe UI", 9F);
+            button11.ForeColor = Color.Black;
+            button11.Location = new Point(13, 128);
+            button11.Name = "button11";
+            button11.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            button11.Size = new Size(225, 56);
+            button11.TabIndex = 2;
+            button11.Text = "Xóa";
+            // 
+            // button10
+            // 
+            button10.BorderRadius = 10;
+            button10.CustomizableEdges = customizableEdges29;
+            button10.DisabledState.BorderColor = Color.DarkGray;
+            button10.DisabledState.CustomBorderColor = Color.DarkGray;
+            button10.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            button10.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            button10.FillColor = Color.FromArgb(222, 227, 62);
+            button10.Font = new Font("Segoe UI", 9F);
+            button10.ForeColor = Color.Black;
+            button10.Location = new Point(13, 35);
+            button10.Name = "button10";
+            button10.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            button10.Size = new Size(225, 56);
+            button10.TabIndex = 1;
+            button10.Text = "Cập nhật";
             // 
             // groupBox1
             // 
@@ -752,93 +801,102 @@
             groupBox1.TabIndex = 0;
             groupBox1.Text = "Thông tin chi tiết";
             // 
-            // guna2TextBox1
+            // ngaydtpicker
             // 
-            guna2TextBox1.BorderRadius = 10;
-            guna2TextBox1.CustomizableEdges = customizableEdges47;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = Color.Gainsboro;
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(147, 44);
-            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges48;
-            guna2TextBox1.Size = new Size(286, 34);
-            guna2TextBox1.TabIndex = 0;
+            ngaydtpicker.BorderRadius = 10;
+            ngaydtpicker.Checked = true;
+            ngaydtpicker.CustomizableEdges = customizableEdges33;
+            ngaydtpicker.FillColor = Color.FromArgb(251, 255, 116);
+            ngaydtpicker.Font = new Font("Segoe UI", 9F);
+            ngaydtpicker.Format = DateTimePickerFormat.Long;
+            ngaydtpicker.Location = new Point(685, 170);
+            ngaydtpicker.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            ngaydtpicker.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            ngaydtpicker.Name = "ngaydtpicker";
+            ngaydtpicker.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            ngaydtpicker.Size = new Size(286, 34);
+            ngaydtpicker.TabIndex = 16;
+            ngaydtpicker.Value = new DateTime(2025, 5, 14, 16, 36, 20, 42);
             // 
-            // guna2TextBox2
+            // DateLabel
             // 
-            guna2TextBox2.BorderRadius = 10;
-            guna2TextBox2.CustomizableEdges = customizableEdges45;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FillColor = Color.Gainsboro;
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Segoe UI", 9F);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(147, 86);
-            guna2TextBox2.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PlaceholderText = "";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges46;
-            guna2TextBox2.Size = new Size(286, 34);
-            guna2TextBox2.TabIndex = 1;
+            DateLabel.BackColor = Color.Transparent;
+            DateLabel.ForeColor = Color.Black;
+            DateLabel.Location = new Point(521, 182);
+            DateLabel.Name = "DateLabel";
+            DateLabel.Size = new Size(107, 22);
+            DateLabel.TabIndex = 15;
+            DateLabel.Text = "Ngày tiếp nhận:";
             // 
-            // guna2TextBox3
+            // label1
             // 
-            guna2TextBox3.BorderRadius = 10;
-            guna2TextBox3.CustomizableEdges = customizableEdges43;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FillColor = Color.Gainsboro;
-            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Font = new Font("Segoe UI", 9F);
-            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(147, 128);
-            guna2TextBox3.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PlaceholderText = "";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            guna2TextBox3.Size = new Size(286, 34);
-            guna2TextBox3.TabIndex = 2;
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(521, 140);
+            label1.Name = "label1";
+            label1.Size = new Size(43, 22);
+            label1.TabIndex = 14;
+            label1.Text = "Email:";
             // 
-            // guna2TextBox4
+            // PhoneLabel
             // 
-            guna2TextBox4.BorderRadius = 10;
-            guna2TextBox4.CustomizableEdges = customizableEdges41;
-            guna2TextBox4.DefaultText = "";
-            guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.FillColor = Color.Gainsboro;
-            guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Font = new Font("Segoe UI", 9F);
-            guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new Point(147, 170);
-            guna2TextBox4.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox4.Name = "guna2TextBox4";
-            guna2TextBox4.PlaceholderText = "";
-            guna2TextBox4.SelectedText = "";
-            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            guna2TextBox4.Size = new Size(286, 34);
-            guna2TextBox4.TabIndex = 3;
+            PhoneLabel.BackColor = Color.Transparent;
+            PhoneLabel.ForeColor = Color.Black;
+            PhoneLabel.Location = new Point(521, 98);
+            PhoneLabel.Name = "PhoneLabel";
+            PhoneLabel.Size = new Size(52, 22);
+            PhoneLabel.TabIndex = 13;
+            PhoneLabel.Text = "Địa chỉ:";
+            // 
+            // label4
+            // 
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.Black;
+            label4.Location = new Point(521, 56);
+            label4.Name = "label4";
+            label4.Size = new Size(76, 22);
+            label4.TabIndex = 12;
+            label4.Text = "Tên chủ xe:";
+            // 
+            // NameLabel
+            // 
+            NameLabel.BackColor = Color.Transparent;
+            NameLabel.ForeColor = Color.Black;
+            NameLabel.Location = new Point(31, 182);
+            NameLabel.Name = "NameLabel";
+            NameLabel.Size = new Size(55, 22);
+            NameLabel.TabIndex = 11;
+            NameLabel.Text = "Tiền nợ:";
+            // 
+            // label2
+            // 
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(31, 140);
+            label2.Name = "label2";
+            label2.Size = new Size(75, 22);
+            label2.TabIndex = 10;
+            label2.Text = "Điện thoại:";
+            // 
+            // BrandLabel
+            // 
+            BrandLabel.BackColor = Color.Transparent;
+            BrandLabel.ForeColor = Color.Black;
+            BrandLabel.Location = new Point(31, 98);
+            BrandLabel.Name = "BrandLabel";
+            BrandLabel.Size = new Size(56, 22);
+            BrandLabel.TabIndex = 9;
+            BrandLabel.Text = "Hiệu xe:";
+            // 
+            // LicenseLabel
+            // 
+            LicenseLabel.BackColor = Color.Transparent;
+            LicenseLabel.ForeColor = Color.Black;
+            LicenseLabel.Location = new Point(31, 56);
+            LicenseLabel.Name = "LicenseLabel";
+            LicenseLabel.Size = new Size(54, 22);
+            LicenseLabel.TabIndex = 8;
+            LicenseLabel.Text = "Biển số:";
             // 
             // guna2TextBox6
             // 
@@ -906,150 +964,93 @@
             guna2TextBox8.Size = new Size(286, 34);
             guna2TextBox8.TabIndex = 4;
             // 
-            // LicenseLabel
+            // guna2TextBox4
             // 
-            LicenseLabel.BackColor = Color.Transparent;
-            LicenseLabel.ForeColor = Color.Black;
-            LicenseLabel.Location = new Point(31, 56);
-            LicenseLabel.Name = "LicenseLabel";
-            LicenseLabel.Size = new Size(54, 22);
-            LicenseLabel.TabIndex = 8;
-            LicenseLabel.Text = "Biển số:";
+            guna2TextBox4.BorderRadius = 10;
+            guna2TextBox4.CustomizableEdges = customizableEdges41;
+            guna2TextBox4.DefaultText = "";
+            guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox4.FillColor = Color.Gainsboro;
+            guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox4.Font = new Font("Segoe UI", 9F);
+            guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox4.Location = new Point(147, 170);
+            guna2TextBox4.Margin = new Padding(3, 4, 3, 4);
+            guna2TextBox4.Name = "guna2TextBox4";
+            guna2TextBox4.PlaceholderText = "";
+            guna2TextBox4.SelectedText = "";
+            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            guna2TextBox4.Size = new Size(286, 34);
+            guna2TextBox4.TabIndex = 3;
             // 
-            // BrandLabel
+            // guna2TextBox3
             // 
-            BrandLabel.BackColor = Color.Transparent;
-            BrandLabel.ForeColor = Color.Black;
-            BrandLabel.Location = new Point(31, 98);
-            BrandLabel.Name = "BrandLabel";
-            BrandLabel.Size = new Size(56, 22);
-            BrandLabel.TabIndex = 9;
-            BrandLabel.Text = "Hiệu xe:";
+            guna2TextBox3.BorderRadius = 10;
+            guna2TextBox3.CustomizableEdges = customizableEdges43;
+            guna2TextBox3.DefaultText = "";
+            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox3.FillColor = Color.Gainsboro;
+            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox3.Font = new Font("Segoe UI", 9F);
+            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox3.Location = new Point(147, 128);
+            guna2TextBox3.Margin = new Padding(3, 4, 3, 4);
+            guna2TextBox3.Name = "guna2TextBox3";
+            guna2TextBox3.PlaceholderText = "";
+            guna2TextBox3.SelectedText = "";
+            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            guna2TextBox3.Size = new Size(286, 34);
+            guna2TextBox3.TabIndex = 2;
             // 
-            // label2
+            // guna2TextBox2
             // 
-            label2.BackColor = Color.Transparent;
-            label2.ForeColor = Color.Black;
-            label2.Location = new Point(31, 140);
-            label2.Name = "label2";
-            label2.Size = new Size(75, 22);
-            label2.TabIndex = 10;
-            label2.Text = "Điện thoại:";
+            guna2TextBox2.BorderRadius = 10;
+            guna2TextBox2.CustomizableEdges = customizableEdges45;
+            guna2TextBox2.DefaultText = "";
+            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox2.FillColor = Color.Gainsboro;
+            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox2.Font = new Font("Segoe UI", 9F);
+            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox2.Location = new Point(147, 86);
+            guna2TextBox2.Margin = new Padding(3, 4, 3, 4);
+            guna2TextBox2.Name = "guna2TextBox2";
+            guna2TextBox2.PlaceholderText = "";
+            guna2TextBox2.SelectedText = "";
+            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            guna2TextBox2.Size = new Size(286, 34);
+            guna2TextBox2.TabIndex = 1;
             // 
-            // NameLabel
+            // guna2TextBox1
             // 
-            NameLabel.BackColor = Color.Transparent;
-            NameLabel.ForeColor = Color.Black;
-            NameLabel.Location = new Point(31, 182);
-            NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(55, 22);
-            NameLabel.TabIndex = 11;
-            NameLabel.Text = "Tiền nợ:";
-            // 
-            // DateLabel
-            // 
-            DateLabel.BackColor = Color.Transparent;
-            DateLabel.ForeColor = Color.Black;
-            DateLabel.Location = new Point(521, 182);
-            DateLabel.Name = "DateLabel";
-            DateLabel.Size = new Size(107, 22);
-            DateLabel.TabIndex = 15;
-            DateLabel.Text = "Ngày tiếp nhận:";
-            // 
-            // label1
-            // 
-            label1.BackColor = Color.Transparent;
-            label1.ForeColor = Color.Black;
-            label1.Location = new Point(521, 140);
-            label1.Name = "label1";
-            label1.Size = new Size(43, 22);
-            label1.TabIndex = 14;
-            label1.Text = "Email:";
-            // 
-            // PhoneLabel
-            // 
-            PhoneLabel.BackColor = Color.Transparent;
-            PhoneLabel.ForeColor = Color.Black;
-            PhoneLabel.Location = new Point(521, 98);
-            PhoneLabel.Name = "PhoneLabel";
-            PhoneLabel.Size = new Size(52, 22);
-            PhoneLabel.TabIndex = 13;
-            PhoneLabel.Text = "Địa chỉ:";
-            // 
-            // label4
-            // 
-            label4.BackColor = Color.Transparent;
-            label4.ForeColor = Color.Black;
-            label4.Location = new Point(521, 56);
-            label4.Name = "label4";
-            label4.Size = new Size(76, 22);
-            label4.TabIndex = 12;
-            label4.Text = "Tên chủ xe:";
-            // 
-            // ngaydtpicker
-            // 
-            ngaydtpicker.BorderRadius = 10;
-            ngaydtpicker.Checked = true;
-            ngaydtpicker.CustomizableEdges = customizableEdges33;
-            ngaydtpicker.FillColor = Color.FromArgb(251, 255, 116);
-            ngaydtpicker.Font = new Font("Segoe UI", 9F);
-            ngaydtpicker.Format = DateTimePickerFormat.Long;
-            ngaydtpicker.Location = new Point(685, 170);
-            ngaydtpicker.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            ngaydtpicker.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            ngaydtpicker.Name = "ngaydtpicker";
-            ngaydtpicker.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            ngaydtpicker.Size = new Size(286, 34);
-            ngaydtpicker.TabIndex = 16;
-            ngaydtpicker.Value = new DateTime(2025, 5, 14, 16, 36, 20, 42);
-            // 
-            // button10
-            // 
-            button10.BorderRadius = 10;
-            button10.CustomizableEdges = customizableEdges29;
-            button10.DisabledState.BorderColor = Color.DarkGray;
-            button10.DisabledState.CustomBorderColor = Color.DarkGray;
-            button10.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            button10.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            button10.FillColor = Color.FromArgb(222, 227, 62);
-            button10.Font = new Font("Segoe UI", 9F);
-            button10.ForeColor = Color.Black;
-            button10.Location = new Point(13, 35);
-            button10.Name = "button10";
-            button10.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            button10.Size = new Size(225, 56);
-            button10.TabIndex = 1;
-            button10.Text = "Cập nhật";
-            // 
-            // button11
-            // 
-            button11.BorderRadius = 10;
-            button11.CustomizableEdges = customizableEdges27;
-            button11.DisabledState.BorderColor = Color.DarkGray;
-            button11.DisabledState.CustomBorderColor = Color.DarkGray;
-            button11.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            button11.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            button11.FillColor = Color.FromArgb(222, 227, 62);
-            button11.Font = new Font("Segoe UI", 9F);
-            button11.ForeColor = Color.Black;
-            button11.Location = new Point(13, 128);
-            button11.Name = "button11";
-            button11.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            button11.Size = new Size(225, 56);
-            button11.TabIndex = 2;
-            button11.Text = "Xóa";
-            // 
-            // guna2Panel3
-            // 
-            guna2Panel3.BackColor = SystemColors.Control;
-            guna2Panel3.Controls.Add(button11);
-            guna2Panel3.Controls.Add(button10);
-            guna2Panel3.CustomizableEdges = customizableEdges31;
-            guna2Panel3.Location = new Point(1042, 3);
-            guna2Panel3.Name = "guna2Panel3";
-            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            guna2Panel3.Size = new Size(251, 209);
-            guna2Panel3.TabIndex = 1;
+            guna2TextBox1.BorderRadius = 10;
+            guna2TextBox1.CustomizableEdges = customizableEdges47;
+            guna2TextBox1.DefaultText = "";
+            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.FillColor = Color.Gainsboro;
+            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Font = new Font("Segoe UI", 9F);
+            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Location = new Point(147, 44);
+            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
+            guna2TextBox1.Name = "guna2TextBox1";
+            guna2TextBox1.PlaceholderText = "";
+            guna2TextBox1.SelectedText = "";
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            guna2TextBox1.Size = new Size(286, 34);
+            guna2TextBox1.TabIndex = 0;
             // 
             // MANHINHCHINH
             // 
@@ -1066,16 +1067,16 @@
             Text = "MANHINHCHINH";
             Load += MANHINHCHINH_Load;
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)xedtgrid).EndInit();
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             guna2Panel2.ResumeLayout(false);
+            guna2Panel3.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            guna2Panel3.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
