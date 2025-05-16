@@ -1,0 +1,116 @@
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.exe
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.deps.json
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.runtimeconfig.json
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.GenerateResource.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfoInputs.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfo.cs
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.CoreCompileInputs.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.sourcelink.json
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\refint\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.genruntimeconfig.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\ref\UltimateGarage.dll
+C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.AssemblyReference.cache
+C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DangNhap.resources
+C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.Properties.Resources.resources
+C:\Users\hoang\source\repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\Ultimate.09D54452.Up2Date
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUNHAPVTPT.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUSUACHUA.resources
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.exe
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.deps.json
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.runtimeconfig.json
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.AssemblyReference.cache
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSPHIEUTHUTIEN.resources
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DangNhap.resources
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUNHAPVTPT.resources
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUSUACHUA.resources
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.Properties.Resources.resources
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.GenerateResource.cache
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfoInputs.cache
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfo.cs
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.CoreCompileInputs.cache
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.sourcelink.json
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\Ultimate.09D54452.Up2Date
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\refint\UltimateGarage.dll
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.genruntimeconfig.cache
+C:\Users\Hao Tran\Source\Repos\TheUltimateGarage1111\UltimateGarage\obj\Debug\net8.0-windows\ref\UltimateGarage.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.AssemblyReference.cache
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.BAOCAODOANHSO.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.BAOCAOTON.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSPHIEUTHUTIEN.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSVTPT.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DangNhap.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUNHAPVTPT.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUSUACHUA.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.Properties.Resources.resources
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.GenerateResource.cache
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfoInputs.cache
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfo.cs
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.CoreCompileInputs.cache
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.sourcelink.json
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\refint\UltimateGarage.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.exe
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.deps.json
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.runtimeconfig.json
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\Ultimate.09D54452.Up2Date
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.genruntimeconfig.cache
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\ref\UltimateGarage.dll
+C:\Users\Hao Tran\source\repos\TheUltimateGarage11111\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSTIENCONG.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.exe
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.deps.json
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.runtimeconfig.json
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.AssemblyReference.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.BAOCAODOANHSO.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.BAOCAOTON.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.CAPNHATSOXE.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.CAPNHATTILELAI.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSPHIEUTHUTIEN.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSTIENCONG.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSVTPT.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DangNhap.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUNHAPVTPT.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.PHIEUSUACHUA.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.Properties.Resources.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.GenerateResource.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfoInputs.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.AssemblyInfo.cs
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.csproj.CoreCompileInputs.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.sourcelink.json
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\Ultimate.09D54452.Up2Date
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\refint\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.pdb
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.genruntimeconfig.cache
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\ref\UltimateGarage.dll
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSHIEUXE.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.DSNHANVIEN.resources
+C:\Users\hoang\Source\Repos\TheUltimateGarage2\UltimateGarage\obj\Debug\net8.0-windows\UltimateGarage.LIENHE.resources

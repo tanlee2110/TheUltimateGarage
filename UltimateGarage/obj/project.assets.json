@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
+      "projectUniqueName": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage2\\UltimateGarage\\UltimateGarage.csproj",
       "projectName": "UltimateGarage",
-      "projectPath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\UltimateGarage.csproj",
+      "projectPath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage2\\UltimateGarage\\UltimateGarage.csproj",
       "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage\\UltimateGarage\\obj\\",
+      "outputPath": "C:\\Users\\hoang\\Source\\Repos\\TheUltimateGarage2\\UltimateGarage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
