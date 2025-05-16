@@ -50,6 +50,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TIEPNHANXE));
             panel1 = new Guna.UI2.WinForms.Guna2Panel();
             PhieuSuaChua_Title = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -169,7 +170,7 @@
             thoatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             thoatbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             thoatbtn.FillColor = Color.FromArgb(222, 227, 62);
-            thoatbtn.Font = new Font("Segoe UI", 10.2F);
+            thoatbtn.Font = new Font("Segoe UI", 10.8F);
             thoatbtn.ForeColor = Color.Black;
             thoatbtn.Location = new Point(332, 341);
             thoatbtn.Name = "thoatbtn";
@@ -188,7 +189,7 @@
             tiepnhanbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             tiepnhanbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             tiepnhanbtn.FillColor = Color.FromArgb(222, 227, 62);
-            tiepnhanbtn.Font = new Font("Segoe UI", 10.2F);
+            tiepnhanbtn.Font = new Font("Segoe UI", 10.8F);
             tiepnhanbtn.ForeColor = Color.Black;
             tiepnhanbtn.Location = new Point(52, 341);
             tiepnhanbtn.Name = "tiepnhanbtn";
@@ -389,6 +390,7 @@
             ClientSize = new Size(615, 491);
             Controls.Add(guna2Panel1);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "TIEPNHANXE";
             Text = "TIEPNHANXE";
             panel1.ResumeLayout(false);

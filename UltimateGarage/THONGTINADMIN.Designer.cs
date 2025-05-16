@@ -32,6 +32,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -48,11 +50,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(THONGTINADMIN_));
             panel1 = new Guna.UI2.WinForms.Guna2Panel();
             title = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            capnhatbtn = new Guna.UI2.WinForms.Guna2Button();
             thoatbtn = new Guna.UI2.WinForms.Guna2Button();
             doimkbtn = new Guna.UI2.WinForms.Guna2Button();
             label5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -67,7 +69,6 @@
             tentxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             emailtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             tdntxtbox = new Guna.UI2.WinForms.Guna2TextBox();
-            capnhatbtn = new Guna.UI2.WinForms.Guna2Button();
             panel1.SuspendLayout();
             guna2Panel1.SuspendLayout();
             SuspendLayout();
@@ -120,6 +121,25 @@
             guna2Panel1.Size = new Size(609, 432);
             guna2Panel1.TabIndex = 4;
             // 
+            // capnhatbtn
+            // 
+            capnhatbtn.BackColor = Color.White;
+            capnhatbtn.BorderRadius = 10;
+            capnhatbtn.CustomizableEdges = customizableEdges3;
+            capnhatbtn.DisabledState.BorderColor = Color.DarkGray;
+            capnhatbtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            capnhatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            capnhatbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            capnhatbtn.FillColor = Color.FromArgb(222, 227, 62);
+            capnhatbtn.Font = new Font("Segoe UI", 10.8F);
+            capnhatbtn.ForeColor = Color.Black;
+            capnhatbtn.Location = new Point(53, 281);
+            capnhatbtn.Name = "capnhatbtn";
+            capnhatbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            capnhatbtn.Size = new Size(225, 56);
+            capnhatbtn.TabIndex = 24;
+            capnhatbtn.Text = "Cập nhật thông tin";
+            // 
             // thoatbtn
             // 
             thoatbtn.BackColor = Color.White;
@@ -130,7 +150,7 @@
             thoatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             thoatbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             thoatbtn.FillColor = Color.FromArgb(222, 227, 62);
-            thoatbtn.Font = new Font("Segoe UI", 10.2F);
+            thoatbtn.Font = new Font("Segoe UI", 10.8F);
             thoatbtn.ForeColor = Color.Black;
             thoatbtn.Location = new Point(333, 362);
             thoatbtn.Name = "thoatbtn";
@@ -149,7 +169,7 @@
             doimkbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             doimkbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             doimkbtn.FillColor = Color.FromArgb(222, 227, 62);
-            doimkbtn.Font = new Font("Segoe UI", 10.2F);
+            doimkbtn.Font = new Font("Segoe UI", 10.8F);
             doimkbtn.ForeColor = Color.Black;
             doimkbtn.Location = new Point(53, 362);
             doimkbtn.Name = "doimkbtn";
@@ -356,25 +376,6 @@
             tdntxtbox.Size = new Size(286, 36);
             tdntxtbox.TabIndex = 3;
             // 
-            // capnhatbtn
-            // 
-            capnhatbtn.BackColor = Color.White;
-            capnhatbtn.BorderRadius = 10;
-            capnhatbtn.CustomizableEdges = customizableEdges3;
-            capnhatbtn.DisabledState.BorderColor = Color.DarkGray;
-            capnhatbtn.DisabledState.CustomBorderColor = Color.DarkGray;
-            capnhatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            capnhatbtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            capnhatbtn.FillColor = Color.FromArgb(222, 227, 62);
-            capnhatbtn.Font = new Font("Segoe UI", 10.2F);
-            capnhatbtn.ForeColor = Color.Black;
-            capnhatbtn.Location = new Point(53, 281);
-            capnhatbtn.Name = "capnhatbtn";
-            capnhatbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            capnhatbtn.Size = new Size(225, 56);
-            capnhatbtn.TabIndex = 24;
-            capnhatbtn.Text = "Cập nhật thông tin";
-            // 
             // THONGTINADMIN_
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -382,6 +383,7 @@
             ClientSize = new Size(615, 518);
             Controls.Add(guna2Panel1);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "THONGTINADMIN_";
             Text = "THONGTINADMIN";
             panel1.ResumeLayout(false);
