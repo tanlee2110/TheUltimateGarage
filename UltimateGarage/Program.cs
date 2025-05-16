@@ -11,9 +11,8 @@ namespace UltimateGarage
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new DangNhap()); //Original code
 
-            //Application.Run(new MANHINHCHINH()); //Test only
+            Application.Run(new DangNhap());
         }
     }
 }

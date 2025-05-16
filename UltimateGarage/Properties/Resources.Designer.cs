@@ -63,9 +63,15 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap Cat_avt {
             get {
                 object obj = ResourceManager.GetObject("Cat_avt", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap delete {
+            get {
+                object obj = ResourceManager.GetObject("delete", resourceCulture);
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,6 +89,39 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap documents1 {
+            get {
+                object obj = ResourceManager.GetObject("documents1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facebook {
+            get {
+                object obj = ResourceManager.GetObject("facebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facebook__1_ {
+            get {
+                object obj = ResourceManager.GetObject("facebook (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
         internal static System.Drawing.Bitmap forgot_password {
             get {
                 object obj = ResourceManager.GetObject("forgot-password", resourceCulture);
@@ -93,6 +132,29 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap google_docs {
+            get {
+                object obj = ResourceManager.GetObject("google-docs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap instagram {
+            get {
+                object obj = ResourceManager.GetObject("instagram", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
         internal static System.Drawing.Bitmap locked {
             get {
                 object obj = ResourceManager.GetObject("locked", resourceCulture);
@@ -103,6 +165,29 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap loupe {
+            get {
+                object obj = ResourceManager.GetObject("loupe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap messenger {
+            get {
+                object obj = ResourceManager.GetObject("messenger", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
         internal static System.Drawing.Bitmap padlock {
             get {
                 object obj = ResourceManager.GetObject("padlock", resourceCulture);
@@ -113,6 +198,19 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap plus {
+            get {
+                object obj = ResourceManager.GetObject("plus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
         internal static System.Drawing.Bitmap programmer {
             get {
                 object obj = ResourceManager.GetObject("programmer", resourceCulture);
@@ -123,6 +221,29 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap racing_car {
+            get {
+                object obj = ResourceManager.GetObject("racing-car", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap refresh {
+            get {
+                object obj = ResourceManager.GetObject("refresh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
         internal static System.Drawing.Bitmap report {
             get {
                 object obj = ResourceManager.GetObject("report", resourceCulture);
@@ -133,6 +254,29 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap report__1_ {
+            get {
+                object obj = ResourceManager.GetObject("report (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap report__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("report (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
         internal static System.Drawing.Bitmap report1 {
             get {
                 object obj = ResourceManager.GetObject("report1", resourceCulture);
@@ -143,6 +287,19 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap report2 {
+            get {
+                object obj = ResourceManager.GetObject("report2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
         internal static System.Drawing.Bitmap scroll_35683_640 {
             get {
                 object obj = ResourceManager.GetObject("scroll-35683_640", resourceCulture);
@@ -163,6 +320,7 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap UltimateGarageIcon {
             get {
                 object obj = ResourceManager.GetObject("UltimateGarageIcon", resourceCulture);
@@ -176,6 +334,11 @@ namespace UltimateGarage.Properties {
         internal static System.Drawing.Bitmap UltimateGarageIcon1 {
             get {
                 object obj = ResourceManager.GetObject("UltimateGarageIcon1", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap tik_tok {
+            get {
+                object obj = ResourceManager.GetObject("tik-tok", resourceCulture);
+>>>>>>> 7070f9c257a22980b7a469435526fa9033130736
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
