@@ -313,9 +313,9 @@ namespace UltimateGarage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap UltimateGarageIcon {
+        internal static System.Drawing.Bitmap Untitled_removebg_preview {
             get {
-                object obj = ResourceManager.GetObject("UltimateGarageIcon", resourceCulture);
+                object obj = ResourceManager.GetObject("Untitled-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
