@@ -70,9 +70,10 @@
             guna2Panel1.Controls.Add(VatTuPhuTung_Title);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
+            guna2Panel1.Margin = new Padding(2);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(1001, 80);
+            guna2Panel1.Size = new Size(801, 64);
             guna2Panel1.TabIndex = 0;
             // 
             // VatTuPhuTung_Title
@@ -81,10 +82,10 @@
             VatTuPhuTung_Title.AutoSize = true;
             VatTuPhuTung_Title.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
             VatTuPhuTung_Title.ForeColor = Color.White;
-            VatTuPhuTung_Title.Location = new Point(289, 11);
-            VatTuPhuTung_Title.Margin = new Padding(5, 0, 5, 0);
+            VatTuPhuTung_Title.Location = new Point(231, 9);
+            VatTuPhuTung_Title.Margin = new Padding(4, 0, 4, 0);
             VatTuPhuTung_Title.Name = "VatTuPhuTung_Title";
-            VatTuPhuTung_Title.Size = new Size(423, 54);
+            VatTuPhuTung_Title.Size = new Size(358, 46);
             VatTuPhuTung_Title.TabIndex = 2;
             VatTuPhuTung_Title.Text = "DANH SÁCH HIỆU XE";
             VatTuPhuTung_Title.UseMnemonic = false;
@@ -117,11 +118,11 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(24, 262);
-            guna2DataGridView1.Margin = new Padding(4);
+            guna2DataGridView1.Location = new Point(19, 210);
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 62;
+            guna2DataGridView1.RowTemplate.Height = 33;
             guna2DataGridView1.Size = new Size(0, 0);
             guna2DataGridView1.TabIndex = 1;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
@@ -149,10 +150,9 @@
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(868, 591);
-            thoatbtn.Margin = new Padding(4);
+            thoatbtn.Location = new Point(694, 473);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(118, 40);
+            thoatbtn.Size = new Size(94, 32);
             thoatbtn.TabIndex = 3;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
@@ -160,10 +160,9 @@
             // label3
             // 
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.Location = new Point(150, 84);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(120, 67);
             label3.Name = "label3";
-            label3.Size = new Size(127, 32);
+            label3.Size = new Size(102, 26);
             label3.TabIndex = 7;
             label3.Text = "Tìm kiếm:";
             // 
@@ -198,13 +197,13 @@
             hieuxedtgrid.DefaultCellStyle = dataGridViewCellStyle6;
             hieuxedtgrid.EnableHeadersVisualStyles = true;
             hieuxedtgrid.GridColor = SystemColors.ControlDark;
-            hieuxedtgrid.Location = new Point(15, 126);
-            hieuxedtgrid.Margin = new Padding(4);
+            hieuxedtgrid.Location = new Point(12, 101);
             hieuxedtgrid.Name = "hieuxedtgrid";
             hieuxedtgrid.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             hieuxedtgrid.RowHeadersVisible = false;
             hieuxedtgrid.RowHeadersWidth = 51;
-            hieuxedtgrid.Size = new Size(970, 361);
+            hieuxedtgrid.RowTemplate.Height = 33;
+            hieuxedtgrid.Size = new Size(776, 289);
             hieuxedtgrid.TabIndex = 4;
             hieuxedtgrid.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             hieuxedtgrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -252,11 +251,10 @@
             themhieuxebtn.Image = Properties.Resources.plus;
             themhieuxebtn.ImageOffset = new Point(-3, 0);
             themhieuxebtn.ImageSize = new Size(25, 25);
-            themhieuxebtn.Location = new Point(37, 501);
-            themhieuxebtn.Margin = new Padding(4);
+            themhieuxebtn.Location = new Point(30, 401);
             themhieuxebtn.Name = "themhieuxebtn";
             themhieuxebtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            themhieuxebtn.Size = new Size(288, 81);
+            themhieuxebtn.Size = new Size(230, 65);
             themhieuxebtn.TabIndex = 2;
             themhieuxebtn.Text = "Thêm hiệu xe";
             // 
@@ -278,11 +276,10 @@
             xuatbtn.Image = Properties.Resources.google_docs;
             xuatbtn.ImageOffset = new Point(-3, 0);
             xuatbtn.ImageSize = new Size(26, 26);
-            xuatbtn.Location = new Point(675, 501);
-            xuatbtn.Margin = new Padding(4);
+            xuatbtn.Location = new Point(540, 401);
             xuatbtn.Name = "xuatbtn";
             xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            xuatbtn.Size = new Size(288, 81);
+            xuatbtn.Size = new Size(230, 65);
             xuatbtn.TabIndex = 63;
             xuatbtn.Text = "Xuất file danh sách";
             // 
@@ -304,11 +301,10 @@
             xoahieuxebtn.Image = Properties.Resources.delete;
             xoahieuxebtn.ImageOffset = new Point(-3, 0);
             xoahieuxebtn.ImageSize = new Size(28, 28);
-            xoahieuxebtn.Location = new Point(356, 501);
-            xoahieuxebtn.Margin = new Padding(4);
+            xoahieuxebtn.Location = new Point(285, 401);
             xoahieuxebtn.Name = "xoahieuxebtn";
             xoahieuxebtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            xoahieuxebtn.Size = new Size(288, 81);
+            xoahieuxebtn.Size = new Size(230, 65);
             xoahieuxebtn.TabIndex = 64;
             xoahieuxebtn.Text = "Xoá hiệu xe";
             // 
@@ -326,13 +322,13 @@
             timhieuxetxtbox.Font = new Font("Segoe UI", 9F);
             timhieuxetxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             timhieuxetxtbox.IconRightCursor = Cursors.AppStarting;
-            timhieuxetxtbox.Location = new Point(288, 85);
-            timhieuxetxtbox.Margin = new Padding(4);
+            timhieuxetxtbox.Location = new Point(230, 68);
+            timhieuxetxtbox.Margin = new Padding(3, 4, 3, 4);
             timhieuxetxtbox.Name = "timhieuxetxtbox";
             timhieuxetxtbox.PlaceholderText = "";
             timhieuxetxtbox.SelectedText = "";
             timhieuxetxtbox.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            timhieuxetxtbox.Size = new Size(463, 31);
+            timhieuxetxtbox.Size = new Size(370, 25);
             timhieuxetxtbox.TabIndex = 0;
             // 
             // timkiembtn
@@ -349,19 +345,18 @@
             timkiembtn.Font = new Font("Segoe UI", 9F);
             timkiembtn.ForeColor = Color.Black;
             timkiembtn.Image = Properties.Resources.search_6699087_640__1_;
-            timkiembtn.Location = new Point(759, 85);
-            timkiembtn.Margin = new Padding(4);
+            timkiembtn.Location = new Point(607, 68);
             timkiembtn.Name = "timkiembtn";
             timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            timkiembtn.Size = new Size(99, 31);
+            timkiembtn.Size = new Size(79, 25);
             timkiembtn.TabIndex = 1;
             // 
             // DSHIEUXE
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1000, 642);
+            ClientSize = new Size(800, 514);
             Controls.Add(timkiembtn);
             Controls.Add(timhieuxetxtbox);
             Controls.Add(xoahieuxebtn);
@@ -373,6 +368,7 @@
             Controls.Add(guna2DataGridView1);
             Controls.Add(guna2Panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(2);
             Name = "DSHIEUXE";
             Text = "Danh sách hiệu xe";
             guna2Panel1.ResumeLayout(false);
