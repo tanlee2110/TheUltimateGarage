@@ -86,6 +86,7 @@
             timkiemtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             timkiembtn = new Guna.UI2.WinForms.Guna2Button();
             sdtradio = new Guna.UI2.WinForms.Guna2RadioButton();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nvdtgrid).BeginInit();
@@ -755,5 +756,6 @@
         private Label label4;
         private TextBox tentxtbox;
         private Label label2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
