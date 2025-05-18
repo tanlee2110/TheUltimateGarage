@@ -62,6 +62,7 @@
             LoginButton.Size = new Size(124, 29);
             LoginButton.TabIndex = 3;
             LoginButton.Text = "Đăng Nhập";
+            LoginButton.Click += LoginButton_Click;
             // 
             // chedokhachbtn
             // 

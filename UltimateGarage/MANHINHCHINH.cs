@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using UltimateGarage.DAO;
 
 namespace UltimateGarage
 {
     public partial class MANHINHCHINH : Form
     {
+        int flag;
+        public string tendangnhap { get; set; }
+
         public MANHINHCHINH()
         {
             InitializeComponent();
