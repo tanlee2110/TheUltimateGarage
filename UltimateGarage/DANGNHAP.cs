@@ -41,5 +41,23 @@ namespace UltimateGarage
                 }
             }
         }
+
+        private void chedokhachbtn_Click(object sender, EventArgs e)
+        {
+            MANHINHCHINH frm = new MANHINHCHINH();
+            this.Hide();
+            NHANVIENDAO.Instance.flag = 0;
+
+            frm.ShowDialog();
+            this.Show();
+        }
+
+        private void DangNhap_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) != System.Windows.Forms.DialogResult.OK)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }

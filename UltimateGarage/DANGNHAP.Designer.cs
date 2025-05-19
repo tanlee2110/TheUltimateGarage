@@ -80,6 +80,7 @@
             chedokhachbtn.Size = new Size(141, 29);
             chedokhachbtn.TabIndex = 4;
             chedokhachbtn.Text = "Chế độ khách";
+            chedokhachbtn.Click += chedokhachbtn_Click;
             // 
             // tendangnhap_txtbox
             // 
@@ -175,6 +176,7 @@
             Name = "DangNhap";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng Nhập";
+            FormClosing += DangNhap_FormClosing;
             ResumeLayout(false);
             PerformLayout();
         }
