@@ -88,9 +88,10 @@
             guna2Panel1.Controls.Add(VatTuPhuTung_Title);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
+            guna2Panel1.Margin = new Padding(2);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(1418, 85);
+            guna2Panel1.Size = new Size(1134, 68);
             guna2Panel1.TabIndex = 0;
             // 
             // VatTuPhuTung_Title
@@ -99,10 +100,10 @@
             VatTuPhuTung_Title.AutoSize = true;
             VatTuPhuTung_Title.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
             VatTuPhuTung_Title.ForeColor = Color.White;
-            VatTuPhuTung_Title.Location = new Point(391, 11);
-            VatTuPhuTung_Title.Margin = new Padding(5, 0, 5, 0);
+            VatTuPhuTung_Title.Location = new Point(313, 9);
+            VatTuPhuTung_Title.Margin = new Padding(4, 0, 4, 0);
             VatTuPhuTung_Title.Name = "VatTuPhuTung_Title";
-            VatTuPhuTung_Title.Size = new Size(633, 54);
+            VatTuPhuTung_Title.Size = new Size(538, 46);
             VatTuPhuTung_Title.TabIndex = 2;
             VatTuPhuTung_Title.Text = "DANH SÁCH VẬT TƯ PHỤ TÙNG";
             VatTuPhuTung_Title.UseMnemonic = false;
@@ -135,11 +136,11 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(24, 262);
-            guna2DataGridView1.Margin = new Padding(4);
+            guna2DataGridView1.Location = new Point(19, 210);
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 62;
+            guna2DataGridView1.RowTemplate.Height = 33;
             guna2DataGridView1.Size = new Size(0, 0);
             guna2DataGridView1.TabIndex = 1;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
@@ -167,21 +168,20 @@
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(1286, 1020);
-            thoatbtn.Margin = new Padding(4);
+            thoatbtn.Location = new Point(1029, 803);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(118, 40);
+            thoatbtn.Size = new Size(94, 32);
             thoatbtn.TabIndex = 3;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
+            thoatbtn.Click += thoatbtn_Click;
             // 
             // label3
             // 
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.Location = new Point(350, 91);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(280, 73);
             label3.Name = "label3";
-            label3.Size = new Size(127, 32);
+            label3.Size = new Size(102, 26);
             label3.TabIndex = 7;
             label3.Text = "Tìm kiếm:";
             // 
@@ -195,16 +195,16 @@
             theomaradio.CheckedState.InnerColor = Color.White;
             theomaradio.CheckedState.InnerOffset = -4;
             theomaradio.ForeColor = SystemColors.ActiveCaptionText;
-            theomaradio.Location = new Point(496, 134);
-            theomaradio.Margin = new Padding(4);
+            theomaradio.Location = new Point(397, 107);
             theomaradio.Name = "theomaradio";
-            theomaradio.Size = new Size(181, 29);
+            theomaradio.Size = new Size(151, 24);
             theomaradio.TabIndex = 2;
             theomaradio.Text = "Tìm theo mã VTPT";
             theomaradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             theomaradio.UncheckedState.BorderThickness = 2;
             theomaradio.UncheckedState.FillColor = Color.Transparent;
             theomaradio.UncheckedState.InnerColor = Color.Transparent;
+            theomaradio.CheckedChanged += theomaradio_CheckedChanged;
             // 
             // theotenradio
             // 
@@ -216,16 +216,16 @@
             theotenradio.CheckedState.InnerColor = Color.White;
             theotenradio.CheckedState.InnerOffset = -4;
             theotenradio.ForeColor = SystemColors.ActiveCaptionText;
-            theotenradio.Location = new Point(716, 134);
-            theotenradio.Margin = new Padding(4);
+            theotenradio.Location = new Point(573, 107);
             theotenradio.Name = "theotenradio";
-            theotenradio.Size = new Size(181, 29);
+            theotenradio.Size = new Size(151, 24);
             theotenradio.TabIndex = 8;
             theotenradio.Text = "Tìm theo tên VTPT";
             theotenradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             theotenradio.UncheckedState.BorderThickness = 2;
             theotenradio.UncheckedState.FillColor = Color.Transparent;
             theotenradio.UncheckedState.InnerColor = Color.Transparent;
+            theotenradio.CheckedChanged += theotenradio_CheckedChanged;
             // 
             // ptdtgrid
             // 
@@ -258,13 +258,13 @@
             ptdtgrid.DefaultCellStyle = dataGridViewCellStyle6;
             ptdtgrid.EnableHeadersVisualStyles = true;
             ptdtgrid.GridColor = SystemColors.ControlDark;
-            ptdtgrid.Location = new Point(15, 171);
-            ptdtgrid.Margin = new Padding(4);
+            ptdtgrid.Location = new Point(12, 137);
             ptdtgrid.Name = "ptdtgrid";
             ptdtgrid.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             ptdtgrid.RowHeadersVisible = false;
             ptdtgrid.RowHeadersWidth = 62;
-            ptdtgrid.Size = new Size(1389, 640);
+            ptdtgrid.RowTemplate.Height = 33;
+            ptdtgrid.Size = new Size(1111, 512);
             ptdtgrid.TabIndex = 4;
             ptdtgrid.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             ptdtgrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -288,6 +288,7 @@
             ptdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             ptdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             ptdtgrid.CellContentClick += guna2DataGridView2_CellContentClick;
+            ptdtgrid.SelectionChanged += ptdtgrid_SelectionChanged;
             // 
             // Column1
             // 
@@ -323,11 +324,9 @@
             groupBox1.Controls.Add(mavtpttxtbox);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(15, 811);
-            groupBox1.Margin = new Padding(4);
+            groupBox1.Location = new Point(12, 649);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(4);
-            groupBox1.Size = new Size(1389, 112);
+            groupBox1.Size = new Size(1111, 90);
             groupBox1.TabIndex = 61;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin chi tiết";
@@ -335,80 +334,72 @@
             // dgtxtbox
             // 
             dgtxtbox.BackColor = Color.Gainsboro;
-            dgtxtbox.Location = new Point(867, 72);
-            dgtxtbox.Margin = new Padding(4);
+            dgtxtbox.Location = new Point(694, 58);
             dgtxtbox.Name = "dgtxtbox";
             dgtxtbox.ScrollBars = ScrollBars.Horizontal;
-            dgtxtbox.Size = new Size(449, 31);
+            dgtxtbox.Size = new Size(360, 27);
             dgtxtbox.TabIndex = 66;
             // 
             // label5
             // 
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(703, 69);
-            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Location = new Point(562, 55);
             label5.Name = "label5";
-            label5.Size = new Size(117, 34);
+            label5.Size = new Size(94, 27);
             label5.TabIndex = 67;
             label5.Text = "Đơn giá:";
             // 
             // sltxtbox
             // 
             sltxtbox.BackColor = Color.Gainsboro;
-            sltxtbox.Location = new Point(867, 32);
-            sltxtbox.Margin = new Padding(4);
+            sltxtbox.Location = new Point(694, 26);
             sltxtbox.Name = "sltxtbox";
             sltxtbox.ScrollBars = ScrollBars.Horizontal;
-            sltxtbox.Size = new Size(449, 31);
+            sltxtbox.Size = new Size(360, 27);
             sltxtbox.TabIndex = 64;
             // 
             // label4
             // 
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(703, 28);
-            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Location = new Point(562, 22);
             label4.Name = "label4";
-            label4.Size = new Size(170, 38);
+            label4.Size = new Size(136, 30);
             label4.TabIndex = 65;
             label4.Text = "Số lượng tồn:";
             // 
             // tenvtpttxtbox
             // 
             tenvtpttxtbox.BackColor = Color.Gainsboro;
-            tenvtpttxtbox.Location = new Point(198, 72);
-            tenvtpttxtbox.Margin = new Padding(4);
+            tenvtpttxtbox.Location = new Point(158, 58);
             tenvtpttxtbox.Name = "tenvtpttxtbox";
             tenvtpttxtbox.ScrollBars = ScrollBars.Horizontal;
-            tenvtpttxtbox.Size = new Size(449, 31);
+            tenvtpttxtbox.Size = new Size(360, 27);
             tenvtpttxtbox.TabIndex = 63;
             // 
             // mavtpttxtbox
             // 
             mavtpttxtbox.BackColor = Color.Gainsboro;
-            mavtpttxtbox.Location = new Point(198, 32);
-            mavtpttxtbox.Margin = new Padding(4);
+            mavtpttxtbox.Location = new Point(158, 26);
             mavtpttxtbox.Name = "mavtpttxtbox";
             mavtpttxtbox.ScrollBars = ScrollBars.Horizontal;
-            mavtpttxtbox.Size = new Size(449, 31);
+            mavtpttxtbox.Size = new Size(360, 27);
             mavtpttxtbox.TabIndex = 47;
             // 
             // label2
             // 
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(55, 69);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(44, 55);
             label2.Name = "label2";
-            label2.Size = new Size(136, 34);
+            label2.Size = new Size(109, 27);
             label2.TabIndex = 63;
             label2.Text = "Tên VTPT:";
             // 
             // label1
             // 
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(59, 28);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(47, 22);
             label1.Name = "label1";
-            label1.Size = new Size(136, 34);
+            label1.Size = new Size(109, 27);
             label1.TabIndex = 51;
             label1.Text = "Mã VTPT:";
             // 
@@ -430,13 +421,13 @@
             themtcbtn.Image = Properties.Resources.plus;
             themtcbtn.ImageOffset = new Point(-3, 0);
             themtcbtn.ImageSize = new Size(25, 25);
-            themtcbtn.Location = new Point(15, 931);
-            themtcbtn.Margin = new Padding(4);
+            themtcbtn.Location = new Point(12, 745);
             themtcbtn.Name = "themtcbtn";
             themtcbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            themtcbtn.Size = new Size(331, 81);
+            themtcbtn.Size = new Size(265, 65);
             themtcbtn.TabIndex = 2;
             themtcbtn.Text = "Thêm VTPT";
+            themtcbtn.Click += themtcbtn_Click;
             // 
             // suavtptbtn
             // 
@@ -456,13 +447,13 @@
             suavtptbtn.Image = Properties.Resources.refresh;
             suavtptbtn.ImageOffset = new Point(-3, 1);
             suavtptbtn.ImageSize = new Size(30, 30);
-            suavtptbtn.Location = new Point(365, 931);
-            suavtptbtn.Margin = new Padding(4);
+            suavtptbtn.Location = new Point(292, 745);
             suavtptbtn.Name = "suavtptbtn";
             suavtptbtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            suavtptbtn.Size = new Size(331, 81);
+            suavtptbtn.Size = new Size(265, 65);
             suavtptbtn.TabIndex = 62;
             suavtptbtn.Text = "Cập nhật VTPT";
+            suavtptbtn.Click += suavtptbtn_Click;
             // 
             // xuatbtn
             // 
@@ -482,13 +473,13 @@
             xuatbtn.Image = Properties.Resources.google_docs;
             xuatbtn.ImageOffset = new Point(-3, 0);
             xuatbtn.ImageSize = new Size(26, 26);
-            xuatbtn.Location = new Point(1072, 931);
-            xuatbtn.Margin = new Padding(4);
+            xuatbtn.Location = new Point(858, 745);
             xuatbtn.Name = "xuatbtn";
             xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            xuatbtn.Size = new Size(331, 81);
+            xuatbtn.Size = new Size(265, 65);
             xuatbtn.TabIndex = 63;
             xuatbtn.Text = "Xuất file danh sách";
+            xuatbtn.Click += xuatbtn_Click;
             // 
             // xoavtptbtn
             // 
@@ -508,13 +499,13 @@
             xoavtptbtn.Image = Properties.Resources.delete;
             xoavtptbtn.ImageOffset = new Point(-3, 0);
             xoavtptbtn.ImageSize = new Size(28, 28);
-            xoavtptbtn.Location = new Point(711, 931);
-            xoavtptbtn.Margin = new Padding(4);
+            xoavtptbtn.Location = new Point(569, 745);
             xoavtptbtn.Name = "xoavtptbtn";
             xoavtptbtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            xoavtptbtn.Size = new Size(331, 81);
+            xoavtptbtn.Size = new Size(265, 65);
             xoavtptbtn.TabIndex = 64;
             xoavtptbtn.Text = "Xoá VTPT";
+            xoavtptbtn.Click += xoavtptbtn_Click;
             // 
             // timkiemtxtbox
             // 
@@ -530,13 +521,13 @@
             timkiemtxtbox.Font = new Font("Segoe UI", 9F);
             timkiemtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             timkiemtxtbox.IconRightCursor = Cursors.AppStarting;
-            timkiemtxtbox.Location = new Point(488, 92);
-            timkiemtxtbox.Margin = new Padding(4);
+            timkiemtxtbox.Location = new Point(390, 74);
+            timkiemtxtbox.Margin = new Padding(3, 4, 3, 4);
             timkiemtxtbox.Name = "timkiemtxtbox";
             timkiemtxtbox.PlaceholderText = "";
             timkiemtxtbox.SelectedText = "";
             timkiemtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            timkiemtxtbox.Size = new Size(463, 31);
+            timkiemtxtbox.Size = new Size(370, 25);
             timkiemtxtbox.TabIndex = 0;
             // 
             // timkiembtn
@@ -553,19 +544,19 @@
             timkiembtn.Font = new Font("Segoe UI", 9F);
             timkiembtn.ForeColor = Color.Black;
             timkiembtn.Image = Properties.Resources.search_6699087_640__1_;
-            timkiembtn.Location = new Point(959, 92);
-            timkiembtn.Margin = new Padding(4);
+            timkiembtn.Location = new Point(767, 74);
             timkiembtn.Name = "timkiembtn";
             timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            timkiembtn.Size = new Size(99, 31);
+            timkiembtn.Size = new Size(79, 25);
             timkiembtn.TabIndex = 1;
+            timkiembtn.Click += timkiembtn_Click;
             // 
             // DSVTPT
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1419, 1071);
+            ClientSize = new Size(1135, 844);
             Controls.Add(timkiembtn);
             Controls.Add(timkiemtxtbox);
             Controls.Add(xoavtptbtn);
@@ -581,6 +572,7 @@
             Controls.Add(guna2DataGridView1);
             Controls.Add(guna2Panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(2);
             Name = "DSVTPT";
             Text = " Danh sách vật tư phụ tùng";
             guna2Panel1.ResumeLayout(false);

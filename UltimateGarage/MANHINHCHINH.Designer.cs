@@ -146,13 +146,13 @@
             label2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             BrandLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             LicenseLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            emailtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            diachitxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            tentxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            notxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            dthtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            hieuxetxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            biensotxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
@@ -217,6 +217,7 @@
             dangxuatbtn.TabIndex = 5;
             dangxuatbtn.Text = "Đăng xuất";
             dangxuatbtn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            dangxuatbtn.Click += dangxuatbtn_Click;
             // 
             // thutienbtn
             // 
@@ -237,6 +238,7 @@
             thutienbtn.TabIndex = 4;
             thutienbtn.Text = "Lập phiếu thu tiền";
             thutienbtn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            thutienbtn.Click += thutienbtn_Click;
             // 
             // RepairButton
             // 
@@ -257,6 +259,7 @@
             RepairButton.TabIndex = 3;
             RepairButton.Text = "Lập phiếu sửa chữa";
             RepairButton.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            RepairButton.Click += RepairButton_Click;
             // 
             // lapphieuvtptbtn
             // 
@@ -277,6 +280,7 @@
             lapphieuvtptbtn.TabIndex = 2;
             lapphieuvtptbtn.Text = "Lập phiếu nhập kho VTPT";
             lapphieuvtptbtn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            lapphieuvtptbtn.Click += lapphieuvtptbtn_Click;
             // 
             // AddCarButton
             // 
@@ -297,6 +301,7 @@
             AddCarButton.TabIndex = 1;
             AddCarButton.Text = "Tiếp nhận xe";
             AddCarButton.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            AddCarButton.Click += AddCarButton_Click;
             // 
             // menuStrip1
             // 
@@ -307,6 +312,7 @@
             menuStrip1.Size = new Size(1539, 28);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // thôngTinCáNhânToolStripMenuItem
             // 
@@ -460,51 +466,62 @@
             xedtgrid.ThemeStyle.RowsStyle.Height = 29;
             xedtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(245, 215, 95);
             xedtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black;
+            xedtgrid.CellContentClick += xedtgrid_CellContentClick;
+            xedtgrid.CellDoubleClick += xedtgrid_CellDoubleClick;
+            xedtgrid.SelectionChanged += xedtgrid_SelectionChanged;
             // 
             // BienSo
             // 
+            BienSo.DataPropertyName = "BienSo";
             BienSo.HeaderText = "Biển số";
             BienSo.MinimumWidth = 6;
             BienSo.Name = "BienSo";
             // 
             // TenChuxe
             // 
+            TenChuxe.DataPropertyName = "TenChuXe";
             TenChuxe.HeaderText = "Tên chủ xe";
             TenChuxe.MinimumWidth = 6;
             TenChuxe.Name = "TenChuxe";
             // 
             // HieuXe
             // 
+            HieuXe.DataPropertyName = "HieuXe";
             HieuXe.HeaderText = "Hiệu xe";
             HieuXe.MinimumWidth = 6;
             HieuXe.Name = "HieuXe";
             // 
             // DiaChi
             // 
+            DiaChi.DataPropertyName = "DiaChi";
             DiaChi.HeaderText = "Địa chỉ";
             DiaChi.MinimumWidth = 6;
             DiaChi.Name = "DiaChi";
             // 
             // DienThoai
             // 
+            DienThoai.DataPropertyName = "DienThoai";
             DienThoai.HeaderText = "Điện thoại";
             DienThoai.MinimumWidth = 6;
             DienThoai.Name = "DienThoai";
             // 
             // Email
             // 
+            Email.DataPropertyName = "Email";
             Email.HeaderText = "Email";
             Email.MinimumWidth = 6;
             Email.Name = "Email";
             // 
             // TienNo
             // 
+            TienNo.DataPropertyName = "TienNo";
             TienNo.HeaderText = "Tiền nợ";
             TienNo.MinimumWidth = 6;
             TienNo.Name = "TienNo";
             // 
             // NgayTiepNhan
             // 
+            NgayTiepNhan.DataPropertyName = "NgayTiepNhan";
             NgayTiepNhan.HeaderText = "Ngày tiếp nhận";
             NgayTiepNhan.MinimumWidth = 6;
             NgayTiepNhan.Name = "NgayTiepNhan";
@@ -561,6 +578,7 @@
             xetiepnhantrongngaybtn.Size = new Size(212, 40);
             xetiepnhantrongngaybtn.TabIndex = 10;
             xetiepnhantrongngaybtn.Text = "Xe tiếp nhận trong ngày";
+            xetiepnhantrongngaybtn.Click += xetiepnhantrongngaybtn_Click;
             // 
             // xuatbtn
             // 
@@ -579,6 +597,7 @@
             xuatbtn.Size = new Size(212, 41);
             xuatbtn.TabIndex = 9;
             xuatbtn.Text = "Xuất file danh sách";
+            xuatbtn.Click += xuatbtn_Click;
             // 
             // timtheongayradio
             // 
@@ -597,6 +616,7 @@
             timtheongayradio.UncheckedState.BorderThickness = 2;
             timtheongayradio.UncheckedState.FillColor = Color.Transparent;
             timtheongayradio.UncheckedState.InnerColor = Color.Transparent;
+            timtheongayradio.CheckedChanged += timtheongayradio_CheckedChanged;
             // 
             // biensotimradio
             // 
@@ -615,6 +635,7 @@
             biensotimradio.UncheckedState.BorderThickness = 2;
             biensotimradio.UncheckedState.FillColor = Color.Transparent;
             biensotimradio.UncheckedState.InnerColor = Color.Transparent;
+            biensotimradio.CheckedChanged += biensotimradio_CheckedChanged;
             // 
             // sdttimradio
             // 
@@ -633,6 +654,7 @@
             sdttimradio.UncheckedState.BorderThickness = 2;
             sdttimradio.UncheckedState.FillColor = Color.Transparent;
             sdttimradio.UncheckedState.InnerColor = Color.Transparent;
+            sdttimradio.CheckedChanged += sdttimradio_CheckedChanged;
             // 
             // NameSearchRadiobtn
             // 
@@ -651,6 +673,7 @@
             NameSearchRadiobtn.UncheckedState.BorderThickness = 2;
             NameSearchRadiobtn.UncheckedState.FillColor = Color.Transparent;
             NameSearchRadiobtn.UncheckedState.InnerColor = Color.Transparent;
+            NameSearchRadiobtn.CheckedChanged += NameSearchRadiobtn_CheckedChanged;
             // 
             // timkiembtn
             // 
@@ -669,6 +692,7 @@
             timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges22;
             timkiembtn.Size = new Size(94, 41);
             timkiembtn.TabIndex = 4;
+            timkiembtn.Click += timkiembtn_Click;
             // 
             // timtxtbox
             // 
@@ -710,6 +734,7 @@
             dangsudungtxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             dangsudungtxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             dangsudungtxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            dangsudungtxtbox.Enabled = false;
             dangsudungtxtbox.FillColor = Color.Gainsboro;
             dangsudungtxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             dangsudungtxtbox.Font = new Font("Segoe UI", 9F);
@@ -773,6 +798,7 @@
             button11.Size = new Size(225, 56);
             button11.TabIndex = 2;
             button11.Text = "Xóa";
+            button11.Click += button11_Click;
             // 
             // button10
             // 
@@ -791,6 +817,7 @@
             button10.Size = new Size(225, 56);
             button10.TabIndex = 1;
             button10.Text = "Cập nhật";
+            button10.Click += button10_Click;
             // 
             // groupBox1
             // 
@@ -803,13 +830,13 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(BrandLabel);
             groupBox1.Controls.Add(LicenseLabel);
-            groupBox1.Controls.Add(guna2TextBox6);
-            groupBox1.Controls.Add(guna2TextBox7);
-            groupBox1.Controls.Add(guna2TextBox8);
-            groupBox1.Controls.Add(guna2TextBox4);
-            groupBox1.Controls.Add(guna2TextBox3);
-            groupBox1.Controls.Add(guna2TextBox2);
-            groupBox1.Controls.Add(guna2TextBox1);
+            groupBox1.Controls.Add(emailtxtbox);
+            groupBox1.Controls.Add(diachitxtbox);
+            groupBox1.Controls.Add(tentxtbox);
+            groupBox1.Controls.Add(notxtbox);
+            groupBox1.Controls.Add(dthtxtbox);
+            groupBox1.Controls.Add(hieuxetxtbox);
+            groupBox1.Controls.Add(biensotxtbox);
             groupBox1.CustomBorderColor = Color.FromArgb(241, 196, 15);
             groupBox1.CustomizableEdges = customizableEdges51;
             groupBox1.Font = new Font("Segoe UI", 9F);
@@ -820,6 +847,7 @@
             groupBox1.Size = new Size(1033, 209);
             groupBox1.TabIndex = 0;
             groupBox1.Text = "Thông tin chi tiết";
+            groupBox1.Click += groupBox1_Click;
             // 
             // ngaydtpicker
             // 
@@ -926,159 +954,159 @@
             LicenseLabel.TabIndex = 8;
             LicenseLabel.Text = "Biển số:";
             // 
-            // guna2TextBox6
+            // emailtxtbox
             // 
-            guna2TextBox6.BorderRadius = 10;
-            guna2TextBox6.CustomizableEdges = customizableEdges37;
-            guna2TextBox6.DefaultText = "";
-            guna2TextBox6.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox6.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox6.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox6.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox6.FillColor = Color.Gainsboro;
-            guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox6.Font = new Font("Segoe UI", 9F);
-            guna2TextBox6.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox6.Location = new Point(685, 128);
-            guna2TextBox6.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox6.Name = "guna2TextBox6";
-            guna2TextBox6.PlaceholderText = "";
-            guna2TextBox6.SelectedText = "";
-            guna2TextBox6.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            guna2TextBox6.Size = new Size(286, 34);
-            guna2TextBox6.TabIndex = 6;
+            emailtxtbox.BorderRadius = 10;
+            emailtxtbox.CustomizableEdges = customizableEdges37;
+            emailtxtbox.DefaultText = "";
+            emailtxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            emailtxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            emailtxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            emailtxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            emailtxtbox.FillColor = Color.Gainsboro;
+            emailtxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            emailtxtbox.Font = new Font("Segoe UI", 9F);
+            emailtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            emailtxtbox.Location = new Point(685, 128);
+            emailtxtbox.Margin = new Padding(3, 4, 3, 4);
+            emailtxtbox.Name = "emailtxtbox";
+            emailtxtbox.PlaceholderText = "";
+            emailtxtbox.SelectedText = "";
+            emailtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            emailtxtbox.Size = new Size(286, 34);
+            emailtxtbox.TabIndex = 6;
             // 
-            // guna2TextBox7
+            // diachitxtbox
             // 
-            guna2TextBox7.BorderRadius = 10;
-            guna2TextBox7.CustomizableEdges = customizableEdges39;
-            guna2TextBox7.DefaultText = "";
-            guna2TextBox7.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox7.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox7.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox7.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox7.FillColor = Color.Gainsboro;
-            guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox7.Font = new Font("Segoe UI", 9F);
-            guna2TextBox7.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox7.Location = new Point(685, 86);
-            guna2TextBox7.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox7.Name = "guna2TextBox7";
-            guna2TextBox7.PlaceholderText = "";
-            guna2TextBox7.SelectedText = "";
-            guna2TextBox7.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            guna2TextBox7.Size = new Size(286, 34);
-            guna2TextBox7.TabIndex = 5;
+            diachitxtbox.BorderRadius = 10;
+            diachitxtbox.CustomizableEdges = customizableEdges39;
+            diachitxtbox.DefaultText = "";
+            diachitxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            diachitxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            diachitxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            diachitxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            diachitxtbox.FillColor = Color.Gainsboro;
+            diachitxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            diachitxtbox.Font = new Font("Segoe UI", 9F);
+            diachitxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            diachitxtbox.Location = new Point(685, 86);
+            diachitxtbox.Margin = new Padding(3, 4, 3, 4);
+            diachitxtbox.Name = "diachitxtbox";
+            diachitxtbox.PlaceholderText = "";
+            diachitxtbox.SelectedText = "";
+            diachitxtbox.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            diachitxtbox.Size = new Size(286, 34);
+            diachitxtbox.TabIndex = 5;
             // 
-            // guna2TextBox8
+            // tentxtbox
             // 
-            guna2TextBox8.BorderRadius = 10;
-            guna2TextBox8.CustomizableEdges = customizableEdges41;
-            guna2TextBox8.DefaultText = "";
-            guna2TextBox8.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox8.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox8.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox8.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox8.FillColor = Color.Gainsboro;
-            guna2TextBox8.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox8.Font = new Font("Segoe UI", 9F);
-            guna2TextBox8.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox8.Location = new Point(685, 44);
-            guna2TextBox8.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox8.Name = "guna2TextBox8";
-            guna2TextBox8.PlaceholderText = "";
-            guna2TextBox8.SelectedText = "";
-            guna2TextBox8.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            guna2TextBox8.Size = new Size(286, 34);
-            guna2TextBox8.TabIndex = 4;
+            tentxtbox.BorderRadius = 10;
+            tentxtbox.CustomizableEdges = customizableEdges41;
+            tentxtbox.DefaultText = "";
+            tentxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tentxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tentxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tentxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tentxtbox.FillColor = Color.Gainsboro;
+            tentxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tentxtbox.Font = new Font("Segoe UI", 9F);
+            tentxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tentxtbox.Location = new Point(685, 44);
+            tentxtbox.Margin = new Padding(3, 4, 3, 4);
+            tentxtbox.Name = "tentxtbox";
+            tentxtbox.PlaceholderText = "";
+            tentxtbox.SelectedText = "";
+            tentxtbox.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            tentxtbox.Size = new Size(286, 34);
+            tentxtbox.TabIndex = 4;
             // 
-            // guna2TextBox4
+            // notxtbox
             // 
-            guna2TextBox4.BorderRadius = 10;
-            guna2TextBox4.CustomizableEdges = customizableEdges43;
-            guna2TextBox4.DefaultText = "";
-            guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.FillColor = Color.Gainsboro;
-            guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Font = new Font("Segoe UI", 9F);
-            guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new Point(157, 170);
-            guna2TextBox4.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox4.Name = "guna2TextBox4";
-            guna2TextBox4.PlaceholderText = "";
-            guna2TextBox4.SelectedText = "";
-            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            guna2TextBox4.Size = new Size(286, 34);
-            guna2TextBox4.TabIndex = 3;
+            notxtbox.BorderRadius = 10;
+            notxtbox.CustomizableEdges = customizableEdges43;
+            notxtbox.DefaultText = "";
+            notxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            notxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            notxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            notxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            notxtbox.FillColor = Color.Gainsboro;
+            notxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            notxtbox.Font = new Font("Segoe UI", 9F);
+            notxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            notxtbox.Location = new Point(157, 170);
+            notxtbox.Margin = new Padding(3, 4, 3, 4);
+            notxtbox.Name = "notxtbox";
+            notxtbox.PlaceholderText = "";
+            notxtbox.SelectedText = "";
+            notxtbox.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            notxtbox.Size = new Size(286, 34);
+            notxtbox.TabIndex = 3;
             // 
-            // guna2TextBox3
+            // dthtxtbox
             // 
-            guna2TextBox3.BorderRadius = 10;
-            guna2TextBox3.CustomizableEdges = customizableEdges45;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FillColor = Color.Gainsboro;
-            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Font = new Font("Segoe UI", 9F);
-            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(157, 128);
-            guna2TextBox3.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PlaceholderText = "";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges46;
-            guna2TextBox3.Size = new Size(286, 34);
-            guna2TextBox3.TabIndex = 2;
+            dthtxtbox.BorderRadius = 10;
+            dthtxtbox.CustomizableEdges = customizableEdges45;
+            dthtxtbox.DefaultText = "";
+            dthtxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            dthtxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            dthtxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            dthtxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            dthtxtbox.FillColor = Color.Gainsboro;
+            dthtxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            dthtxtbox.Font = new Font("Segoe UI", 9F);
+            dthtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            dthtxtbox.Location = new Point(157, 128);
+            dthtxtbox.Margin = new Padding(3, 4, 3, 4);
+            dthtxtbox.Name = "dthtxtbox";
+            dthtxtbox.PlaceholderText = "";
+            dthtxtbox.SelectedText = "";
+            dthtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            dthtxtbox.Size = new Size(286, 34);
+            dthtxtbox.TabIndex = 2;
             // 
-            // guna2TextBox2
+            // hieuxetxtbox
             // 
-            guna2TextBox2.BorderRadius = 10;
-            guna2TextBox2.CustomizableEdges = customizableEdges47;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FillColor = Color.Gainsboro;
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Segoe UI", 9F);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(157, 86);
-            guna2TextBox2.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PlaceholderText = "";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges48;
-            guna2TextBox2.Size = new Size(286, 34);
-            guna2TextBox2.TabIndex = 1;
+            hieuxetxtbox.BorderRadius = 10;
+            hieuxetxtbox.CustomizableEdges = customizableEdges47;
+            hieuxetxtbox.DefaultText = "";
+            hieuxetxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            hieuxetxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            hieuxetxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            hieuxetxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            hieuxetxtbox.FillColor = Color.Gainsboro;
+            hieuxetxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            hieuxetxtbox.Font = new Font("Segoe UI", 9F);
+            hieuxetxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            hieuxetxtbox.Location = new Point(157, 86);
+            hieuxetxtbox.Margin = new Padding(3, 4, 3, 4);
+            hieuxetxtbox.Name = "hieuxetxtbox";
+            hieuxetxtbox.PlaceholderText = "";
+            hieuxetxtbox.SelectedText = "";
+            hieuxetxtbox.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            hieuxetxtbox.Size = new Size(286, 34);
+            hieuxetxtbox.TabIndex = 1;
             // 
-            // guna2TextBox1
+            // biensotxtbox
             // 
-            guna2TextBox1.BorderRadius = 10;
-            guna2TextBox1.CustomizableEdges = customizableEdges49;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = Color.Gainsboro;
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(157, 44);
-            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges50;
-            guna2TextBox1.Size = new Size(286, 34);
-            guna2TextBox1.TabIndex = 0;
+            biensotxtbox.BorderRadius = 10;
+            biensotxtbox.CustomizableEdges = customizableEdges49;
+            biensotxtbox.DefaultText = "";
+            biensotxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            biensotxtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            biensotxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            biensotxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            biensotxtbox.FillColor = Color.Gainsboro;
+            biensotxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            biensotxtbox.Font = new Font("Segoe UI", 9F);
+            biensotxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            biensotxtbox.Location = new Point(157, 44);
+            biensotxtbox.Margin = new Padding(3, 4, 3, 4);
+            biensotxtbox.Name = "biensotxtbox";
+            biensotxtbox.PlaceholderText = "";
+            biensotxtbox.SelectedText = "";
+            biensotxtbox.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            biensotxtbox.Size = new Size(286, 34);
+            biensotxtbox.TabIndex = 0;
             // 
             // MANHINHCHINH
             // 
@@ -1138,14 +1166,6 @@
         private ToolStripMenuItem thôngTinPhầnMềmToolStripMenuItem;
         private ToolStripMenuItem liênHệToolStripMenuItem;
         private Guna.UI2.WinForms.Guna2DataGridView xedtgrid;
-        private DataGridViewTextBoxColumn BienSo;
-        private DataGridViewTextBoxColumn TenChuxe;
-        private DataGridViewTextBoxColumn HieuXe;
-        private DataGridViewTextBoxColumn DiaChi;
-        private DataGridViewTextBoxColumn DienThoai;
-        private DataGridViewTextBoxColumn Email;
-        private DataGridViewTextBoxColumn TienNo;
-        private DataGridViewTextBoxColumn NgayTiepNhan;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel SearchLabel;
         private Guna.UI2.WinForms.Guna2TextBox dangsudungtxtbox;
@@ -1168,17 +1188,25 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel label2;
         private Guna.UI2.WinForms.Guna2HtmlLabel BrandLabel;
         private Guna.UI2.WinForms.Guna2HtmlLabel LicenseLabel;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox emailtxtbox;
+        private Guna.UI2.WinForms.Guna2TextBox diachitxtbox;
+        private Guna.UI2.WinForms.Guna2TextBox tentxtbox;
+        private Guna.UI2.WinForms.Guna2TextBox notxtbox;
+        private Guna.UI2.WinForms.Guna2TextBox dthtxtbox;
+        private Guna.UI2.WinForms.Guna2TextBox hieuxetxtbox;
+        private Guna.UI2.WinForms.Guna2TextBox biensotxtbox;
         private Guna.UI2.WinForms.Guna2DateTimePicker ngaydtpicker;
         private Guna.UI2.WinForms.Guna2Button button11;
         private Guna.UI2.WinForms.Guna2Button button10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2PictureBox pictureBox1;
+        private DataGridViewTextBoxColumn BienSo;
+        private DataGridViewTextBoxColumn TenChuxe;
+        private DataGridViewTextBoxColumn HieuXe;
+        private DataGridViewTextBoxColumn DiaChi;
+        private DataGridViewTextBoxColumn DienThoai;
+        private DataGridViewTextBoxColumn Email;
+        private DataGridViewTextBoxColumn TienNo;
+        private DataGridViewTextBoxColumn NgayTiepNhan;
     }
 }

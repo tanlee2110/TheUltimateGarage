@@ -25,6 +25,8 @@ namespace UltimateGarage.DAO
                     }
             set { instance = value; }
         }
+
+        //Hien thi combobox
         public SqlDataReader HienThiCBBox()
         {
             SqlConnection con = dc.getConnect();

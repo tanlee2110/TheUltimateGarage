@@ -167,6 +167,7 @@
             biensocbbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
             biensocbbox.Size = new Size(286, 36);
             biensocbbox.TabIndex = 25;
+            biensocbbox.SelectedIndexChanged += biensocbbox_SelectedIndexChanged;
             // 
             // ngaydtpicker
             // 
@@ -204,6 +205,7 @@
             thoatbtn.Size = new Size(225, 56);
             thoatbtn.TabIndex = 23;
             thoatbtn.Text = "Thoát";
+            thoatbtn.Click += thoatbtn_Click;
             // 
             // lapphieubtn
             // 
@@ -223,6 +225,7 @@
             lapphieubtn.Size = new Size(225, 56);
             lapphieubtn.TabIndex = 22;
             lapphieubtn.Text = "Lập phiếu";
+            lapphieubtn.Click += lapphieubtn_Click;
             // 
             // label11
             // 
@@ -471,6 +474,7 @@
             tienthutxtbox.ShadowDecoration.CustomizableEdges = customizableEdges22;
             tienthutxtbox.Size = new Size(286, 36);
             tienthutxtbox.TabIndex = 5;
+            tienthutxtbox.TextChanged += tienthutxtbox_TextChanged;
             // 
             // emailtxtbox
             // 
@@ -551,6 +555,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "PHIEUTHUTIEN";
             Text = "PHIEUTHUTIEN";
+            Load += PHIEUTHUTIEN_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             guna2Panel1.ResumeLayout(false);
