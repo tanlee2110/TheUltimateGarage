@@ -141,6 +141,7 @@
             hieuxecbbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
             hieuxecbbox.Size = new Size(286, 36);
             hieuxecbbox.TabIndex = 25;
+            hieuxecbbox.SelectedIndexChanged += hieuxecbbox_SelectedIndexChanged;
             // 
             // ngaydtpicker
             // 
@@ -178,6 +179,7 @@
             thoatbtn.Size = new Size(225, 56);
             thoatbtn.TabIndex = 23;
             thoatbtn.Text = "Thoát";
+            thoatbtn.Click += thoatbtn_Click;
             // 
             // tiepnhanbtn
             // 
@@ -197,6 +199,7 @@
             tiepnhanbtn.Size = new Size(225, 56);
             tiepnhanbtn.TabIndex = 22;
             tiepnhanbtn.Text = "Tiếp nhận";
+            tiepnhanbtn.Click += tiepnhanbtn_Click;
             // 
             // label5
             // 
