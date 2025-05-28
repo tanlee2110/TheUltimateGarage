@@ -252,7 +252,7 @@
             dctxtbox.ShadowDecoration.CustomizableEdges = customizableEdges18;
             dctxtbox.Size = new Size(374, 35);
             dctxtbox.TabIndex = 73;
-            dctxtbox.TextChanged += dctxtbox_TextChanged;
+            //dctxtbox.TextChanged += dctxtbox_TextChanged;
             // 
             // dthtxtbox
             // 

@@ -319,6 +319,7 @@
             thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
             thôngTinCáNhânToolStripMenuItem.Size = new Size(86, 24);
             thôngTinCáNhânToolStripMenuItem.Text = "Thông tin";
+            thôngTinCáNhânToolStripMenuItem.Click += thongTinAdmin_btnClick;
             // 
             // báoCáoToolStripMenuItem
             // 

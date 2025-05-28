@@ -1,6 +1,6 @@
 ﻿namespace UltimateGarage
 {
-    partial class THONGTINADMIN_
+    partial class THONGTINADMIN
     {
         /// <summary>
         /// Required designer variable.
@@ -50,7 +50,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(THONGTINADMIN_));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(THONGTINADMIN));
             panel1 = new Guna.UI2.WinForms.Guna2Panel();
             title = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -139,6 +139,7 @@
             capnhatbtn.Size = new Size(225, 56);
             capnhatbtn.TabIndex = 24;
             capnhatbtn.Text = "Cập nhật thông tin";
+            capnhatbtn.Click += suaThongTinAdmin_btnClick;
             // 
             // thoatbtn
             // 
@@ -158,6 +159,7 @@
             thoatbtn.Size = new Size(225, 56);
             thoatbtn.TabIndex = 23;
             thoatbtn.Text = "Thoát";
+            thoatbtn.Click += thoat_btnClick;
             // 
             // doimkbtn
             // 
@@ -177,6 +179,7 @@
             doimkbtn.Size = new Size(225, 56);
             doimkbtn.TabIndex = 22;
             doimkbtn.Text = "Đổi mật khẩu";
+            doimkbtn.Click += doiMatKhau_btnClick;
             // 
             // label5
             // 
@@ -376,7 +379,7 @@
             tdntxtbox.Size = new Size(286, 36);
             tdntxtbox.TabIndex = 3;
             // 
-            // THONGTINADMIN_
+            // THONGTINADMIN
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -384,8 +387,9 @@
             Controls.Add(guna2Panel1);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "THONGTINADMIN_";
+            Name = "THONGTINADMIN";
             Text = "THONGTINADMIN";
+            Load += THONGTINADMIN_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             guna2Panel1.ResumeLayout(false);

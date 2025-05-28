@@ -311,5 +311,20 @@ namespace UltimateGarage
         {
             flag = 4;
         }
+
+        //Nav bar above
+        private void thongTinAdmin_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else if (NHANVIENDAO.Instance.flag != 1)
+                MessageBox.Show("Phải là quản lý mới có quyền truy cập!");
+            else
+            {
+                THONGTINADMIN t = new THONGTINADMIN();
+                t.tendangnhap = tendangnhap;
+                t.ShowDialog();
+            }
+        }
     }
 }
