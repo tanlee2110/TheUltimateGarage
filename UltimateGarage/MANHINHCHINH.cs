@@ -311,5 +311,54 @@ namespace UltimateGarage
         {
             flag = 4;
         }
+
+        //Nav bar above
+        private void thongTinAdmin_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else if (NHANVIENDAO.Instance.flag != 1)
+                MessageBox.Show("Phải là quản lý mới có quyền truy cập!");
+            else
+            {
+                THONGTINADMIN t = new THONGTINADMIN();
+                t.tendangnhap = tendangnhap;
+                t.ShowDialog();
+            }
+        }
+
+        private void baoCaoTonVatTuPhuTung_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                BAOCAOTON form = new BAOCAOTON();
+                form.ShowDialog();
+            }
+        }
+
+        private void baoCaoDoanhSoThang_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                BAOCAODOANHSO form = new BAOCAODOANHSO();
+                form.ShowDialog();
+            }
+        }
+
+        private void thongTinPhanMem_btnClick(object sender, EventArgs e)
+        {
+            THONGTINPM form = new THONGTINPM();
+            form.ShowDialog();
+        }
+
+        private void lienHe_btnClick(object sender, EventArgs e)
+        {
+            LIENHE form = new LIENHE();
+            form.ShowDialog();
+        }
     }
 }

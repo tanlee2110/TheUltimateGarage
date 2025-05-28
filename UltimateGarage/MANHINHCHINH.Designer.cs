@@ -319,6 +319,7 @@
             thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
             thôngTinCáNhânToolStripMenuItem.Size = new Size(86, 24);
             thôngTinCáNhânToolStripMenuItem.Text = "Thông tin";
+            thôngTinCáNhânToolStripMenuItem.Click += thongTinAdmin_btnClick;
             // 
             // báoCáoToolStripMenuItem
             // 
@@ -332,12 +333,14 @@
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Name = "báoCáoTồnVậtTưPhụTùngToolStripMenuItem";
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Size = new Size(277, 26);
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Text = "Báo cáo tồn vật tư phụ tùng";
+            báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Click += baoCaoTonVatTuPhuTung_btnClick;
             // 
             // báoCáoDoanhSốThángToolStripMenuItem
             // 
             báoCáoDoanhSốThángToolStripMenuItem.Name = "báoCáoDoanhSốThángToolStripMenuItem";
             báoCáoDoanhSốThángToolStripMenuItem.Size = new Size(277, 26);
             báoCáoDoanhSốThángToolStripMenuItem.Text = "Báo cáo doanh số tháng";
+            báoCáoDoanhSốThángToolStripMenuItem.Click += baoCaoDoanhSoThang_btnClick;
             // 
             // danhSáchToolStripMenuItem
             // 
@@ -406,12 +409,14 @@
             thôngTinPhầnMềmToolStripMenuItem.Name = "thôngTinPhầnMềmToolStripMenuItem";
             thôngTinPhầnMềmToolStripMenuItem.Size = new Size(230, 26);
             thôngTinPhầnMềmToolStripMenuItem.Text = "Thông tin phần mềm";
+            thôngTinPhầnMềmToolStripMenuItem.Click += thongTinPhanMem_btnClick;
             // 
             // liênHệToolStripMenuItem
             // 
             liênHệToolStripMenuItem.Name = "liênHệToolStripMenuItem";
             liênHệToolStripMenuItem.Size = new Size(230, 26);
             liênHệToolStripMenuItem.Text = "Liên hệ";
+            liênHệToolStripMenuItem.Click += lienHe_btnClick;
             // 
             // xedtgrid
             // 

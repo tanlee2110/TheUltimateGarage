@@ -16,5 +16,9 @@ namespace UltimateGarage
         {
             InitializeComponent();
         }
+        private void thoat_btnClick(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
