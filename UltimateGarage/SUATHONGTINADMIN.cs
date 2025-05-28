@@ -28,8 +28,6 @@ namespace UltimateGarage
             InitializeComponent();
         }
 
-
-
         private void SUANV_Load(object sender, EventArgs e)
         {
             tdntxtbox.Text = tendangnhap;
@@ -43,11 +41,17 @@ namespace UltimateGarage
                 cvcbbox.Items.Add(dr["ChucVu"]);
         }
 
-        private void capnhatbtn_Click(object sender, EventArgs e)
+        private void capNhat_btnClick(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(tentxtbox.Text) ||
-                  String.IsNullOrEmpty(dctxtbox.Text) || String.IsNullOrEmpty(dthtxtbox.Text) || String.IsNullOrEmpty(cvcbbox.Text))
+            if (String.IsNullOrEmpty(tentxtbox.Text)
+                || String.IsNullOrEmpty(dctxtbox.Text)
+                || String.IsNullOrEmpty(dthtxtbox.Text)
+                || String.IsNullOrEmpty(cvcbbox.Text))
+            {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
+                return;
+            }
+                            
             string tdn = tdntxtbox.Text;
             string ten = tentxtbox.Text;
             string dc = dctxtbox.Text;
@@ -56,6 +60,7 @@ namespace UltimateGarage
             string cv = cvcbbox.Text;
             if (NHANVIENDAO.Instance.SuaAdmin(tdn, ten, dc, dth, email, cv))
             {
+                MessageBox.Show("Cập nhập thông tin quản lý thành công!");
                 this.Close();
             }
             else
@@ -63,7 +68,10 @@ namespace UltimateGarage
                 MessageBox.Show("Cập nhật thông tin quản lý thất bại!");
                 this.Close();
             }
-
+        }
+        private void thoat_btnClick(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

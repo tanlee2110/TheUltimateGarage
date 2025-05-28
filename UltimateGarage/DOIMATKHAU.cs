@@ -23,7 +23,7 @@ namespace UltimateGarage
 
 
 
-        private void chgbtn_Click(object sender, EventArgs e)
+        private void doiMatKhau_btnClick(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(mkctxtbox.Text) || String.IsNullOrEmpty(nhaplaitxtbox.Text) || String.IsNullOrEmpty(mkmtxtbox.Text))
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
@@ -40,19 +40,15 @@ namespace UltimateGarage
                 else
                 {
                     NHANVIENDAO.Instance.DoiMatKhau(tendangnhap, mkmtxtbox.Text);
+                    MessageBox.Show("Đổi mật khẩu thành công!");
                     this.Close();
                 }
             }
         }
 
-        private void escbtn_Click(object sender, EventArgs e)
+        private void thoat_btnClick(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void DOIMATKHAU_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
