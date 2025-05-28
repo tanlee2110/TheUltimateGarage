@@ -333,12 +333,14 @@
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Name = "báoCáoTồnVậtTưPhụTùngToolStripMenuItem";
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Size = new Size(277, 26);
             báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Text = "Báo cáo tồn vật tư phụ tùng";
+            báoCáoTồnVậtTưPhụTùngToolStripMenuItem.Click += baoCaoTonVatTuPhuTung_btnClick;
             // 
             // báoCáoDoanhSốThángToolStripMenuItem
             // 
             báoCáoDoanhSốThángToolStripMenuItem.Name = "báoCáoDoanhSốThángToolStripMenuItem";
             báoCáoDoanhSốThángToolStripMenuItem.Size = new Size(277, 26);
             báoCáoDoanhSốThángToolStripMenuItem.Text = "Báo cáo doanh số tháng";
+            báoCáoDoanhSốThángToolStripMenuItem.Click += baoCaoDoanhSoThang_btnClick;
             // 
             // danhSáchToolStripMenuItem
             // 

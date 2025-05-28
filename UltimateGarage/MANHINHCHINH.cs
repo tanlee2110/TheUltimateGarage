@@ -326,5 +326,27 @@ namespace UltimateGarage
                 t.ShowDialog();
             }
         }
+
+        private void baoCaoTonVatTuPhuTung_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                BAOCAOTON form = new BAOCAOTON();
+                form.ShowDialog();
+            }
+        }
+
+        private void baoCaoDoanhSoThang_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                BAOCAODOANHSO form = new BAOCAODOANHSO();
+                form.ShowDialog();
+            }
+        }
     }
 }
