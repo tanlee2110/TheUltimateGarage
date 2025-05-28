@@ -61,5 +61,10 @@ namespace UltimateGarage
                 UseShellExecute = true
             });
         }
+
+        private void thoat_btnClick(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

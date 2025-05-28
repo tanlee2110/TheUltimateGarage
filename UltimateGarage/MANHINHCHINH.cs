@@ -348,5 +348,17 @@ namespace UltimateGarage
                 form.ShowDialog();
             }
         }
+
+        private void thongTinPhanMem_btnClick(object sender, EventArgs e)
+        {
+            THONGTINPM form = new THONGTINPM();
+            form.ShowDialog();
+        }
+
+        private void lienHe_btnClick(object sender, EventArgs e)
+        {
+            LIENHE form = new LIENHE();
+            form.ShowDialog();
+        }
     }
 }

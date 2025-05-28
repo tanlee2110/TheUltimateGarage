@@ -409,12 +409,14 @@
             thôngTinPhầnMềmToolStripMenuItem.Name = "thôngTinPhầnMềmToolStripMenuItem";
             thôngTinPhầnMềmToolStripMenuItem.Size = new Size(230, 26);
             thôngTinPhầnMềmToolStripMenuItem.Text = "Thông tin phần mềm";
+            thôngTinPhầnMềmToolStripMenuItem.Click += thongTinPhanMem_btnClick;
             // 
             // liênHệToolStripMenuItem
             // 
             liênHệToolStripMenuItem.Name = "liênHệToolStripMenuItem";
             liênHệToolStripMenuItem.Size = new Size(230, 26);
             liênHệToolStripMenuItem.Text = "Liên hệ";
+            liênHệToolStripMenuItem.Click += lienHe_btnClick;
             // 
             // xedtgrid
             // 
