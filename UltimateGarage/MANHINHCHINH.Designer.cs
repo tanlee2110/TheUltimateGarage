@@ -153,6 +153,7 @@
             dthtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             hieuxetxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             biensotxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            danhSáchNhânViênToolStripMenuItem = new ToolStripMenuItem();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
@@ -344,7 +345,7 @@
             // 
             // danhSáchToolStripMenuItem
             // 
-            danhSáchToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { danhSáchVậtTưPhụTùngToolStripMenuItem, danhSáchLoạiTiềnCôngToolStripMenuItem, danhSáchHiệuXeToolStripMenuItem, danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem, danhSáchPhiếuSửaChữaToolStripMenuItem, danhSáchPhiếuThuTiềnToolStripMenuItem, cậpNhậnSốXeSửaChữaTốiToolStripMenuItem, cậpNhậtTỉLệLãiToolStripMenuItem });
+            danhSáchToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { danhSáchVậtTưPhụTùngToolStripMenuItem, danhSáchLoạiTiềnCôngToolStripMenuItem, danhSáchHiệuXeToolStripMenuItem, danhSáchNhânViênToolStripMenuItem, danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem, danhSáchPhiếuSửaChữaToolStripMenuItem, danhSáchPhiếuThuTiềnToolStripMenuItem, cậpNhậnSốXeSửaChữaTốiToolStripMenuItem, cậpNhậtTỉLệLãiToolStripMenuItem });
             danhSáchToolStripMenuItem.Name = "danhSáchToolStripMenuItem";
             danhSáchToolStripMenuItem.Size = new Size(73, 24);
             danhSáchToolStripMenuItem.Text = "Quản lý";
@@ -1121,6 +1122,13 @@
             biensotxtbox.Size = new Size(286, 34);
             biensotxtbox.TabIndex = 0;
             // 
+            // danhSáchNhânViênToolStripMenuItem
+            // 
+            danhSáchNhânViênToolStripMenuItem.Name = "danhSáchNhânViênToolStripMenuItem";
+            danhSáchNhânViênToolStripMenuItem.Size = new Size(374, 26);
+            danhSáchNhânViênToolStripMenuItem.Text = "Danh sách nhân viên";
+            danhSáchNhânViênToolStripMenuItem.Click += quanLyNhanVien_btnClick;
+            // 
             // MANHINHCHINH
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -1221,5 +1229,6 @@
         private DataGridViewTextBoxColumn Email;
         private DataGridViewTextBoxColumn TienNo;
         private DataGridViewTextBoxColumn NgayTiepNhan;
+        private ToolStripMenuItem danhSáchNhânViênToolStripMenuItem;
     }
 }
