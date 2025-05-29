@@ -349,6 +349,112 @@ namespace UltimateGarage
             }
         }
 
+        private void danhSachVatTuPhuTung_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                DSVTPT form = new DSVTPT();
+                form.ShowDialog();
+            }
+        }
+
+        private void danhSachLoaiTienCong_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                DSTIENCONG form = new DSTIENCONG();
+                form.ShowDialog();
+            }
+        }
+
+        private void danhSachHieuXe_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                DSHIEUXE form = new DSHIEUXE();
+                form.ShowDialog();
+            }
+        }
+
+        private void quanLyNhanVien_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else if (NHANVIENDAO.Instance.flag != 1)
+                MessageBox.Show("Phải là quản lý mới có quyền truy cập!");
+            else
+            {
+                DSNHANVIEN form = new DSNHANVIEN();
+                form.ShowDialog();
+            }
+        }
+
+        private void danhSachPhieuNhapKho_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                DSPNKVTPT form = new DSPNKVTPT();
+                form.ShowDialog();
+            }
+        }
+
+        private void danhSachPhieuSuaChua_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                DSPHIEUSUACHUA form = new DSPHIEUSUACHUA();
+                form.ShowDialog();
+            }
+        }
+
+        private void danhSachPhieuThuTien_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else
+            {
+                DSPHIEUTHUTIEN form = new DSPHIEUTHUTIEN();
+                form.ShowDialog();
+            }
+        }
+
+        private void thayDoiSoXeToiDa_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else if (NHANVIENDAO.Instance.flag != 1)
+                MessageBox.Show("Phải là quản lý mới có quyền truy cập!");
+            else
+            {
+                CAPNHATSOXE form = new CAPNHATSOXE();
+                form.ShowDialog();
+            }
+        }
+
+        private void capNhatTiLeLai_btnClick(object sender, EventArgs e)
+        {
+            if (NHANVIENDAO.Instance.flag == 0)
+                MessageBox.Show("Khách không được sử dụng chức năng này!");
+            else if (NHANVIENDAO.Instance.flag != 1)
+                MessageBox.Show("Phải là quản lý mới có quyền truy cập!");
+            else
+            {
+                CAPNHATTILELAI form = new CAPNHATTILELAI();
+
+                form.ShowDialog();
+            }
+        }
+
         private void thongTinPhanMem_btnClick(object sender, EventArgs e)
         {
             THONGTINPM form = new THONGTINPM();

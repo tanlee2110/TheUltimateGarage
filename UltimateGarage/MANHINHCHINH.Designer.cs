@@ -354,48 +354,56 @@
             danhSáchVậtTưPhụTùngToolStripMenuItem.Name = "danhSáchVậtTưPhụTùngToolStripMenuItem";
             danhSáchVậtTưPhụTùngToolStripMenuItem.Size = new Size(374, 26);
             danhSáchVậtTưPhụTùngToolStripMenuItem.Text = "Danh sách vật tư phụ tùng";
+            danhSáchVậtTưPhụTùngToolStripMenuItem.Click += danhSachVatTuPhuTung_btnClick;
             // 
             // danhSáchLoạiTiềnCôngToolStripMenuItem
             // 
             danhSáchLoạiTiềnCôngToolStripMenuItem.Name = "danhSáchLoạiTiềnCôngToolStripMenuItem";
             danhSáchLoạiTiềnCôngToolStripMenuItem.Size = new Size(374, 26);
             danhSáchLoạiTiềnCôngToolStripMenuItem.Text = "Danh sách loại tiền công";
+            danhSáchLoạiTiềnCôngToolStripMenuItem.Click += danhSachLoaiTienCong_btnClick;
             // 
             // danhSáchHiệuXeToolStripMenuItem
             // 
             danhSáchHiệuXeToolStripMenuItem.Name = "danhSáchHiệuXeToolStripMenuItem";
             danhSáchHiệuXeToolStripMenuItem.Size = new Size(374, 26);
             danhSáchHiệuXeToolStripMenuItem.Text = "Danh sách hiệu xe";
+            danhSáchHiệuXeToolStripMenuItem.Click += danhSachHieuXe_btnClick;
             // 
             // danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem
             // 
             danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Name = "danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem";
             danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Size = new Size(374, 26);
             danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Text = "Danh sách phiếu nhập kho VTPT";
+            danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Click += danhSachPhieuNhapKho_btnClick;
             // 
             // danhSáchPhiếuSửaChữaToolStripMenuItem
             // 
             danhSáchPhiếuSửaChữaToolStripMenuItem.Name = "danhSáchPhiếuSửaChữaToolStripMenuItem";
             danhSáchPhiếuSửaChữaToolStripMenuItem.Size = new Size(374, 26);
             danhSáchPhiếuSửaChữaToolStripMenuItem.Text = "Danh sách phiếu sửa chữa";
+            danhSáchPhiếuSửaChữaToolStripMenuItem.Click += danhSachPhieuSuaChua_btnClick;
             // 
             // danhSáchPhiếuThuTiềnToolStripMenuItem
             // 
             danhSáchPhiếuThuTiềnToolStripMenuItem.Name = "danhSáchPhiếuThuTiềnToolStripMenuItem";
             danhSáchPhiếuThuTiềnToolStripMenuItem.Size = new Size(374, 26);
             danhSáchPhiếuThuTiềnToolStripMenuItem.Text = "Danh sách phiếu thu tiền";
+            danhSáchPhiếuThuTiềnToolStripMenuItem.Click += danhSachPhieuThuTien_btnClick;
             // 
             // cậpNhậnSốXeSửaChữaTốiToolStripMenuItem
             // 
             cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Name = "cậpNhậnSốXeSửaChữaTốiToolStripMenuItem";
             cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Size = new Size(374, 26);
             cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Text = "Cập nhận số xe sửa chữa tối đa trong ngày";
+            cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Click += thayDoiSoXeToiDa_btnClick;
             // 
             // cậpNhậtTỉLệLãiToolStripMenuItem
             // 
             cậpNhậtTỉLệLãiToolStripMenuItem.Name = "cậpNhậtTỉLệLãiToolStripMenuItem";
             cậpNhậtTỉLệLãiToolStripMenuItem.Size = new Size(374, 26);
             cậpNhậtTỉLệLãiToolStripMenuItem.Text = "Cập nhật tỉ lệ lãi";
+            cậpNhậtTỉLệLãiToolStripMenuItem.Click += capNhatTiLeLai_btnClick;
             // 
             // trợGiúpToolStripMenuItem
             // 
