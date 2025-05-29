@@ -70,9 +70,8 @@
             panel1.BackColor = Color.MidnightBlue;
             panel1.Controls.Add(title);
             panel1.Location = new Point(1, 0);
-            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(790, 82);
+            panel1.Size = new Size(632, 66);
             panel1.TabIndex = 0;
             // 
             // title
@@ -81,10 +80,10 @@
             title.AutoSize = true;
             title.Font = new Font("Segoe UI", 19.8F, FontStyle.Bold);
             title.ForeColor = Color.White;
-            title.Location = new Point(198, 11);
-            title.Margin = new Padding(5, 0, 5, 0);
+            title.Location = new Point(158, 9);
+            title.Margin = new Padding(4, 0, 4, 0);
             title.Name = "title";
-            title.Size = new Size(374, 54);
+            title.Size = new Size(308, 45);
             title.TabIndex = 7;
             title.Text = "THÊM NHÂN VIÊN";
             // 
@@ -92,10 +91,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 13.8F);
-            label3.Location = new Point(78, 305);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(62, 244);
             label3.Name = "label3";
-            label3.Size = new Size(89, 38);
+            label3.Size = new Size(75, 31);
             label3.TabIndex = 24;
             label3.Text = "Email:";
             label3.TextAlign = ContentAlignment.MiddleLeft;
@@ -104,10 +102,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13.8F);
-            label2.Location = new Point(78, 261);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(62, 209);
             label2.Name = "label2";
-            label2.Size = new Size(151, 38);
+            label2.Size = new Size(124, 31);
             label2.TabIndex = 25;
             label2.Text = "Điện thoại:";
             // 
@@ -115,10 +112,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13.8F);
-            label1.Location = new Point(78, 218);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(62, 174);
             label1.Name = "label1";
-            label1.Size = new Size(108, 38);
+            label1.Size = new Size(89, 31);
             label1.TabIndex = 26;
             label1.Text = "Địa chỉ:";
             // 
@@ -126,43 +122,41 @@
             // 
             TenChuXe.AutoSize = true;
             TenChuXe.Font = new Font("Segoe UI", 13.8F);
-            TenChuXe.Location = new Point(78, 174);
-            TenChuXe.Margin = new Padding(4, 0, 4, 0);
+            TenChuXe.Location = new Point(62, 139);
             TenChuXe.Name = "TenChuXe";
-            TenChuXe.Size = new Size(142, 38);
+            TenChuXe.Size = new Size(116, 31);
             TenChuXe.TabIndex = 27;
             TenChuXe.Text = "Họ và tên:";
             // 
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(659, 402);
-            thoatbtn.Margin = new Padding(4);
+            thoatbtn.Location = new Point(527, 322);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(118, 36);
+            thoatbtn.Size = new Size(94, 29);
             thoatbtn.TabIndex = 28;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
+            thoatbtn.Click += thoatbtn_Click;
             // 
             // thembtn
             // 
             thembtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thembtn.Location = new Point(534, 402);
-            thembtn.Margin = new Padding(4);
+            thembtn.Location = new Point(427, 322);
             thembtn.Name = "thembtn";
-            thembtn.Size = new Size(118, 36);
+            thembtn.Size = new Size(94, 29);
             thembtn.TabIndex = 28;
             thembtn.Text = "Thêm";
             thembtn.UseVisualStyleBackColor = true;
+            thembtn.Click += thembtn_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 13.8F);
-            label4.Location = new Point(78, 86);
-            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Location = new Point(62, 69);
             label4.Name = "label4";
-            label4.Size = new Size(206, 38);
+            label4.Size = new Size(171, 31);
             label4.TabIndex = 27;
             label4.Text = "Tên đăng nhập:";
             // 
@@ -170,10 +164,9 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 13.8F);
-            label5.Location = new Point(78, 344);
-            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Location = new Point(62, 275);
             label5.Name = "label5";
-            label5.Size = new Size(122, 38);
+            label5.Size = new Size(101, 31);
             label5.TabIndex = 24;
             label5.Text = "Chức vụ:";
             label5.TextAlign = ContentAlignment.MiddleLeft;
@@ -182,10 +175,9 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 13.8F);
-            label6.Location = new Point(78, 130);
-            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Location = new Point(62, 104);
             label6.Name = "label6";
-            label6.Size = new Size(139, 38);
+            label6.Size = new Size(115, 31);
             label6.TabIndex = 27;
             label6.Text = "Mật khẩu:";
             // 
@@ -205,13 +197,13 @@
             tdntxtbox.Font = new Font("Segoe UI", 9F);
             tdntxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tdntxtbox.IconRightCursor = Cursors.AppStarting;
-            tdntxtbox.Location = new Point(300, 89);
-            tdntxtbox.Margin = new Padding(4, 5, 4, 5);
+            tdntxtbox.Location = new Point(240, 71);
+            tdntxtbox.Margin = new Padding(3, 4, 3, 4);
             tdntxtbox.Name = "tdntxtbox";
             tdntxtbox.PlaceholderText = "";
             tdntxtbox.SelectedText = "";
             tdntxtbox.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            tdntxtbox.Size = new Size(374, 35);
+            tdntxtbox.Size = new Size(299, 28);
             tdntxtbox.TabIndex = 70;
             // 
             // mktxtbox
@@ -230,13 +222,13 @@
             mktxtbox.Font = new Font("Segoe UI", 9F);
             mktxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             mktxtbox.IconRightCursor = Cursors.AppStarting;
-            mktxtbox.Location = new Point(300, 132);
-            mktxtbox.Margin = new Padding(4, 5, 4, 5);
+            mktxtbox.Location = new Point(240, 106);
+            mktxtbox.Margin = new Padding(3, 4, 3, 4);
             mktxtbox.Name = "mktxtbox";
             mktxtbox.PlaceholderText = "";
             mktxtbox.SelectedText = "";
             mktxtbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            mktxtbox.Size = new Size(374, 35);
+            mktxtbox.Size = new Size(299, 28);
             mktxtbox.TabIndex = 71;
             // 
             // tentxtbox
@@ -255,13 +247,13 @@
             tentxtbox.Font = new Font("Segoe UI", 9F);
             tentxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tentxtbox.IconRightCursor = Cursors.AppStarting;
-            tentxtbox.Location = new Point(300, 176);
-            tentxtbox.Margin = new Padding(4, 5, 4, 5);
+            tentxtbox.Location = new Point(240, 141);
+            tentxtbox.Margin = new Padding(3, 4, 3, 4);
             tentxtbox.Name = "tentxtbox";
             tentxtbox.PlaceholderText = "";
             tentxtbox.SelectedText = "";
             tentxtbox.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            tentxtbox.Size = new Size(374, 35);
+            tentxtbox.Size = new Size(299, 28);
             tentxtbox.TabIndex = 72;
             // 
             // dctxtbox
@@ -280,13 +272,13 @@
             dctxtbox.Font = new Font("Segoe UI", 9F);
             dctxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             dctxtbox.IconRightCursor = Cursors.AppStarting;
-            dctxtbox.Location = new Point(300, 220);
-            dctxtbox.Margin = new Padding(4, 5, 4, 5);
+            dctxtbox.Location = new Point(240, 176);
+            dctxtbox.Margin = new Padding(3, 4, 3, 4);
             dctxtbox.Name = "dctxtbox";
             dctxtbox.PlaceholderText = "";
             dctxtbox.SelectedText = "";
             dctxtbox.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            dctxtbox.Size = new Size(374, 35);
+            dctxtbox.Size = new Size(299, 28);
             dctxtbox.TabIndex = 73;
             // 
             // dthtxtbox
@@ -305,13 +297,13 @@
             dthtxtbox.Font = new Font("Segoe UI", 9F);
             dthtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             dthtxtbox.IconRightCursor = Cursors.AppStarting;
-            dthtxtbox.Location = new Point(300, 264);
-            dthtxtbox.Margin = new Padding(4, 5, 4, 5);
+            dthtxtbox.Location = new Point(240, 211);
+            dthtxtbox.Margin = new Padding(3, 4, 3, 4);
             dthtxtbox.Name = "dthtxtbox";
             dthtxtbox.PlaceholderText = "";
             dthtxtbox.SelectedText = "";
             dthtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            dthtxtbox.Size = new Size(374, 35);
+            dthtxtbox.Size = new Size(299, 28);
             dthtxtbox.TabIndex = 74;
             // 
             // emailtxtbox
@@ -330,13 +322,13 @@
             emailtxtbox.Font = new Font("Segoe UI", 9F);
             emailtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             emailtxtbox.IconRightCursor = Cursors.AppStarting;
-            emailtxtbox.Location = new Point(300, 308);
-            emailtxtbox.Margin = new Padding(4, 5, 4, 5);
+            emailtxtbox.Location = new Point(240, 246);
+            emailtxtbox.Margin = new Padding(3, 4, 3, 4);
             emailtxtbox.Name = "emailtxtbox";
             emailtxtbox.PlaceholderText = "";
             emailtxtbox.SelectedText = "";
             emailtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            emailtxtbox.Size = new Size(374, 35);
+            emailtxtbox.Size = new Size(299, 28);
             emailtxtbox.TabIndex = 75;
             // 
             // cvcbbox
@@ -353,21 +345,20 @@
             cvcbbox.Font = new Font("Segoe UI", 10F);
             cvcbbox.ForeColor = Color.FromArgb(68, 88, 112);
             cvcbbox.ItemHeight = 25;
-            cvcbbox.Location = new Point(300, 351);
-            cvcbbox.Margin = new Padding(4);
+            cvcbbox.Location = new Point(240, 281);
             cvcbbox.Name = "cvcbbox";
             cvcbbox.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            cvcbbox.Size = new Size(374, 31);
+            cvcbbox.Size = new Size(300, 31);
             cvcbbox.TabIndex = 29;
             // 
             // THEMNV
             // 
             AcceptButton = thembtn;
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             CancelButton = thoatbtn;
-            ClientSize = new Size(791, 454);
+            ClientSize = new Size(633, 363);
             Controls.Add(cvcbbox);
             Controls.Add(emailtxtbox);
             Controls.Add(dthtxtbox);
@@ -387,7 +378,6 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(4);
             MaximizeBox = false;
             Name = "THEMNV";
             StartPosition = FormStartPosition.CenterScreen;

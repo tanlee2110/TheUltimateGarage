@@ -57,10 +57,6 @@
             theomaradio = new Guna.UI2.WinForms.Guna2RadioButton();
             theotenradio = new Guna.UI2.WinForms.Guna2RadioButton();
             ptdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
             groupBox1 = new GroupBox();
             dgtxtbox = new TextBox();
             label5 = new Label();
@@ -76,6 +72,10 @@
             xoavtptbtn = new Guna.UI2.WinForms.Guna2Button();
             timkiemtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             timkiembtn = new Guna.UI2.WinForms.Guna2Button();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ptdtgrid).BeginInit();
@@ -289,30 +289,6 @@
             ptdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             ptdtgrid.CellContentClick += guna2DataGridView2_CellContentClick;
             ptdtgrid.SelectionChanged += ptdtgrid_SelectionChanged;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Mã VTPT";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Tên VTPT";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Số lượng tồn";
-            Column3.MinimumWidth = 8;
-            Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Đơn giá";
-            Column4.MinimumWidth = 8;
-            Column4.Name = "Column4";
             // 
             // groupBox1
             // 
@@ -551,6 +527,34 @@
             timkiembtn.TabIndex = 1;
             timkiembtn.Click += timkiembtn_Click;
             // 
+            // Column1
+            // 
+            Column1.DataPropertyName = "MaVTPT";
+            Column1.HeaderText = "Mã VTPT";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.DataPropertyName = "TenVTPT";
+            Column2.HeaderText = "Tên VTPT";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.DataPropertyName = "SoLuongTon";
+            Column3.HeaderText = "Số lượng tồn";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.DataPropertyName = "DonGia";
+            Column4.HeaderText = "Đơn giá";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            // 
             // DSVTPT
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -596,10 +600,6 @@
         private Guna.UI2.WinForms.Guna2RadioButton theomaradio;
         private Guna.UI2.WinForms.Guna2RadioButton theotenradio;
         private Guna.UI2.WinForms.Guna2DataGridView ptdtgrid;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewTextBoxColumn Column4;
         private GroupBox groupBox1;
         private TextBox dgtxtbox;
         private Label label5;
@@ -615,5 +615,9 @@
         private Guna.UI2.WinForms.Guna2Button xoavtptbtn;
         private Guna.UI2.WinForms.Guna2TextBox timkiemtxtbox;
         private Guna.UI2.WinForms.Guna2Button timkiembtn;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
     }
 }

@@ -153,6 +153,7 @@
             dthtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             hieuxetxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             biensotxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            danhSáchNhânViênToolStripMenuItem = new ToolStripMenuItem();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
@@ -344,7 +345,7 @@
             // 
             // danhSáchToolStripMenuItem
             // 
-            danhSáchToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { danhSáchVậtTưPhụTùngToolStripMenuItem, danhSáchLoạiTiềnCôngToolStripMenuItem, danhSáchHiệuXeToolStripMenuItem, danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem, danhSáchPhiếuSửaChữaToolStripMenuItem, danhSáchPhiếuThuTiềnToolStripMenuItem, cậpNhậnSốXeSửaChữaTốiToolStripMenuItem, cậpNhậtTỉLệLãiToolStripMenuItem });
+            danhSáchToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { danhSáchVậtTưPhụTùngToolStripMenuItem, danhSáchLoạiTiềnCôngToolStripMenuItem, danhSáchHiệuXeToolStripMenuItem, danhSáchNhânViênToolStripMenuItem, danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem, danhSáchPhiếuSửaChữaToolStripMenuItem, danhSáchPhiếuThuTiềnToolStripMenuItem, cậpNhậnSốXeSửaChữaTốiToolStripMenuItem, cậpNhậtTỉLệLãiToolStripMenuItem });
             danhSáchToolStripMenuItem.Name = "danhSáchToolStripMenuItem";
             danhSáchToolStripMenuItem.Size = new Size(73, 24);
             danhSáchToolStripMenuItem.Text = "Quản lý";
@@ -354,48 +355,56 @@
             danhSáchVậtTưPhụTùngToolStripMenuItem.Name = "danhSáchVậtTưPhụTùngToolStripMenuItem";
             danhSáchVậtTưPhụTùngToolStripMenuItem.Size = new Size(374, 26);
             danhSáchVậtTưPhụTùngToolStripMenuItem.Text = "Danh sách vật tư phụ tùng";
+            danhSáchVậtTưPhụTùngToolStripMenuItem.Click += danhSachVatTuPhuTung_btnClick;
             // 
             // danhSáchLoạiTiềnCôngToolStripMenuItem
             // 
             danhSáchLoạiTiềnCôngToolStripMenuItem.Name = "danhSáchLoạiTiềnCôngToolStripMenuItem";
             danhSáchLoạiTiềnCôngToolStripMenuItem.Size = new Size(374, 26);
             danhSáchLoạiTiềnCôngToolStripMenuItem.Text = "Danh sách loại tiền công";
+            danhSáchLoạiTiềnCôngToolStripMenuItem.Click += danhSachLoaiTienCong_btnClick;
             // 
             // danhSáchHiệuXeToolStripMenuItem
             // 
             danhSáchHiệuXeToolStripMenuItem.Name = "danhSáchHiệuXeToolStripMenuItem";
             danhSáchHiệuXeToolStripMenuItem.Size = new Size(374, 26);
             danhSáchHiệuXeToolStripMenuItem.Text = "Danh sách hiệu xe";
+            danhSáchHiệuXeToolStripMenuItem.Click += danhSachHieuXe_btnClick;
             // 
             // danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem
             // 
             danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Name = "danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem";
             danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Size = new Size(374, 26);
             danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Text = "Danh sách phiếu nhập kho VTPT";
+            danhSáchPhiếuNhậpKhoVTPTToolStripMenuItem.Click += danhSachPhieuNhapKho_btnClick;
             // 
             // danhSáchPhiếuSửaChữaToolStripMenuItem
             // 
             danhSáchPhiếuSửaChữaToolStripMenuItem.Name = "danhSáchPhiếuSửaChữaToolStripMenuItem";
             danhSáchPhiếuSửaChữaToolStripMenuItem.Size = new Size(374, 26);
             danhSáchPhiếuSửaChữaToolStripMenuItem.Text = "Danh sách phiếu sửa chữa";
+            danhSáchPhiếuSửaChữaToolStripMenuItem.Click += danhSachPhieuSuaChua_btnClick;
             // 
             // danhSáchPhiếuThuTiềnToolStripMenuItem
             // 
             danhSáchPhiếuThuTiềnToolStripMenuItem.Name = "danhSáchPhiếuThuTiềnToolStripMenuItem";
             danhSáchPhiếuThuTiềnToolStripMenuItem.Size = new Size(374, 26);
             danhSáchPhiếuThuTiềnToolStripMenuItem.Text = "Danh sách phiếu thu tiền";
+            danhSáchPhiếuThuTiềnToolStripMenuItem.Click += danhSachPhieuThuTien_btnClick;
             // 
             // cậpNhậnSốXeSửaChữaTốiToolStripMenuItem
             // 
             cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Name = "cậpNhậnSốXeSửaChữaTốiToolStripMenuItem";
             cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Size = new Size(374, 26);
             cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Text = "Cập nhận số xe sửa chữa tối đa trong ngày";
+            cậpNhậnSốXeSửaChữaTốiToolStripMenuItem.Click += thayDoiSoXeToiDa_btnClick;
             // 
             // cậpNhậtTỉLệLãiToolStripMenuItem
             // 
             cậpNhậtTỉLệLãiToolStripMenuItem.Name = "cậpNhậtTỉLệLãiToolStripMenuItem";
             cậpNhậtTỉLệLãiToolStripMenuItem.Size = new Size(374, 26);
             cậpNhậtTỉLệLãiToolStripMenuItem.Text = "Cập nhật tỉ lệ lãi";
+            cậpNhậtTỉLệLãiToolStripMenuItem.Click += capNhatTiLeLai_btnClick;
             // 
             // trợGiúpToolStripMenuItem
             // 
@@ -1113,6 +1122,13 @@
             biensotxtbox.Size = new Size(286, 34);
             biensotxtbox.TabIndex = 0;
             // 
+            // danhSáchNhânViênToolStripMenuItem
+            // 
+            danhSáchNhânViênToolStripMenuItem.Name = "danhSáchNhânViênToolStripMenuItem";
+            danhSáchNhânViênToolStripMenuItem.Size = new Size(374, 26);
+            danhSáchNhânViênToolStripMenuItem.Text = "Danh sách nhân viên";
+            danhSáchNhânViênToolStripMenuItem.Click += quanLyNhanVien_btnClick;
+            // 
             // MANHINHCHINH
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -1213,5 +1229,6 @@
         private DataGridViewTextBoxColumn Email;
         private DataGridViewTextBoxColumn TienNo;
         private DataGridViewTextBoxColumn NgayTiepNhan;
+        private ToolStripMenuItem danhSáchNhânViênToolStripMenuItem;
     }
 }

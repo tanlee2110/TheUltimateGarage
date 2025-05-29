@@ -57,7 +57,11 @@
             matcradio = new Guna.UI2.WinForms.Guna2RadioButton();
             ndtcbtn = new Guna.UI2.WinForms.Guna2RadioButton();
             ptdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
             groupBox1 = new GroupBox();
+            ndtxtbox = new TextBox();
             label4 = new Label();
             tctxtbox = new TextBox();
             matctxtbox = new TextBox();
@@ -69,10 +73,6 @@
             xoatcbtn = new Guna.UI2.WinForms.Guna2Button();
             timkiemtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             timkiembtn = new Guna.UI2.WinForms.Guna2Button();
-            ndtxtbox = new TextBox();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ptdtgrid).BeginInit();
@@ -85,9 +85,10 @@
             guna2Panel1.Controls.Add(VatTuPhuTung_Title);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
+            guna2Panel1.Margin = new Padding(2);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(1462, 82);
+            guna2Panel1.Size = new Size(1170, 66);
             guna2Panel1.TabIndex = 0;
             // 
             // VatTuPhuTung_Title
@@ -96,10 +97,10 @@
             VatTuPhuTung_Title.AutoSize = true;
             VatTuPhuTung_Title.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
             VatTuPhuTung_Title.ForeColor = Color.White;
-            VatTuPhuTung_Title.Location = new Point(409, 14);
-            VatTuPhuTung_Title.Margin = new Padding(5, 0, 5, 0);
+            VatTuPhuTung_Title.Location = new Point(327, 11);
+            VatTuPhuTung_Title.Margin = new Padding(4, 0, 4, 0);
             VatTuPhuTung_Title.Name = "VatTuPhuTung_Title";
-            VatTuPhuTung_Title.Size = new Size(586, 54);
+            VatTuPhuTung_Title.Size = new Size(497, 46);
             VatTuPhuTung_Title.TabIndex = 2;
             VatTuPhuTung_Title.Text = "DANH SÁCH LOẠI TIỀN CÔNG";
             VatTuPhuTung_Title.UseMnemonic = false;
@@ -132,11 +133,11 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(24, 262);
-            guna2DataGridView1.Margin = new Padding(4);
+            guna2DataGridView1.Location = new Point(19, 210);
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 62;
+            guna2DataGridView1.RowTemplate.Height = 33;
             guna2DataGridView1.Size = new Size(0, 0);
             guna2DataGridView1.TabIndex = 1;
             guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
@@ -164,21 +165,20 @@
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(1331, 941);
-            thoatbtn.Margin = new Padding(4);
+            thoatbtn.Location = new Point(1065, 753);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(118, 36);
+            thoatbtn.Size = new Size(94, 29);
             thoatbtn.TabIndex = 3;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
+            thoatbtn.Click += thoat_btnClick;
             // 
             // label3
             // 
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.Location = new Point(384, 84);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(307, 67);
             label3.Name = "label3";
-            label3.Size = new Size(127, 32);
+            label3.Size = new Size(102, 26);
             label3.TabIndex = 7;
             label3.Text = "Tìm kiếm:";
             // 
@@ -192,16 +192,16 @@
             matcradio.CheckedState.InnerColor = Color.White;
             matcradio.CheckedState.InnerOffset = -4;
             matcradio.ForeColor = SystemColors.ActiveCaptionText;
-            matcradio.Location = new Point(528, 122);
-            matcradio.Margin = new Padding(4);
+            matcradio.Location = new Point(422, 98);
             matcradio.Name = "matcradio";
-            matcradio.Size = new Size(249, 29);
+            matcradio.Size = new Size(209, 24);
             matcradio.TabIndex = 2;
             matcradio.Text = "Tìm theo mã loại tiền công";
             matcradio.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             matcradio.UncheckedState.BorderThickness = 2;
             matcradio.UncheckedState.FillColor = Color.Transparent;
             matcradio.UncheckedState.InnerColor = Color.Transparent;
+            matcradio.Click += matcradio_CheckedChanged;
             // 
             // ndtcbtn
             // 
@@ -213,16 +213,16 @@
             ndtcbtn.CheckedState.InnerColor = Color.White;
             ndtcbtn.CheckedState.InnerOffset = -4;
             ndtcbtn.ForeColor = SystemColors.ActiveCaptionText;
-            ndtcbtn.Location = new Point(786, 122);
-            ndtcbtn.Margin = new Padding(4);
+            ndtcbtn.Location = new Point(629, 98);
             ndtcbtn.Name = "ndtcbtn";
-            ndtcbtn.Size = new Size(184, 29);
+            ndtcbtn.Size = new Size(152, 24);
             ndtcbtn.TabIndex = 8;
             ndtcbtn.Text = "Tìm theo nội dung";
             ndtcbtn.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             ndtcbtn.UncheckedState.BorderThickness = 2;
             ndtcbtn.UncheckedState.FillColor = Color.Transparent;
             ndtcbtn.UncheckedState.InnerColor = Color.Transparent;
+            ndtcbtn.Click += ndtcbtn_CheckedChanged;
             // 
             // ptdtgrid
             // 
@@ -255,13 +255,13 @@
             ptdtgrid.DefaultCellStyle = dataGridViewCellStyle6;
             ptdtgrid.EnableHeadersVisualStyles = true;
             ptdtgrid.GridColor = SystemColors.ControlDark;
-            ptdtgrid.Location = new Point(15, 171);
-            ptdtgrid.Margin = new Padding(4);
+            ptdtgrid.Location = new Point(12, 137);
             ptdtgrid.Name = "ptdtgrid";
             ptdtgrid.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             ptdtgrid.RowHeadersVisible = false;
             ptdtgrid.RowHeadersWidth = 62;
-            ptdtgrid.Size = new Size(1434, 561);
+            ptdtgrid.RowTemplate.Height = 33;
+            ptdtgrid.Size = new Size(1147, 449);
             ptdtgrid.TabIndex = 4;
             ptdtgrid.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             ptdtgrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -284,6 +284,29 @@
             ptdtgrid.ThemeStyle.RowsStyle.Height = 33;
             ptdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             ptdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            ptdtgrid.CellContentClick += ptdtgrid_CellContentClick;
+            ptdtgrid.SelectionChanged += tcdtgrid_SelectionChanged;
+            // 
+            // Column1
+            // 
+            Column1.DataPropertyName = "MaTienCong";
+            Column1.HeaderText = "Mã tiền công";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.DataPropertyName = "TienCong";
+            Column2.HeaderText = "Tiền công";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.DataPropertyName = "NoiDung";
+            Column3.HeaderText = "Nội dung";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
             // 
             // groupBox1
             // 
@@ -293,62 +316,67 @@
             groupBox1.Controls.Add(matctxtbox);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(15, 740);
-            groupBox1.Margin = new Padding(4);
+            groupBox1.Location = new Point(12, 592);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(4);
-            groupBox1.Size = new Size(760, 214);
+            groupBox1.Size = new Size(608, 171);
             groupBox1.TabIndex = 68;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin chi tiết";
             // 
+            // ndtxtbox
+            // 
+            ndtxtbox.BackColor = Color.Gainsboro;
+            ndtxtbox.Enabled = false;
+            ndtxtbox.Location = new Point(149, 89);
+            ndtxtbox.Multiline = true;
+            ndtxtbox.Name = "ndtxtbox";
+            ndtxtbox.ReadOnly = true;
+            ndtxtbox.ScrollBars = ScrollBars.Horizontal;
+            ndtxtbox.Size = new Size(442, 76);
+            ndtxtbox.TabIndex = 66;
+            // 
             // label4
             // 
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(35, 108);
-            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Location = new Point(28, 86);
             label4.Name = "label4";
-            label4.Size = new Size(120, 38);
+            label4.Size = new Size(96, 30);
             label4.TabIndex = 65;
             label4.Text = "Nội dung:";
             // 
             // tctxtbox
             // 
             tctxtbox.BackColor = Color.Gainsboro;
-            tctxtbox.Location = new Point(186, 72);
-            tctxtbox.Margin = new Padding(4);
+            tctxtbox.Location = new Point(149, 58);
             tctxtbox.Name = "tctxtbox";
             tctxtbox.ScrollBars = ScrollBars.Horizontal;
-            tctxtbox.Size = new Size(552, 31);
+            tctxtbox.Size = new Size(442, 27);
             tctxtbox.TabIndex = 63;
             // 
             // matctxtbox
             // 
             matctxtbox.BackColor = Color.Gainsboro;
-            matctxtbox.Location = new Point(251, 32);
-            matctxtbox.Margin = new Padding(4);
+            matctxtbox.Location = new Point(201, 26);
             matctxtbox.Name = "matctxtbox";
             matctxtbox.ScrollBars = ScrollBars.Horizontal;
-            matctxtbox.Size = new Size(487, 31);
+            matctxtbox.Size = new Size(390, 27);
             matctxtbox.TabIndex = 47;
             // 
             // label2
             // 
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(35, 69);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(28, 55);
             label2.Name = "label2";
-            label2.Size = new Size(136, 34);
+            label2.Size = new Size(109, 27);
             label2.TabIndex = 63;
             label2.Text = "Tiền công:";
             // 
             // label1
             // 
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(35, 31);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(28, 25);
             label1.Name = "label1";
-            label1.Size = new Size(281, 34);
+            label1.Size = new Size(225, 27);
             label1.TabIndex = 51;
             label1.Text = "Mã loại tiền công:";
             // 
@@ -370,13 +398,13 @@
             themtcbtn.Image = Properties.Resources.plus;
             themtcbtn.ImageOffset = new Point(-3, 0);
             themtcbtn.ImageSize = new Size(25, 25);
-            themtcbtn.Location = new Point(782, 764);
-            themtcbtn.Margin = new Padding(4);
+            themtcbtn.Location = new Point(626, 611);
             themtcbtn.Name = "themtcbtn";
             themtcbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            themtcbtn.Size = new Size(331, 81);
+            themtcbtn.Size = new Size(265, 65);
             themtcbtn.TabIndex = 2;
             themtcbtn.Text = "Thêm loại tiền công";
+            themtcbtn.Click += themtiencong_btn_Click;
             // 
             // suatcbtn
             // 
@@ -396,13 +424,13 @@
             suatcbtn.Image = Properties.Resources.refresh;
             suatcbtn.ImageOffset = new Point(-3, 1);
             suatcbtn.ImageSize = new Size(30, 30);
-            suatcbtn.Location = new Point(1118, 764);
-            suatcbtn.Margin = new Padding(4);
+            suatcbtn.Location = new Point(894, 611);
             suatcbtn.Name = "suatcbtn";
             suatcbtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            suatcbtn.Size = new Size(331, 81);
+            suatcbtn.Size = new Size(265, 65);
             suatcbtn.TabIndex = 62;
             suatcbtn.Text = "Cập nhật loại tiền công";
+            suatcbtn.Click += suatiencong_btn_Click;
             // 
             // xuatbtn
             // 
@@ -422,13 +450,13 @@
             xuatbtn.Image = Properties.Resources.google_docs;
             xuatbtn.ImageOffset = new Point(-3, 0);
             xuatbtn.ImageSize = new Size(26, 26);
-            xuatbtn.Location = new Point(1118, 852);
-            xuatbtn.Margin = new Padding(4);
+            xuatbtn.Location = new Point(894, 682);
             xuatbtn.Name = "xuatbtn";
             xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            xuatbtn.Size = new Size(331, 81);
+            xuatbtn.Size = new Size(265, 65);
             xuatbtn.TabIndex = 63;
             xuatbtn.Text = "Xuất file danh sách";
+            xuatbtn.Click += xuatbtn_Click;
             // 
             // xoatcbtn
             // 
@@ -448,13 +476,13 @@
             xoatcbtn.Image = Properties.Resources.delete;
             xoatcbtn.ImageOffset = new Point(-3, 0);
             xoatcbtn.ImageSize = new Size(28, 28);
-            xoatcbtn.Location = new Point(779, 852);
-            xoatcbtn.Margin = new Padding(4);
+            xoatcbtn.Location = new Point(623, 682);
             xoatcbtn.Name = "xoatcbtn";
             xoatcbtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            xoatcbtn.Size = new Size(331, 81);
+            xoatcbtn.Size = new Size(265, 65);
             xoatcbtn.TabIndex = 64;
             xoatcbtn.Text = "Xoá loại tiền công";
+            xoatcbtn.Click += xoatcbtn_Click;
             // 
             // timkiemtxtbox
             // 
@@ -470,13 +498,13 @@
             timkiemtxtbox.Font = new Font("Segoe UI", 9F);
             timkiemtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             timkiemtxtbox.IconRightCursor = Cursors.AppStarting;
-            timkiemtxtbox.Location = new Point(521, 85);
-            timkiemtxtbox.Margin = new Padding(4);
+            timkiemtxtbox.Location = new Point(417, 68);
+            timkiemtxtbox.Margin = new Padding(3, 4, 3, 4);
             timkiemtxtbox.Name = "timkiemtxtbox";
             timkiemtxtbox.PlaceholderText = "";
             timkiemtxtbox.SelectedText = "";
             timkiemtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            timkiemtxtbox.Size = new Size(463, 31);
+            timkiemtxtbox.Size = new Size(370, 25);
             timkiemtxtbox.TabIndex = 0;
             // 
             // timkiembtn
@@ -493,50 +521,19 @@
             timkiembtn.Font = new Font("Segoe UI", 9F);
             timkiembtn.ForeColor = Color.Black;
             timkiembtn.Image = Properties.Resources.search_6699087_640__1_;
-            timkiembtn.Location = new Point(992, 85);
-            timkiembtn.Margin = new Padding(4);
+            timkiembtn.Location = new Point(794, 68);
             timkiembtn.Name = "timkiembtn";
             timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            timkiembtn.Size = new Size(99, 31);
+            timkiembtn.Size = new Size(79, 25);
             timkiembtn.TabIndex = 1;
-            // 
-            // ndtxtbox
-            // 
-            ndtxtbox.BackColor = Color.Gainsboro;
-            ndtxtbox.Enabled = false;
-            ndtxtbox.Location = new Point(186, 111);
-            ndtxtbox.Margin = new Padding(4);
-            ndtxtbox.Multiline = true;
-            ndtxtbox.Name = "ndtxtbox";
-            ndtxtbox.ReadOnly = true;
-            ndtxtbox.ScrollBars = ScrollBars.Horizontal;
-            ndtxtbox.Size = new Size(552, 94);
-            ndtxtbox.TabIndex = 66;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Mã tiền công";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Tiền công";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Nội dung";
-            Column3.MinimumWidth = 8;
-            Column3.Name = "Column3";
+            timkiembtn.Click += timkiembtn_Click;
             // 
             // DSTIENCONG
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1464, 992);
+            ClientSize = new Size(1171, 794);
             Controls.Add(timkiembtn);
             Controls.Add(timkiemtxtbox);
             Controls.Add(xoatcbtn);
@@ -552,6 +549,7 @@
             Controls.Add(guna2DataGridView1);
             Controls.Add(guna2Panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(2);
             Name = "DSTIENCONG";
             Text = "Danh sách loại tiền công";
             guna2Panel1.ResumeLayout(false);

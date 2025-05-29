@@ -53,12 +53,12 @@
             thoatbtn = new Button();
             label3 = new Label();
             hieuxedtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
             themhieuxebtn = new Guna.UI2.WinForms.Guna2Button();
             xuatbtn = new Guna.UI2.WinForms.Guna2Button();
             xoahieuxebtn = new Guna.UI2.WinForms.Guna2Button();
             timhieuxetxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             timkiembtn = new Guna.UI2.WinForms.Guna2Button();
+            HieuXa = new DataGridViewTextBoxColumn();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)hieuxedtgrid).BeginInit();
@@ -156,6 +156,7 @@
             thoatbtn.TabIndex = 3;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
+            thoatbtn.Click += thoat_btnClick;
             // 
             // label3
             // 
@@ -186,7 +187,7 @@
             hieuxedtgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             hieuxedtgrid.ColumnHeadersHeight = 33;
             hieuxedtgrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            hieuxedtgrid.Columns.AddRange(new DataGridViewColumn[] { Column1 });
+            hieuxedtgrid.Columns.AddRange(new DataGridViewColumn[] { HieuXa });
             dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = Color.White;
             dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
@@ -227,12 +228,6 @@
             hieuxedtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             hieuxedtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
-            // Column1
-            // 
-            Column1.HeaderText = "Hiệu xe";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            // 
             // themhieuxebtn
             // 
             themhieuxebtn.Anchor = AnchorStyles.Bottom;
@@ -257,6 +252,7 @@
             themhieuxebtn.Size = new Size(230, 65);
             themhieuxebtn.TabIndex = 2;
             themhieuxebtn.Text = "Thêm hiệu xe";
+            themhieuxebtn.Click += themhieuxebtn_Click;
             // 
             // xuatbtn
             // 
@@ -282,6 +278,7 @@
             xuatbtn.Size = new Size(230, 65);
             xuatbtn.TabIndex = 63;
             xuatbtn.Text = "Xuất file danh sách";
+            xuatbtn.Click += xuatbtn_Click;
             // 
             // xoahieuxebtn
             // 
@@ -307,6 +304,7 @@
             xoahieuxebtn.Size = new Size(230, 65);
             xoahieuxebtn.TabIndex = 64;
             xoahieuxebtn.Text = "Xoá hiệu xe";
+            xoahieuxebtn.Click += xoahieuxebtn_Click;
             // 
             // timhieuxetxtbox
             // 
@@ -350,6 +348,14 @@
             timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
             timkiembtn.Size = new Size(79, 25);
             timkiembtn.TabIndex = 1;
+            timkiembtn.Click += timkiembtn_Click;
+            // 
+            // HieuXa
+            // 
+            HieuXa.DataPropertyName = "HieuXe";
+            HieuXa.HeaderText = "Hiệu xe";
+            HieuXa.MinimumWidth = 8;
+            HieuXa.Name = "HieuXa";
             // 
             // DSHIEUXE
             // 
@@ -392,6 +398,6 @@
         private Guna.UI2.WinForms.Guna2Button xoahieuxebtn;
         private Guna.UI2.WinForms.Guna2TextBox timhieuxetxtbox;
         private Guna.UI2.WinForms.Guna2Button timkiembtn;
-        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn HieuXa;
     }
 }
