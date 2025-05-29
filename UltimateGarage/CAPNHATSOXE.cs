@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UltimateGarage.DAO;
 
 namespace UltimateGarage
 {
@@ -15,11 +16,29 @@ namespace UltimateGarage
         public CAPNHATSOXE()
         {
             InitializeComponent();
+            HienThi();
+        }
+        void HienThi()
+        {
+            maxxenumeric.Value = QUYDINHDAO.Instance.HienThiSoXe();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void capnhatbtn_Click(object sender, EventArgs e)
         {
+            int max = Convert.ToInt32(maxxenumeric.Value);
 
+            if (QUYDINHDAO.Instance.CapNhatSoXeMax(max))
+                this.Close();
+            else
+            {
+                MessageBox.Show("Cập nhật thất bại!");
+                this.Close();
+            }
+        }
+
+        private void thoatbtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
