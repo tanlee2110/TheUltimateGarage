@@ -43,11 +43,11 @@
             ngaynhapdtpicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
             mpntxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             pnkvtptdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            thoatbtn = new Button();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
-            thoatbtn = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pnkvtptdtgrid).BeginInit();
             SuspendLayout();
@@ -57,8 +57,9 @@
             panel1.BackColor = Color.MidnightBlue;
             panel1.Controls.Add(label1);
             panel1.Location = new Point(1, 0);
+            panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1472, 82);
+            panel1.Size = new Size(1178, 66);
             panel1.TabIndex = 0;
             // 
             // label1
@@ -67,10 +68,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 19.8F, FontStyle.Bold);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(366, 14);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(293, 11);
             label1.Name = "label1";
-            label1.Size = new Size(740, 54);
+            label1.Size = new Size(606, 45);
             label1.TabIndex = 1;
             label1.Text = "PHIẾU NHẬP KHO VẬT TƯ PHỤ TÙNG";
             // 
@@ -79,10 +79,9 @@
             label2.Anchor = AnchorStyles.Top;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(222, 99);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(178, 79);
             label2.Name = "label2";
-            label2.Size = new Size(182, 32);
+            label2.Size = new Size(147, 28);
             label2.TabIndex = 4;
             label2.Text = "Mã phiếu nhập:";
             // 
@@ -91,10 +90,9 @@
             label3.Anchor = AnchorStyles.Top;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(759, 94);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(607, 75);
             label3.Name = "label3";
-            label3.Size = new Size(136, 32);
+            label3.Size = new Size(112, 28);
             label3.TabIndex = 5;
             label3.Text = "Ngày nhập:";
             // 
@@ -105,12 +103,13 @@
             ngaynhapdtpicker.FillColor = Color.White;
             ngaynhapdtpicker.Font = new Font("Segoe UI", 9F);
             ngaynhapdtpicker.Format = DateTimePickerFormat.Long;
-            ngaynhapdtpicker.Location = new Point(906, 96);
+            ngaynhapdtpicker.Location = new Point(725, 77);
+            ngaynhapdtpicker.Margin = new Padding(2);
             ngaynhapdtpicker.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             ngaynhapdtpicker.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             ngaynhapdtpicker.Name = "ngaynhapdtpicker";
             ngaynhapdtpicker.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            ngaynhapdtpicker.Size = new Size(312, 31);
+            ngaynhapdtpicker.Size = new Size(250, 25);
             ngaynhapdtpicker.TabIndex = 6;
             ngaynhapdtpicker.Value = new DateTime(2025, 5, 18, 22, 10, 29, 776);
             // 
@@ -131,14 +130,14 @@
             mpntxtbox.Font = new Font("Segoe UI", 9F);
             mpntxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             mpntxtbox.IconRightCursor = Cursors.AppStarting;
-            mpntxtbox.Location = new Point(414, 99);
-            mpntxtbox.Margin = new Padding(4, 5, 4, 5);
+            mpntxtbox.Location = new Point(331, 79);
+            mpntxtbox.Margin = new Padding(3, 4, 3, 4);
             mpntxtbox.Name = "mpntxtbox";
             mpntxtbox.PlaceholderText = "";
             mpntxtbox.ReadOnly = true;
             mpntxtbox.SelectedText = "";
             mpntxtbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            mpntxtbox.Size = new Size(337, 31);
+            mpntxtbox.Size = new Size(270, 25);
             mpntxtbox.TabIndex = 73;
             // 
             // pnkvtptdtgrid
@@ -166,11 +165,13 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             pnkvtptdtgrid.DefaultCellStyle = dataGridViewCellStyle3;
             pnkvtptdtgrid.GridColor = Color.FromArgb(244, 245, 247);
-            pnkvtptdtgrid.Location = new Point(18, 140);
+            pnkvtptdtgrid.Location = new Point(14, 112);
+            pnkvtptdtgrid.Margin = new Padding(2);
             pnkvtptdtgrid.Name = "pnkvtptdtgrid";
             pnkvtptdtgrid.RowHeadersVisible = false;
             pnkvtptdtgrid.RowHeadersWidth = 51;
-            pnkvtptdtgrid.Size = new Size(1440, 610);
+            pnkvtptdtgrid.RowTemplate.Height = 33;
+            pnkvtptdtgrid.Size = new Size(1152, 488);
             pnkvtptdtgrid.TabIndex = 74;
             pnkvtptdtgrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Light;
             pnkvtptdtgrid.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(247, 248, 249);
@@ -195,46 +196,50 @@
             pnkvtptdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(239, 241, 243);
             pnkvtptdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black;
             // 
+            // thoatbtn
+            // 
+            thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            thoatbtn.Location = new Point(1072, 615);
+            thoatbtn.Name = "thoatbtn";
+            thoatbtn.Size = new Size(94, 29);
+            thoatbtn.TabIndex = 75;
+            thoatbtn.Text = "Thoát";
+            thoatbtn.UseVisualStyleBackColor = true;
+            thoatbtn.Click += thoat_btnClick;
+            // 
             // Column1
             // 
+            Column1.DataPropertyName = "MaVTPT";
             Column1.HeaderText = "Mã VTPT";
             Column1.MinimumWidth = 8;
             Column1.Name = "Column1";
             // 
             // Column2
             // 
+            Column2.DataPropertyName = "TenVTPT";
             Column2.HeaderText = "Tên VTPT";
             Column2.MinimumWidth = 8;
             Column2.Name = "Column2";
             // 
             // Column3
             // 
+            Column3.DataPropertyName = "SoLuong";
             Column3.HeaderText = "Số lượng";
             Column3.MinimumWidth = 8;
             Column3.Name = "Column3";
             // 
             // Column4
             // 
+            Column4.DataPropertyName = "GiaNhap";
             Column4.HeaderText = "Đơn giá nhập";
             Column4.MinimumWidth = 8;
             Column4.Name = "Column4";
             // 
-            // thoatbtn
-            // 
-            thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(1340, 769);
-            thoatbtn.Margin = new Padding(4);
-            thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(118, 36);
-            thoatbtn.TabIndex = 75;
-            thoatbtn.Text = "Thoát";
-            thoatbtn.UseVisualStyleBackColor = true;
-            // 
             // CHITIETPNK
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1472, 820);
+            ClientSize = new Size(1178, 656);
             Controls.Add(thoatbtn);
             Controls.Add(pnkvtptdtgrid);
             Controls.Add(mpntxtbox);
@@ -243,8 +248,10 @@
             Controls.Add(label2);
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(2);
             Name = "CHITIETPNK";
             Text = "CHITIETPNK";
+            Load += CHITIETPNK_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pnkvtptdtgrid).EndInit();
@@ -261,10 +268,10 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker ngaynhapdtpicker;
         private Guna.UI2.WinForms.Guna2TextBox mpntxtbox;
         private Guna.UI2.WinForms.Guna2DataGridView pnkvtptdtgrid;
+        private Button thoatbtn;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
-        private Button thoatbtn;
     }
 }

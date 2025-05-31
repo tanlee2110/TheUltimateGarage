@@ -60,12 +60,12 @@
             timkiemtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             SearchLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             phieunhapvtptdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            MaNKVTPT = new DataGridViewTextBoxColumn();
-            NgayNhap = new DataGridViewTextBoxColumn();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             thoatbtn = new Guna.UI2.WinForms.Guna2Button();
             xuatbtn = new Guna.UI2.WinForms.Guna2Button();
             xemctbtn = new Guna.UI2.WinForms.Guna2Button();
+            MaNKVTPT = new DataGridViewTextBoxColumn();
+            NgayNhap = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)phieunhapvtptdtgrid).BeginInit();
@@ -139,6 +139,7 @@
             timngayradio.TabStop = true;
             timngayradio.Text = "Tìm theo ngày lập";
             timngayradio.UseVisualStyleBackColor = true;
+            timngayradio.Click += timngayradio_CheckedChanged;
             // 
             // timtheomaradio
             // 
@@ -150,6 +151,7 @@
             timtheomaradio.TabStop = true;
             timtheomaradio.Text = "Tìm theo mã phiếu";
             timtheomaradio.UseVisualStyleBackColor = true;
+            timtheomaradio.Click += timtheomaradio_CheckedChanged_1;
             // 
             // timkiembtn
             // 
@@ -168,6 +170,7 @@
             timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
             timkiembtn.Size = new Size(75, 35);
             timkiembtn.TabIndex = 2;
+            timkiembtn.Click += timkiembtn_Click;
             // 
             // timkiemtxtbox
             // 
@@ -255,18 +258,6 @@
             phieunhapvtptdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(245, 215, 95);
             phieunhapvtptdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black;
             // 
-            // MaNKVTPT
-            // 
-            MaNKVTPT.HeaderText = "Số phiếu nhập";
-            MaNKVTPT.MinimumWidth = 6;
-            MaNKVTPT.Name = "MaNKVTPT";
-            // 
-            // NgayNhap
-            // 
-            NgayNhap.HeaderText = "Ngày nhập";
-            NgayNhap.MinimumWidth = 6;
-            NgayNhap.Name = "NgayNhap";
-            // 
             // guna2Panel2
             // 
             guna2Panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
@@ -298,7 +289,7 @@
             thoatbtn.Size = new Size(83, 41);
             thoatbtn.TabIndex = 2;
             thoatbtn.Text = "Thoát";
-            thoatbtn.Click += thoatbtn_Click;
+            thoatbtn.Click += thoat_btnClick;
             // 
             // xuatbtn
             // 
@@ -317,6 +308,7 @@
             xuatbtn.Size = new Size(218, 66);
             xuatbtn.TabIndex = 1;
             xuatbtn.Text = "Xuất file";
+            xuatbtn.Click += xuatbtn_Click;
             // 
             // xemctbtn
             // 
@@ -335,6 +327,21 @@
             xemctbtn.Size = new Size(218, 66);
             xemctbtn.TabIndex = 0;
             xemctbtn.Text = "Xem chi tiết";
+            xemctbtn.Click += xemctbtn_Click;
+            // 
+            // MaNKVTPT
+            // 
+            MaNKVTPT.DataPropertyName = "MaNKVTPT";
+            MaNKVTPT.HeaderText = "Số phiếu nhập";
+            MaNKVTPT.MinimumWidth = 6;
+            MaNKVTPT.Name = "MaNKVTPT";
+            // 
+            // NgayNhap
+            // 
+            NgayNhap.DataPropertyName = "NgayNhap";
+            NgayNhap.HeaderText = "Ngày nhập";
+            NgayNhap.MinimumWidth = 6;
+            NgayNhap.Name = "NgayNhap";
             // 
             // DSPNKVTPT
             // 
