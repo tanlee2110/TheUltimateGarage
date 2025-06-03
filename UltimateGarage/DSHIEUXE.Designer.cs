@@ -70,7 +70,7 @@
             guna2Panel1.Controls.Add(VatTuPhuTung_Title);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
-            guna2Panel1.Margin = new Padding(1, 1, 1, 1);
+            guna2Panel1.Margin = new Padding(1);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Panel1.Size = new Size(701, 48);
@@ -280,7 +280,7 @@
             xuatbtn.FillColor = Color.Transparent;
             xuatbtn.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             xuatbtn.ForeColor = SystemColors.ActiveCaptionText;
-            xuatbtn.Image = Properties.Resources.export;
+            xuatbtn.Image = Properties.Resources.export__1_;
             xuatbtn.ImageOffset = new Point(-3, 0);
             xuatbtn.ImageSize = new Size(26, 26);
             xuatbtn.Location = new Point(472, 301);
@@ -381,7 +381,7 @@
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(1, 1, 1, 1);
+            Margin = new Padding(1);
             MaximizeBox = false;
             Name = "DSHIEUXE";
             Text = "Danh sách hiệu xe";
