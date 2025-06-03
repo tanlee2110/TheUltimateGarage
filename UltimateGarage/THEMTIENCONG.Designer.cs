@@ -51,9 +51,10 @@
             // thembtn
             // 
             thembtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thembtn.Location = new Point(427, 160);
+            thembtn.Location = new Point(374, 120);
+            thembtn.Margin = new Padding(3, 2, 3, 2);
             thembtn.Name = "thembtn";
-            thembtn.Size = new Size(94, 29);
+            thembtn.Size = new Size(83, 22);
             thembtn.TabIndex = 68;
             thembtn.Text = "Thêm";
             thembtn.UseVisualStyleBackColor = true;
@@ -62,9 +63,10 @@
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(527, 160);
+            thoatbtn.Location = new Point(461, 120);
+            thoatbtn.Margin = new Padding(3, 2, 3, 2);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(94, 29);
+            thoatbtn.Size = new Size(83, 22);
             thoatbtn.TabIndex = 69;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
@@ -75,9 +77,9 @@
             label7.Anchor = AnchorStyles.Top;
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 13.8F);
-            label7.Location = new Point(33, 93);
+            label7.Location = new Point(29, 70);
             label7.Name = "label7";
-            label7.Size = new Size(119, 31);
+            label7.Size = new Size(99, 25);
             label7.TabIndex = 65;
             label7.Text = "Tiền công:";
             // 
@@ -86,9 +88,9 @@
             label8.Anchor = AnchorStyles.Top;
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 13.8F);
-            label8.Location = new Point(33, 60);
+            label8.Location = new Point(29, 45);
             label8.Name = "label8";
-            label8.Size = new Size(197, 31);
+            label8.Size = new Size(163, 25);
             label8.TabIndex = 66;
             label8.Text = "Mã loại tiền công:";
             // 
@@ -97,19 +99,20 @@
             TenChuXe.Anchor = AnchorStyles.Top;
             TenChuXe.AutoSize = true;
             TenChuXe.Font = new Font("Segoe UI", 13.8F);
-            TenChuXe.Location = new Point(33, 126);
+            TenChuXe.Location = new Point(29, 95);
             TenChuXe.Name = "TenChuXe";
-            TenChuXe.Size = new Size(115, 31);
+            TenChuXe.Size = new Size(95, 25);
             TenChuXe.TabIndex = 67;
             TenChuXe.Text = "Nội dung:";
             // 
             // panel1
             // 
-            panel1.BackColor = Color.MidnightBlue;
+            panel1.BackColor = Color.FromArgb(222, 227, 62);
             panel1.Controls.Add(VatTuPhuTung_Title);
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(634, 60);
+            panel1.Size = new Size(554, 45);
             panel1.TabIndex = 70;
             // 
             // VatTuPhuTung_Title
@@ -117,11 +120,11 @@
             VatTuPhuTung_Title.Anchor = AnchorStyles.Top;
             VatTuPhuTung_Title.AutoSize = true;
             VatTuPhuTung_Title.Font = new Font("Segoe UI", 19.8F, FontStyle.Bold);
-            VatTuPhuTung_Title.ForeColor = Color.White;
-            VatTuPhuTung_Title.Location = new Point(143, 8);
-            VatTuPhuTung_Title.Margin = new Padding(5, 0, 5, 0);
+            VatTuPhuTung_Title.ForeColor = Color.Black;
+            VatTuPhuTung_Title.Location = new Point(125, 6);
+            VatTuPhuTung_Title.Margin = new Padding(4, 0, 4, 0);
             VatTuPhuTung_Title.Name = "VatTuPhuTung_Title";
-            VatTuPhuTung_Title.Size = new Size(382, 45);
+            VatTuPhuTung_Title.Size = new Size(312, 37);
             VatTuPhuTung_Title.TabIndex = 71;
             VatTuPhuTung_Title.Text = "THÊM LOẠI TIỀN CÔNG";
             // 
@@ -141,13 +144,12 @@
             matctxtbox.Font = new Font("Segoe UI", 9F);
             matctxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             matctxtbox.IconRightCursor = Cursors.AppStarting;
-            matctxtbox.Location = new Point(235, 65);
-            matctxtbox.Margin = new Padding(3, 4, 3, 4);
+            matctxtbox.Location = new Point(206, 49);
             matctxtbox.Name = "matctxtbox";
             matctxtbox.PlaceholderText = "";
             matctxtbox.SelectedText = "";
             matctxtbox.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            matctxtbox.Size = new Size(360, 24);
+            matctxtbox.Size = new Size(315, 18);
             matctxtbox.TabIndex = 71;
             // 
             // tctxtbox
@@ -166,13 +168,12 @@
             tctxtbox.Font = new Font("Segoe UI", 9F);
             tctxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tctxtbox.IconRightCursor = Cursors.AppStarting;
-            tctxtbox.Location = new Point(235, 98);
-            tctxtbox.Margin = new Padding(3, 4, 3, 4);
+            tctxtbox.Location = new Point(206, 73);
             tctxtbox.Name = "tctxtbox";
             tctxtbox.PlaceholderText = "";
             tctxtbox.SelectedText = "";
             tctxtbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            tctxtbox.Size = new Size(360, 24);
+            tctxtbox.Size = new Size(315, 18);
             tctxtbox.TabIndex = 72;
             // 
             // ndtxtbox
@@ -191,23 +192,22 @@
             ndtxtbox.Font = new Font("Segoe UI", 9F);
             ndtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             ndtxtbox.IconRightCursor = Cursors.AppStarting;
-            ndtxtbox.Location = new Point(235, 130);
-            ndtxtbox.Margin = new Padding(3, 4, 3, 4);
+            ndtxtbox.Location = new Point(206, 97);
             ndtxtbox.Name = "ndtxtbox";
             ndtxtbox.PlaceholderText = "";
             ndtxtbox.SelectedText = "";
             ndtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            ndtxtbox.Size = new Size(360, 24);
+            ndtxtbox.Size = new Size(315, 18);
             ndtxtbox.TabIndex = 73;
             // 
             // THEMTIENCONG
             // 
             AcceptButton = thembtn;
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             CancelButton = thoatbtn;
-            ClientSize = new Size(633, 201);
+            ClientSize = new Size(554, 151);
             Controls.Add(ndtxtbox);
             Controls.Add(tctxtbox);
             Controls.Add(matctxtbox);
@@ -217,8 +217,10 @@
             Controls.Add(label7);
             Controls.Add(label8);
             Controls.Add(TenChuXe);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "THEMTIENCONG";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Thêm loại tiền công";

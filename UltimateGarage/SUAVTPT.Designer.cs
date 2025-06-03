@@ -51,9 +51,10 @@
             // capnhatbtn
             // 
             capnhatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            capnhatbtn.Location = new Point(398, 170);
+            capnhatbtn.Location = new Point(349, 127);
+            capnhatbtn.Margin = new Padding(3, 2, 3, 2);
             capnhatbtn.Name = "capnhatbtn";
-            capnhatbtn.Size = new Size(94, 29);
+            capnhatbtn.Size = new Size(83, 22);
             capnhatbtn.TabIndex = 68;
             capnhatbtn.Text = "Cập nhật";
             capnhatbtn.UseVisualStyleBackColor = true;
@@ -62,9 +63,10 @@
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(499, 170);
+            thoatbtn.Location = new Point(437, 127);
+            thoatbtn.Margin = new Padding(3, 2, 3, 2);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(94, 29);
+            thoatbtn.Size = new Size(83, 22);
             thoatbtn.TabIndex = 69;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
@@ -75,9 +77,9 @@
             label7.Anchor = AnchorStyles.Top;
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 13.8F);
-            label7.Location = new Point(73, 102);
+            label7.Location = new Point(64, 77);
             label7.Name = "label7";
-            label7.Size = new Size(111, 31);
+            label7.Size = new Size(93, 25);
             label7.TabIndex = 65;
             label7.Text = "Tên VTPT:";
             // 
@@ -86,19 +88,20 @@
             label8.Anchor = AnchorStyles.Top;
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 13.8F);
-            label8.Location = new Point(73, 71);
+            label8.Location = new Point(64, 53);
             label8.Name = "label8";
-            label8.Size = new Size(109, 31);
+            label8.Size = new Size(91, 25);
             label8.TabIndex = 66;
             label8.Text = "Mã VTPT:";
             // 
             // panel1
             // 
-            panel1.BackColor = Color.MidnightBlue;
+            panel1.BackColor = Color.FromArgb(222, 227, 62);
             panel1.Controls.Add(VatTuPhuTung_Title);
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(606, 60);
+            panel1.Size = new Size(531, 45);
             panel1.TabIndex = 70;
             // 
             // VatTuPhuTung_Title
@@ -106,11 +109,11 @@
             VatTuPhuTung_Title.Anchor = AnchorStyles.Top;
             VatTuPhuTung_Title.AutoSize = true;
             VatTuPhuTung_Title.Font = new Font("Segoe UI", 19.8F, FontStyle.Bold);
-            VatTuPhuTung_Title.ForeColor = Color.White;
-            VatTuPhuTung_Title.Location = new Point(19, 9);
+            VatTuPhuTung_Title.ForeColor = Color.Black;
+            VatTuPhuTung_Title.Location = new Point(17, 7);
             VatTuPhuTung_Title.Margin = new Padding(4, 0, 4, 0);
             VatTuPhuTung_Title.Name = "VatTuPhuTung_Title";
-            VatTuPhuTung_Title.Size = new Size(585, 45);
+            VatTuPhuTung_Title.Size = new Size(481, 37);
             VatTuPhuTung_Title.TabIndex = 71;
             VatTuPhuTung_Title.Text = "SỬA THÔNG TIN VẬT TƯ PHỤ TÙNG";
             // 
@@ -131,15 +134,14 @@
             mavtpttxtbox.Font = new Font("Segoe UI", 9F);
             mavtpttxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             mavtpttxtbox.IconRightCursor = Cursors.AppStarting;
-            mavtpttxtbox.Location = new Point(188, 76);
-            mavtpttxtbox.Margin = new Padding(3, 4, 3, 4);
+            mavtpttxtbox.Location = new Point(164, 57);
             mavtpttxtbox.Name = "mavtpttxtbox";
             mavtpttxtbox.PlaceholderText = "";
             mavtpttxtbox.ReadOnly = true;
             mavtpttxtbox.ScrollBars = ScrollBars.Horizontal;
             mavtpttxtbox.SelectedText = "";
             mavtpttxtbox.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            mavtpttxtbox.Size = new Size(359, 24);
+            mavtpttxtbox.Size = new Size(314, 18);
             mavtpttxtbox.TabIndex = 72;
             // 
             // tenvtpttxtbox
@@ -158,13 +160,12 @@
             tenvtpttxtbox.Font = new Font("Segoe UI", 9F);
             tenvtpttxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tenvtpttxtbox.IconRightCursor = Cursors.AppStarting;
-            tenvtpttxtbox.Location = new Point(188, 106);
-            tenvtpttxtbox.Margin = new Padding(3, 4, 3, 4);
+            tenvtpttxtbox.Location = new Point(164, 79);
             tenvtpttxtbox.Name = "tenvtpttxtbox";
             tenvtpttxtbox.PlaceholderText = "";
             tenvtpttxtbox.SelectedText = "";
             tenvtpttxtbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            tenvtpttxtbox.Size = new Size(359, 24);
+            tenvtpttxtbox.Size = new Size(314, 18);
             tenvtpttxtbox.TabIndex = 73;
             // 
             // label1
@@ -172,9 +173,9 @@
             label1.Anchor = AnchorStyles.Top;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13.8F);
-            label1.Location = new Point(73, 132);
+            label1.Location = new Point(64, 99);
             label1.Name = "label1";
-            label1.Size = new Size(100, 31);
+            label1.Size = new Size(82, 25);
             label1.TabIndex = 74;
             label1.Text = "Đơn giá:";
             // 
@@ -194,24 +195,23 @@
             dgtxtbox.Font = new Font("Segoe UI", 9F);
             dgtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             dgtxtbox.IconRightCursor = Cursors.AppStarting;
-            dgtxtbox.Location = new Point(188, 137);
-            dgtxtbox.Margin = new Padding(3, 4, 3, 4);
+            dgtxtbox.Location = new Point(164, 103);
             dgtxtbox.Name = "dgtxtbox";
             dgtxtbox.PlaceholderText = "";
             dgtxtbox.SelectedText = "";
             dgtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            dgtxtbox.Size = new Size(359, 24);
+            dgtxtbox.Size = new Size(314, 18);
             dgtxtbox.TabIndex = 75;
             dgtxtbox.TextChanged += dgtxtbox_TextChanged;
             // 
             // SUAVTPT
             // 
             AcceptButton = capnhatbtn;
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HighlightText;
             CancelButton = thoatbtn;
-            ClientSize = new Size(605, 211);
+            ClientSize = new Size(529, 158);
             Controls.Add(dgtxtbox);
             Controls.Add(label1);
             Controls.Add(tenvtpttxtbox);
@@ -221,8 +221,9 @@
             Controls.Add(thoatbtn);
             Controls.Add(label7);
             Controls.Add(label8);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             Name = "SUAVTPT";
             Text = "Cập nhật thông tin vật tư phụ tùng";

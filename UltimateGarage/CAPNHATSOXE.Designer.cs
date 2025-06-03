@@ -52,19 +52,20 @@
             Panel1.BackColor = Color.FromArgb(222, 227, 62);
             Panel1.Controls.Add(label1);
             Panel1.CustomizableEdges = customizableEdges1;
-            Panel1.Location = new Point(-15, -2);
+            Panel1.Location = new Point(-13, -2);
+            Panel1.Margin = new Padding(3, 2, 3, 2);
             Panel1.Name = "Panel1";
             Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            Panel1.Size = new Size(721, 69);
+            Panel1.Size = new Size(631, 52);
             Panel1.TabIndex = 2;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 19.8F, FontStyle.Bold);
-            label1.Location = new Point(39, 11);
+            label1.Location = new Point(34, 8);
             label1.Name = "label1";
-            label1.Size = new Size(636, 45);
+            label1.Size = new Size(517, 37);
             label1.TabIndex = 0;
             label1.Text = "SỐ XE SỮA CHỮA TỐI ĐA TRONG NGÀY";
             // 
@@ -73,11 +74,10 @@
             maxxenumeric.BackColor = Color.Transparent;
             maxxenumeric.CustomizableEdges = customizableEdges3;
             maxxenumeric.Font = new Font("Segoe UI", 9F);
-            maxxenumeric.Location = new Point(222, 86);
-            maxxenumeric.Margin = new Padding(3, 4, 3, 4);
+            maxxenumeric.Location = new Point(194, 64);
             maxxenumeric.Name = "maxxenumeric";
             maxxenumeric.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            maxxenumeric.Size = new Size(244, 37);
+            maxxenumeric.Size = new Size(214, 28);
             maxxenumeric.TabIndex = 12;
             maxxenumeric.UpDownButtonFillColor = Color.White;
             maxxenumeric.Value = new decimal(new int[] { 1, 0, 0, 0 });
@@ -95,10 +95,11 @@
             capnhatbtn.FillColor = Color.White;
             capnhatbtn.Font = new Font("Segoe UI", 9F);
             capnhatbtn.ForeColor = Color.Black;
-            capnhatbtn.Location = new Point(434, 142);
+            capnhatbtn.Location = new Point(380, 106);
+            capnhatbtn.Margin = new Padding(3, 2, 3, 2);
             capnhatbtn.Name = "capnhatbtn";
             capnhatbtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            capnhatbtn.Size = new Size(108, 36);
+            capnhatbtn.Size = new Size(94, 27);
             capnhatbtn.TabIndex = 13;
             capnhatbtn.Text = "Cập nhật";
             capnhatbtn.Click += capnhatbtn_Click;
@@ -116,10 +117,11 @@
             thoatbtn.FillColor = Color.White;
             thoatbtn.Font = new Font("Segoe UI", 9F);
             thoatbtn.ForeColor = Color.Black;
-            thoatbtn.Location = new Point(561, 142);
+            thoatbtn.Location = new Point(491, 106);
+            thoatbtn.Margin = new Padding(3, 2, 3, 2);
             thoatbtn.Name = "thoatbtn";
             thoatbtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            thoatbtn.Size = new Size(108, 36);
+            thoatbtn.Size = new Size(94, 27);
             thoatbtn.TabIndex = 14;
             thoatbtn.Text = "Thoát";
             thoatbtn.Click += thoatbtn_Click;
@@ -128,23 +130,26 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(178, 95);
+            label2.Location = new Point(156, 71);
             label2.Name = "label2";
-            label2.Size = new Size(38, 28);
+            label2.Size = new Size(30, 21);
             label2.TabIndex = 15;
             label2.Text = "Xe:";
             // 
             // CAPNHATSOXE
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(681, 190);
+            ClientSize = new Size(596, 142);
             Controls.Add(label2);
             Controls.Add(thoatbtn);
             Controls.Add(capnhatbtn);
             Controls.Add(maxxenumeric);
             Controls.Add(Panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "CAPNHATSOXE";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cập nhật số xe sửa chữa tối đa trong ngày";

@@ -81,25 +81,25 @@
             // 
             // guna2Panel1
             // 
-            guna2Panel1.BackColor = Color.MidnightBlue;
+            guna2Panel1.BackColor = Color.FromArgb(222, 227, 62);
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
-            guna2Panel1.Margin = new Padding(2, 2, 2, 2);
+            guna2Panel1.Margin = new Padding(1);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(1108, 66);
+            guna2Panel1.Size = new Size(970, 49);
             guna2Panel1.TabIndex = 0;
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.Top;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(378, 10);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(330, 7);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(462, 43);
+            label1.Size = new Size(405, 32);
             label1.TabIndex = 0;
             label1.Text = "BÁO CÁO TỒN KHO";
             label1.UseMnemonic = false;
@@ -132,7 +132,8 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(19, 210);
+            guna2DataGridView1.Location = new Point(17, 157);
+            guna2DataGridView1.Margin = new Padding(3, 2, 3, 2);
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 62;
@@ -171,13 +172,15 @@
             guna2GroupBox1.Controls.Add(namnumeric);
             guna2GroupBox1.Controls.Add(label3);
             guna2GroupBox1.Controls.Add(label2);
+            guna2GroupBox1.CustomBorderColor = Color.FromArgb(241, 196, 15);
             guna2GroupBox1.CustomizableEdges = customizableEdges11;
             guna2GroupBox1.Font = new Font("Segoe UI", 9F);
             guna2GroupBox1.ForeColor = SystemColors.ControlText;
-            guna2GroupBox1.Location = new Point(12, 71);
+            guna2GroupBox1.Location = new Point(10, 53);
+            guna2GroupBox1.Margin = new Padding(3, 2, 3, 2);
             guna2GroupBox1.Name = "guna2GroupBox1";
             guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2GroupBox1.Size = new Size(1081, 99);
+            guna2GroupBox1.Size = new Size(946, 74);
             guna2GroupBox1.TabIndex = 1;
             guna2GroupBox1.Text = "Báo cáo tháng, năm";
             // 
@@ -195,13 +198,14 @@
             xuatbtn.FillColor = SystemColors.HighlightText;
             xuatbtn.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             xuatbtn.ForeColor = SystemColors.ActiveCaptionText;
-            xuatbtn.Image = Properties.Resources.report__1_1;
+            xuatbtn.Image = Properties.Resources.clipboard1;
             xuatbtn.ImageAlign = HorizontalAlignment.Left;
             xuatbtn.ImageSize = new Size(30, 30);
-            xuatbtn.Location = new Point(809, 38);
+            xuatbtn.Location = new Point(708, 29);
+            xuatbtn.Margin = new Padding(3, 2, 3, 2);
             xuatbtn.Name = "xuatbtn";
             xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            xuatbtn.Size = new Size(265, 55);
+            xuatbtn.Size = new Size(232, 41);
             xuatbtn.TabIndex = 59;
             xuatbtn.Text = "Xuất báo cáo";
             xuatbtn.Click += xuatBaoCao_btnClick;
@@ -223,10 +227,11 @@
             themtiencong_btn.Image = Properties.Resources.report1;
             themtiencong_btn.ImageAlign = HorizontalAlignment.Left;
             themtiencong_btn.ImageSize = new Size(30, 30);
-            themtiencong_btn.Location = new Point(537, 38);
+            themtiencong_btn.Location = new Point(470, 29);
+            themtiencong_btn.Margin = new Padding(3, 2, 3, 2);
             themtiencong_btn.Name = "themtiencong_btn";
             themtiencong_btn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            themtiencong_btn.Size = new Size(265, 55);
+            themtiencong_btn.Size = new Size(232, 41);
             themtiencong_btn.TabIndex = 41;
             themtiencong_btn.Text = "Hiện báo cáo";
             themtiencong_btn.Click += hienBaoCao_btnClick;
@@ -239,15 +244,14 @@
             thangnumeric.CustomizableEdges = customizableEdges7;
             thangnumeric.Font = new Font("Segoe UI", 9F);
             thangnumeric.ForeColor = SystemColors.WindowText;
-            thangnumeric.Location = new Point(120, 54);
-            thangnumeric.Margin = new Padding(3, 4, 3, 4);
+            thangnumeric.Location = new Point(105, 41);
             thangnumeric.Maximum = new decimal(new int[] { 12, 0, 0, 0 });
             thangnumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             thangnumeric.Name = "thangnumeric";
             thangnumeric.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            thangnumeric.Size = new Size(137, 26);
+            thangnumeric.Size = new Size(120, 19);
             thangnumeric.TabIndex = 58;
-            thangnumeric.UpDownButtonFillColor = Color.MidnightBlue;
+            thangnumeric.UpDownButtonFillColor = Color.FromArgb(222, 227, 62);
             thangnumeric.UpDownButtonForeColor = Color.White;
             thangnumeric.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
@@ -257,9 +261,9 @@
             label4.AutoSize = true;
             label4.BackColor = Color.White;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(298, 52);
+            label4.Location = new Point(260, 39);
             label4.Name = "label4";
-            label4.Size = new Size(58, 28);
+            label4.Size = new Size(47, 21);
             label4.TabIndex = 57;
             label4.Text = "Năm:";
             // 
@@ -271,25 +275,24 @@
             namnumeric.CustomizableEdges = customizableEdges9;
             namnumeric.Font = new Font("Segoe UI", 9F);
             namnumeric.ForeColor = SystemColors.WindowText;
-            namnumeric.Location = new Point(362, 54);
-            namnumeric.Margin = new Padding(3, 4, 3, 4);
+            namnumeric.Location = new Point(316, 41);
             namnumeric.Maximum = new decimal(new int[] { 2050, 0, 0, 0 });
             namnumeric.Minimum = new decimal(new int[] { 2000, 0, 0, 0 });
             namnumeric.Name = "namnumeric";
             namnumeric.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            namnumeric.Size = new Size(137, 26);
+            namnumeric.Size = new Size(120, 19);
             namnumeric.TabIndex = 56;
-            namnumeric.UpDownButtonFillColor = Color.MidnightBlue;
+            namnumeric.UpDownButtonFillColor = Color.FromArgb(222, 227, 62);
             namnumeric.UpDownButtonForeColor = Color.White;
             namnumeric.Value = new decimal(new int[] { 2000, 0, 0, 0 });
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(368, 56);
-            label3.Margin = new Padding(2, 0, 2, 0);
+            label3.Location = new Point(322, 42);
+            label3.Margin = new Padding(1, 0, 1, 0);
             label3.Name = "label3";
-            label3.Size = new Size(0, 20);
+            label3.Size = new Size(0, 15);
             label3.TabIndex = 1;
             // 
             // label2
@@ -298,23 +301,25 @@
             label2.AutoSize = true;
             label2.BackColor = Color.White;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(44, 52);
+            label2.Location = new Point(38, 39);
             label2.Name = "label2";
-            label2.Size = new Size(70, 28);
+            label2.Size = new Size(56, 21);
             label2.TabIndex = 54;
             label2.Text = "Tháng:";
             // 
             // guna2GroupBox2
             // 
             guna2GroupBox2.Controls.Add(bctdtgrid);
+            guna2GroupBox2.CustomBorderColor = Color.FromArgb(241, 196, 15);
             guna2GroupBox2.CustomizableEdges = customizableEdges13;
             guna2GroupBox2.Font = new Font("Segoe UI", 9F);
             guna2GroupBox2.ForeColor = SystemColors.ControlText;
-            guna2GroupBox2.Location = new Point(12, 176);
+            guna2GroupBox2.Location = new Point(10, 132);
+            guna2GroupBox2.Margin = new Padding(3, 2, 3, 2);
             guna2GroupBox2.Name = "guna2GroupBox2";
-            guna2GroupBox2.Padding = new Padding(3, 3, 3, 3);
+            guna2GroupBox2.Padding = new Padding(3, 2, 3, 2);
             guna2GroupBox2.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2GroupBox2.Size = new Size(1081, 450);
+            guna2GroupBox2.Size = new Size(946, 337);
             guna2GroupBox2.TabIndex = 2;
             guna2GroupBox2.Text = "Chi tiết báo cáo";
             // 
@@ -348,7 +353,8 @@
             bctdtgrid.DefaultCellStyle = dataGridViewCellStyle6;
             bctdtgrid.EnableHeadersVisualStyles = true;
             bctdtgrid.GridColor = SystemColors.ControlDark;
-            bctdtgrid.Location = new Point(0, 32);
+            bctdtgrid.Location = new Point(0, 24);
+            bctdtgrid.Margin = new Padding(3, 2, 3, 2);
             bctdtgrid.Name = "bctdtgrid";
             dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = SystemColors.Control;
@@ -361,7 +367,7 @@
             bctdtgrid.RowHeadersVisible = false;
             bctdtgrid.RowHeadersWidth = 51;
             bctdtgrid.RowTemplate.Height = 33;
-            bctdtgrid.Size = new Size(1081, 418);
+            bctdtgrid.Size = new Size(946, 313);
             bctdtgrid.TabIndex = 1;
             bctdtgrid.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             bctdtgrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -424,9 +430,10 @@
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(1001, 642);
+            thoatbtn.Location = new Point(876, 481);
+            thoatbtn.Margin = new Padding(3, 2, 3, 2);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(94, 32);
+            thoatbtn.Size = new Size(83, 24);
             thoatbtn.TabIndex = 3;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
@@ -434,17 +441,19 @@
             // 
             // BAOCAOTON
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = themtiencong_btn;
-            ClientSize = new Size(1107, 690);
+            ClientSize = new Size(969, 517);
             Controls.Add(thoatbtn);
             Controls.Add(guna2GroupBox2);
             Controls.Add(guna2GroupBox1);
             Controls.Add(guna2DataGridView1);
             Controls.Add(guna2Panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(1);
+            MaximizeBox = false;
             Name = "BAOCAOTON";
             Text = "Báo cáo tồn kho";
             guna2Panel1.ResumeLayout(false);

@@ -60,12 +60,12 @@
             timkiemtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             SearchLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             phieunhapvtptdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            MaNKVTPT = new DataGridViewTextBoxColumn();
+            NgayNhap = new DataGridViewTextBoxColumn();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             thoatbtn = new Guna.UI2.WinForms.Guna2Button();
             xuatbtn = new Guna.UI2.WinForms.Guna2Button();
             xemctbtn = new Guna.UI2.WinForms.Guna2Button();
-            MaNKVTPT = new DataGridViewTextBoxColumn();
-            NgayNhap = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)phieunhapvtptdtgrid).BeginInit();
@@ -80,18 +80,20 @@
             panel1.CustomizableEdges = customizableEdges1;
             panel1.FillColor = Color.FromArgb(222, 227, 62);
             panel1.Location = new Point(2, 2);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
             panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            panel1.Size = new Size(1205, 74);
+            panel1.Size = new Size(1054, 56);
             panel1.TabIndex = 0;
             // 
             // VatTuPhuTung_Title
             // 
             VatTuPhuTung_Title.BackColor = Color.Transparent;
             VatTuPhuTung_Title.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            VatTuPhuTung_Title.Location = new Point(207, 10);
+            VatTuPhuTung_Title.Location = new Point(181, 8);
+            VatTuPhuTung_Title.Margin = new Padding(3, 2, 3, 2);
             VatTuPhuTung_Title.Name = "VatTuPhuTung_Title";
-            VatTuPhuTung_Title.Size = new Size(793, 47);
+            VatTuPhuTung_Title.Size = new Size(628, 38);
             VatTuPhuTung_Title.TabIndex = 0;
             VatTuPhuTung_Title.Text = "DANH SÁCH PHIẾU NHẬP KHO VẬT TƯ PHỤ TÙNG";
             // 
@@ -106,10 +108,11 @@
             guna2Panel1.Controls.Add(timkiemtxtbox);
             guna2Panel1.Controls.Add(SearchLabel);
             guna2Panel1.CustomizableEdges = customizableEdges9;
-            guna2Panel1.Location = new Point(2, 82);
+            guna2Panel1.Location = new Point(2, 62);
+            guna2Panel1.Margin = new Padding(3, 2, 3, 2);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel1.Size = new Size(1205, 144);
+            guna2Panel1.Size = new Size(1054, 108);
             guna2Panel1.TabIndex = 1;
             // 
             // ngaydtpicker
@@ -120,21 +123,23 @@
             ngaydtpicker.FillColor = Color.FromArgb(241, 196, 15);
             ngaydtpicker.Font = new Font("Segoe UI", 9F);
             ngaydtpicker.Format = DateTimePickerFormat.Long;
-            ngaydtpicker.Location = new Point(486, 85);
+            ngaydtpicker.Location = new Point(425, 64);
+            ngaydtpicker.Margin = new Padding(3, 2, 3, 2);
             ngaydtpicker.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             ngaydtpicker.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             ngaydtpicker.Name = "ngaydtpicker";
             ngaydtpicker.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            ngaydtpicker.Size = new Size(250, 40);
+            ngaydtpicker.Size = new Size(219, 30);
             ngaydtpicker.TabIndex = 5;
             ngaydtpicker.Value = new DateTime(2025, 5, 14, 20, 34, 15, 233);
             // 
             // timngayradio
             // 
             timngayradio.AutoSize = true;
-            timngayradio.Location = new Point(634, 55);
+            timngayradio.Location = new Point(555, 41);
+            timngayradio.Margin = new Padding(3, 2, 3, 2);
             timngayradio.Name = "timngayradio";
-            timngayradio.Size = new Size(150, 24);
+            timngayradio.Size = new Size(121, 19);
             timngayradio.TabIndex = 4;
             timngayradio.TabStop = true;
             timngayradio.Text = "Tìm theo ngày lập";
@@ -144,9 +149,10 @@
             // timtheomaradio
             // 
             timtheomaradio.AutoSize = true;
-            timtheomaradio.Location = new Point(464, 55);
+            timtheomaradio.Location = new Point(406, 41);
+            timtheomaradio.Margin = new Padding(3, 2, 3, 2);
             timtheomaradio.Name = "timtheomaradio";
-            timtheomaradio.Size = new Size(155, 24);
+            timtheomaradio.Size = new Size(126, 19);
             timtheomaradio.TabIndex = 3;
             timtheomaradio.TabStop = true;
             timtheomaradio.Text = "Tìm theo mã phiếu";
@@ -165,10 +171,11 @@
             timkiembtn.Font = new Font("Segoe UI", 9F);
             timkiembtn.ForeColor = Color.Black;
             timkiembtn.Image = Properties.Resources.search_6699087_640__1_;
-            timkiembtn.Location = new Point(802, 13);
+            timkiembtn.Location = new Point(702, 10);
+            timkiembtn.Margin = new Padding(3, 2, 3, 2);
             timkiembtn.Name = "timkiembtn";
             timkiembtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            timkiembtn.Size = new Size(75, 35);
+            timkiembtn.Size = new Size(66, 26);
             timkiembtn.TabIndex = 2;
             timkiembtn.Click += timkiembtn_Click;
             // 
@@ -185,22 +192,22 @@
             timkiemtxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             timkiemtxtbox.Font = new Font("Segoe UI", 9F);
             timkiemtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            timkiemtxtbox.Location = new Point(477, 13);
-            timkiemtxtbox.Margin = new Padding(3, 4, 3, 4);
+            timkiemtxtbox.Location = new Point(417, 10);
             timkiemtxtbox.Name = "timkiemtxtbox";
             timkiemtxtbox.PlaceholderText = "";
             timkiemtxtbox.SelectedText = "";
             timkiemtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            timkiemtxtbox.Size = new Size(286, 35);
+            timkiemtxtbox.Size = new Size(250, 26);
             timkiemtxtbox.TabIndex = 1;
             // 
             // SearchLabel
             // 
             SearchLabel.BackColor = Color.Transparent;
             SearchLabel.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            SearchLabel.Location = new Point(385, 21);
+            SearchLabel.Location = new Point(337, 16);
+            SearchLabel.Margin = new Padding(3, 2, 3, 2);
             SearchLabel.Name = "SearchLabel";
-            SearchLabel.Size = new Size(86, 27);
+            SearchLabel.Size = new Size(69, 21);
             SearchLabel.TabIndex = 0;
             SearchLabel.Text = "Tìm kiếm:";
             // 
@@ -229,11 +236,13 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             phieunhapvtptdtgrid.DefaultCellStyle = dataGridViewCellStyle3;
             phieunhapvtptdtgrid.GridColor = Color.FromArgb(249, 233, 170);
-            phieunhapvtptdtgrid.Location = new Point(2, 232);
+            phieunhapvtptdtgrid.Location = new Point(2, 174);
+            phieunhapvtptdtgrid.Margin = new Padding(3, 2, 3, 2);
             phieunhapvtptdtgrid.Name = "phieunhapvtptdtgrid";
             phieunhapvtptdtgrid.RowHeadersVisible = false;
             phieunhapvtptdtgrid.RowHeadersWidth = 51;
-            phieunhapvtptdtgrid.Size = new Size(1205, 377);
+            phieunhapvtptdtgrid.RowTemplate.Height = 29;
+            phieunhapvtptdtgrid.Size = new Size(1054, 283);
             phieunhapvtptdtgrid.TabIndex = 2;
             phieunhapvtptdtgrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.SunFlower;
             phieunhapvtptdtgrid.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(250, 237, 183);
@@ -258,6 +267,20 @@
             phieunhapvtptdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(245, 215, 95);
             phieunhapvtptdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black;
             // 
+            // MaNKVTPT
+            // 
+            MaNKVTPT.DataPropertyName = "MaNKVTPT";
+            MaNKVTPT.HeaderText = "Số phiếu nhập";
+            MaNKVTPT.MinimumWidth = 6;
+            MaNKVTPT.Name = "MaNKVTPT";
+            // 
+            // NgayNhap
+            // 
+            NgayNhap.DataPropertyName = "NgayNhap";
+            NgayNhap.HeaderText = "Ngày nhập";
+            NgayNhap.MinimumWidth = 6;
+            NgayNhap.Name = "NgayNhap";
+            // 
             // guna2Panel2
             // 
             guna2Panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
@@ -266,10 +289,11 @@
             guna2Panel2.Controls.Add(xuatbtn);
             guna2Panel2.Controls.Add(xemctbtn);
             guna2Panel2.CustomizableEdges = customizableEdges17;
-            guna2Panel2.Location = new Point(2, 612);
+            guna2Panel2.Location = new Point(2, 459);
+            guna2Panel2.Margin = new Padding(3, 2, 3, 2);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2Panel2.Size = new Size(1205, 80);
+            guna2Panel2.Size = new Size(1054, 60);
             guna2Panel2.TabIndex = 3;
             // 
             // thoatbtn
@@ -283,10 +307,11 @@
             thoatbtn.FillColor = Color.FromArgb(222, 227, 62);
             thoatbtn.Font = new Font("Segoe UI", 9F);
             thoatbtn.ForeColor = Color.Black;
-            thoatbtn.Location = new Point(1103, 28);
+            thoatbtn.Location = new Point(965, 21);
+            thoatbtn.Margin = new Padding(3, 2, 3, 2);
             thoatbtn.Name = "thoatbtn";
             thoatbtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            thoatbtn.Size = new Size(83, 41);
+            thoatbtn.Size = new Size(73, 31);
             thoatbtn.TabIndex = 2;
             thoatbtn.Text = "Thoát";
             thoatbtn.Click += thoat_btnClick;
@@ -302,10 +327,11 @@
             xuatbtn.FillColor = Color.FromArgb(222, 227, 62);
             xuatbtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             xuatbtn.ForeColor = Color.Black;
-            xuatbtn.Location = new Point(685, 3);
+            xuatbtn.Location = new Point(599, 2);
+            xuatbtn.Margin = new Padding(3, 2, 3, 2);
             xuatbtn.Name = "xuatbtn";
             xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            xuatbtn.Size = new Size(218, 66);
+            xuatbtn.Size = new Size(191, 50);
             xuatbtn.TabIndex = 1;
             xuatbtn.Text = "Xuất file";
             xuatbtn.Click += xuatbtn_Click;
@@ -321,38 +347,28 @@
             xemctbtn.FillColor = Color.FromArgb(222, 227, 62);
             xemctbtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             xemctbtn.ForeColor = Color.Black;
-            xemctbtn.Location = new Point(337, 6);
+            xemctbtn.Location = new Point(295, 4);
+            xemctbtn.Margin = new Padding(3, 2, 3, 2);
             xemctbtn.Name = "xemctbtn";
             xemctbtn.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            xemctbtn.Size = new Size(218, 66);
+            xemctbtn.Size = new Size(191, 50);
             xemctbtn.TabIndex = 0;
             xemctbtn.Text = "Xem chi tiết";
             xemctbtn.Click += xemctbtn_Click;
             // 
-            // MaNKVTPT
-            // 
-            MaNKVTPT.DataPropertyName = "MaNKVTPT";
-            MaNKVTPT.HeaderText = "Số phiếu nhập";
-            MaNKVTPT.MinimumWidth = 6;
-            MaNKVTPT.Name = "MaNKVTPT";
-            // 
-            // NgayNhap
-            // 
-            NgayNhap.DataPropertyName = "NgayNhap";
-            NgayNhap.HeaderText = "Ngày nhập";
-            NgayNhap.MinimumWidth = 6;
-            NgayNhap.Name = "NgayNhap";
-            // 
             // DSPNKVTPT
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1212, 693);
+            ClientSize = new Size(1060, 520);
             Controls.Add(guna2Panel2);
             Controls.Add(phieunhapvtptdtgrid);
             Controls.Add(guna2Panel1);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "DSPNKVTPT";
             Text = "DSPNKVTPT";
             panel1.ResumeLayout(false);

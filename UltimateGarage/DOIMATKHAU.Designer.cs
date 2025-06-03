@@ -58,17 +58,18 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(label1);
             panel2.Location = new Point(-2, -1);
-            panel2.Margin = new Padding(2, 2, 2, 2);
+            panel2.Margin = new Padding(2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(321, 232);
+            panel2.Size = new Size(281, 174);
             panel2.TabIndex = 0;
             // 
             // doibtn
             // 
             doibtn.ImeMode = ImeMode.NoControl;
-            doibtn.Location = new Point(106, 186);
+            doibtn.Location = new Point(93, 140);
+            doibtn.Margin = new Padding(3, 2, 3, 2);
             doibtn.Name = "doibtn";
-            doibtn.Size = new Size(94, 29);
+            doibtn.Size = new Size(82, 22);
             doibtn.TabIndex = 74;
             doibtn.Text = "Đổi";
             doibtn.UseVisualStyleBackColor = true;
@@ -77,9 +78,10 @@
             // thoatbtn
             // 
             thoatbtn.ImeMode = ImeMode.NoControl;
-            thoatbtn.Location = new Point(211, 187);
+            thoatbtn.Location = new Point(185, 140);
+            thoatbtn.Margin = new Padding(3, 2, 3, 2);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(94, 29);
+            thoatbtn.Size = new Size(82, 22);
             thoatbtn.TabIndex = 73;
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
@@ -101,13 +103,12 @@
             nhaplaitxtbox.Font = new Font("Segoe UI", 9F);
             nhaplaitxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             nhaplaitxtbox.IconRightCursor = Cursors.AppStarting;
-            nhaplaitxtbox.Location = new Point(6, 149);
-            nhaplaitxtbox.Margin = new Padding(3, 4, 3, 4);
+            nhaplaitxtbox.Location = new Point(5, 112);
             nhaplaitxtbox.Name = "nhaplaitxtbox";
             nhaplaitxtbox.PlaceholderText = "";
             nhaplaitxtbox.SelectedText = "";
             nhaplaitxtbox.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            nhaplaitxtbox.Size = new Size(305, 25);
+            nhaplaitxtbox.Size = new Size(267, 19);
             nhaplaitxtbox.TabIndex = 72;
             // 
             // mkmtxtbox
@@ -126,13 +127,12 @@
             mkmtxtbox.Font = new Font("Segoe UI", 9F);
             mkmtxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             mkmtxtbox.IconRightCursor = Cursors.AppStarting;
-            mkmtxtbox.Location = new Point(6, 91);
-            mkmtxtbox.Margin = new Padding(3, 4, 3, 4);
+            mkmtxtbox.Location = new Point(5, 68);
             mkmtxtbox.Name = "mkmtxtbox";
             mkmtxtbox.PlaceholderText = "";
             mkmtxtbox.SelectedText = "";
             mkmtxtbox.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            mkmtxtbox.Size = new Size(305, 25);
+            mkmtxtbox.Size = new Size(267, 19);
             mkmtxtbox.TabIndex = 71;
             // 
             // mkctxtbox
@@ -151,50 +151,51 @@
             mkctxtbox.Font = new Font("Segoe UI", 9F);
             mkctxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             mkctxtbox.IconRightCursor = Cursors.AppStarting;
-            mkctxtbox.Location = new Point(6, 34);
-            mkctxtbox.Margin = new Padding(3, 4, 3, 4);
+            mkctxtbox.Location = new Point(5, 26);
             mkctxtbox.Name = "mkctxtbox";
             mkctxtbox.PlaceholderText = "";
             mkctxtbox.SelectedText = "";
             mkctxtbox.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            mkctxtbox.Size = new Size(305, 25);
+            mkctxtbox.Size = new Size(267, 19);
             mkctxtbox.TabIndex = 70;
             // 
             // label3
             // 
-            label3.Location = new Point(6, 122);
+            label3.Location = new Point(5, 92);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(157, 20);
+            label3.Size = new Size(137, 15);
             label3.TabIndex = 2;
             label3.Text = "Nhập lại mật khẩu mới:";
             // 
             // label2
             // 
-            label2.Location = new Point(9, 65);
+            label2.Location = new Point(8, 49);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(101, 20);
+            label2.Size = new Size(88, 15);
             label2.TabIndex = 1;
             label2.Text = "Mật khẩu mới:";
             // 
             // label1
             // 
-            label1.Location = new Point(6, 7);
+            label1.Location = new Point(5, 5);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(101, 20);
+            label1.Size = new Size(88, 15);
             label1.TabIndex = 0;
             label1.Text = "Mật khẩu cũ:";
             // 
             // DOIMATKHAU
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(320, 229);
+            ClientSize = new Size(280, 172);
             Controls.Add(panel2);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
+            MaximizeBox = false;
             Name = "DOIMATKHAU";
             Text = "Đổi mật khẩu";
             panel2.ResumeLayout(false);
