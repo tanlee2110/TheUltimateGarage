@@ -161,6 +161,7 @@
             // 
             dateTimePicker1.Checked = true;
             dateTimePicker1.CustomizableEdges = customizableEdges5;
+            dateTimePicker1.Enabled = false;
             dateTimePicker1.FillColor = Color.FromArgb(222, 227, 62);
             dateTimePicker1.Font = new Font("Segoe UI", 9F);
             dateTimePicker1.Format = DateTimePickerFormat.Long;
@@ -170,9 +171,10 @@
             dateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            dateTimePicker1.ShowUpDown = true;
             dateTimePicker1.Size = new Size(214, 28);
             dateTimePicker1.TabIndex = 8;
-            dateTimePicker1.Value = new DateTime(2025, 5, 5, 16, 18, 16, 615);
+            dateTimePicker1.Value = new DateTime(2025, 6, 10, 0, 0, 0, 0);
             // 
             // label3
             // 

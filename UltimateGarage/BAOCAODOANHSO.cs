@@ -88,5 +88,33 @@ namespace UltimateGarage
         {
 
         }
+
+        private void bieudobtn_Click(object sender, EventArgs e)
+        {
+            int nam = Convert.ToInt32(namnumeric.Value);
+            List<string> thangLabels = new List<string>();
+            List<double> doanhThu = new List<double>();
+
+            // Lấy dữ liệu doanh thu cho từng tháng trong năm
+            for (int thang = 1; thang <= 12; thang++)
+            {
+                DataTable dt = BAOCAODOANHTHUDAO.Instance.BaoCao(thang, nam);
+                double tongThanhTien = 0;
+
+                if (dt.Rows.Count > 0)
+                {
+                    SqlDataReader dr = BAOCAODOANHTHUDAO.Instance.TongThanhTien(thang, nam);
+                    if (dr.Read())
+                        tongThanhTien = Convert.ToDouble(dr["TONGTHANHTIEN"]);
+                }
+
+                thangLabels.Add($"Tháng {thang}");
+                doanhThu.Add(tongThanhTien);
+            }
+
+            string title = $"Biểu đồ doanh thu năm {nam}";
+            ChartForm chartForm = new ChartForm(thangLabels, doanhThu, title);
+            chartForm.Show();
+        }
     }
 }

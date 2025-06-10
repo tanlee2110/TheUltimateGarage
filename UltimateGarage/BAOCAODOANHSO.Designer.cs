@@ -65,13 +65,14 @@
             label2 = new Label();
             guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             bcdsdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            label5 = new Label();
+            tongThanhTien_txtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            thoatbtn = new Button();
+            bieudobtn = new Button();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
-            label5 = new Label();
-            tongThanhTien_txtbox = new Guna.UI2.WinForms.Guna2TextBox();
-            thoatbtn = new Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             guna2GroupBox1.SuspendLayout();
@@ -87,7 +88,7 @@
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
-            guna2Panel1.Margin = new Padding(1);
+            guna2Panel1.Margin = new Padding(1, 1, 1, 1);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Panel1.Size = new Size(970, 49);
@@ -247,6 +248,7 @@
             thangnumeric.Font = new Font("Segoe UI", 9F);
             thangnumeric.ForeColor = SystemColors.WindowText;
             thangnumeric.Location = new Point(105, 41);
+            thangnumeric.Margin = new Padding(4, 5, 4, 5);
             thangnumeric.Maximum = new decimal(new int[] { 12, 0, 0, 0 });
             thangnumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             thangnumeric.Name = "thangnumeric";
@@ -278,6 +280,7 @@
             namnumeric.Font = new Font("Segoe UI", 9F);
             namnumeric.ForeColor = SystemColors.WindowText;
             namnumeric.Location = new Point(316, 41);
+            namnumeric.Margin = new Padding(4, 5, 4, 5);
             namnumeric.Maximum = new decimal(new int[] { 2050, 0, 0, 0 });
             namnumeric.Minimum = new decimal(new int[] { 2000, 0, 0, 0 });
             namnumeric.Name = "namnumeric";
@@ -394,30 +397,6 @@
             bcdsdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             bcdsdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
-            // Column1
-            // 
-            Column1.HeaderText = "Hiệu xe";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Thành tiền";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Số lượt sửa chữa";
-            Column3.MinimumWidth = 8;
-            Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Tỉ lệ";
-            Column4.MinimumWidth = 8;
-            Column4.Name = "Column4";
-            // 
             // label5
             // 
             label5.AutoSize = true;
@@ -443,7 +422,7 @@
             tongThanhTien_txtbox.ForeColor = SystemColors.WindowText;
             tongThanhTien_txtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tongThanhTien_txtbox.Location = new Point(379, 481);
-            tongThanhTien_txtbox.Margin = new Padding(4);
+            tongThanhTien_txtbox.Margin = new Padding(4, 4, 4, 4);
             tongThanhTien_txtbox.Name = "tongThanhTien_txtbox";
             tongThanhTien_txtbox.PlaceholderText = "";
             tongThanhTien_txtbox.SelectedText = "";
@@ -464,12 +443,53 @@
             thoatbtn.UseVisualStyleBackColor = true;
             thoatbtn.Click += thoat_btnClick;
             // 
+            // bieudobtn
+            // 
+            bieudobtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            bieudobtn.Location = new Point(8, 481);
+            bieudobtn.Margin = new Padding(3, 2, 3, 2);
+            bieudobtn.Name = "bieudobtn";
+            bieudobtn.Size = new Size(83, 24);
+            bieudobtn.TabIndex = 18;
+            bieudobtn.Text = "Biểu đồ";
+            bieudobtn.UseVisualStyleBackColor = true;
+            bieudobtn.Click += bieudobtn_Click;
+            // 
+            // Column1
+            // 
+            Column1.DataPropertyName = "HieuXe";
+            Column1.HeaderText = "Hiệu xe";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.DataPropertyName = "ThanhTien";
+            Column2.HeaderText = "Thành tiền";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.DataPropertyName = "SoLuot";
+            Column3.HeaderText = "Số lượt sửa chữa";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.DataPropertyName = "TiLe";
+            Column4.HeaderText = "Tỉ lệ";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            // 
             // BAOCAODOANHSO
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = hienbcbtn;
             ClientSize = new Size(969, 517);
+            Controls.Add(bieudobtn);
             Controls.Add(thoatbtn);
             Controls.Add(tongThanhTien_txtbox);
             Controls.Add(label5);
@@ -479,7 +499,7 @@
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(1);
+            Margin = new Padding(1, 1, 1, 1);
             MaximizeBox = false;
             Name = "BAOCAODOANHSO";
             Text = "Báo cáo doanh số tháng";
@@ -510,12 +530,13 @@
         private Guna.UI2.WinForms.Guna2Button xuatbtn;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox2;
         private Guna.UI2.WinForms.Guna2DataGridView bcdsdtgrid;
+        private Label label5;
+        private Guna.UI2.WinForms.Guna2TextBox tongThanhTien_txtbox;
+        private Button thoatbtn;
+        private Button bieudobtn;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
-        private Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox tongThanhTien_txtbox;
-        private Button thoatbtn;
     }
 }

@@ -63,13 +63,13 @@
             label2 = new Label();
             guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             bctdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column5 = new DataGridViewTextBoxColumn();
-            Column6 = new DataGridViewTextBoxColumn();
             thoatbtn = new Button();
+            MaVTPT = new DataGridViewTextBoxColumn();
+            TenVTPT = new DataGridViewTextBoxColumn();
+            TonDau = new DataGridViewTextBoxColumn();
+            PhatSinh = new DataGridViewTextBoxColumn();
+            SuDung = new DataGridViewTextBoxColumn();
+            TonCuoi = new DataGridViewTextBoxColumn();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             guna2GroupBox1.SuspendLayout();
@@ -342,7 +342,7 @@
             bctdtgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             bctdtgrid.ColumnHeadersHeight = 33;
             bctdtgrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            bctdtgrid.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6 });
+            bctdtgrid.Columns.AddRange(new DataGridViewColumn[] { MaVTPT, TenVTPT, TonDau, PhatSinh, SuDung, TonCuoi });
             dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = Color.White;
             dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
@@ -391,42 +391,6 @@
             bctdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             bctdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
-            // Column1
-            // 
-            Column1.HeaderText = "Mã VTPT";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Tên VTPT";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Tồn đầu";
-            Column3.MinimumWidth = 8;
-            Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Phát sinh";
-            Column4.MinimumWidth = 8;
-            Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            Column5.HeaderText = "Sử dụng";
-            Column5.MinimumWidth = 8;
-            Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            Column6.HeaderText = "Tồn cuối";
-            Column6.MinimumWidth = 8;
-            Column6.Name = "Column6";
-            // 
             // thoatbtn
             // 
             thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
@@ -438,6 +402,48 @@
             thoatbtn.Text = "Thoát";
             thoatbtn.UseVisualStyleBackColor = true;
             thoatbtn.Click += thoat_btnClick;
+            // 
+            // MaVTPT
+            // 
+            MaVTPT.DataPropertyName = "MaVTPT";
+            MaVTPT.HeaderText = "Mã VTPT";
+            MaVTPT.MinimumWidth = 8;
+            MaVTPT.Name = "MaVTPT";
+            // 
+            // TenVTPT
+            // 
+            TenVTPT.DataPropertyName = "TenVTPT";
+            TenVTPT.HeaderText = "Tên VTPT";
+            TenVTPT.MinimumWidth = 8;
+            TenVTPT.Name = "TenVTPT";
+            // 
+            // TonDau
+            // 
+            TonDau.DataPropertyName = "TonDau";
+            TonDau.HeaderText = "Tồn đầu";
+            TonDau.MinimumWidth = 8;
+            TonDau.Name = "TonDau";
+            // 
+            // PhatSinh
+            // 
+            PhatSinh.DataPropertyName = "PhatSinh";
+            PhatSinh.HeaderText = "Phát sinh";
+            PhatSinh.MinimumWidth = 8;
+            PhatSinh.Name = "PhatSinh";
+            // 
+            // SuDung
+            // 
+            SuDung.DataPropertyName = "SuDung";
+            SuDung.HeaderText = "Sử dụng";
+            SuDung.MinimumWidth = 8;
+            SuDung.Name = "SuDung";
+            // 
+            // TonCuoi
+            // 
+            TonCuoi.DataPropertyName = "TonCuoi";
+            TonCuoi.HeaderText = "Tồn cuối";
+            TonCuoi.MinimumWidth = 8;
+            TonCuoi.Name = "TonCuoi";
             // 
             // BAOCAOTON
             // 
@@ -491,6 +497,12 @@
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
+        private DataGridViewTextBoxColumn MaVTPT;
+        private DataGridViewTextBoxColumn TenVTPT;
+        private DataGridViewTextBoxColumn TonDau;
+        private DataGridViewTextBoxColumn PhatSinh;
+        private DataGridViewTextBoxColumn SuDung;
+        private DataGridViewTextBoxColumn TonCuoi;
     }
 
 }

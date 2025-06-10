@@ -24,6 +24,8 @@ namespace UltimateGarage
         private void PHIEUSUACHUA_Load(object sender, EventArgs e)
         {
             mapsctxtbox.Text = PHIEUSUACHUADAO.Instance.LoadMPSC();
+            dateTimePicker1.Value = DateTime.Now;
+            dateTimePicker1.Enabled = false;
             SqlDataReader dr = XEDAO.Instance.LoadBienSo();
             while (dr.Read())
             {
