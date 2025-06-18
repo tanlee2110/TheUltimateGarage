@@ -466,5 +466,11 @@ namespace UltimateGarage
             LIENHE form = new LIENHE();
             form.ShowDialog();
         }
+
+        private void AI_button_Click(object sender, EventArgs e)
+        {
+            AIChat form = new AIChat();
+            form.ShowDialog();
+        }
     }
 }
