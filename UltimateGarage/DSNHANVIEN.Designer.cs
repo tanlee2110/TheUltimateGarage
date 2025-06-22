@@ -99,7 +99,7 @@
             guna2Panel1.Controls.Add(VatTuPhuTung_Title);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
-            guna2Panel1.Margin = new Padding(1, 1, 1, 1);
+            guna2Panel1.Margin = new Padding(1);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Panel1.Size = new Size(1231, 49);
@@ -716,7 +716,7 @@
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(1, 1, 1, 1);
+            Margin = new Padding(1);
             MaximizeBox = false;
             Name = "DSNHANVIEN";
             Text = "Danh sách nhân viên";
