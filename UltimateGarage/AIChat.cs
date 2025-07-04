@@ -107,141 +107,63 @@ namespace UltimateGarage
 
         private async Task<string> GetAIResponse(string userMessage)
         {
-            // Sử dụng AI đơn giản dựa trên từ khóa
-            string response = GenerateSimpleAIResponse(userMessage);
-            
-            // Thêm delay để tạo cảm giác AI đang suy nghĩ
-            await Task.Delay(1000);
-            
-            return response;
-        }
+            try
+            {
+                // Tạo prompt chuyên về sửa xe bằng tiếng Việt
+                string systemPrompt = @"Bạn là chuyên gia sửa xe máy tại Việt Nam với 15 năm kinh nghiệm. 
+                Hãy trả lời bằng tiếng Việt, ngắn gọn, dễ hiểu và đưa ra các bước kiểm tra cụ thể.
+                Nếu không chắc chắn, hãy khuyên đưa xe đến garage để kiểm tra chuyên nghiệp.
+                Luôn đưa ra lời khuyên an toàn và thực tế.";
 
-        private string GenerateSimpleAIResponse(string userMessage)
-        {
-            string message = userMessage.ToLower();
-            
-            // Các từ khóa về động cơ
-            if (message.Contains("động cơ") || message.Contains("máy") || message.Contains("engine"))
-            {
-                if (message.Contains("không nổ") || message.Contains("không khởi động"))
+                string fullPrompt = $"{systemPrompt}\n\nKhách hàng hỏi: {userMessage}";
+
+                // Gọi Ollama API với Gemma:2b
+                var httpClient = new HttpClient();
+                var requestBody = new
                 {
-                    return "Vấn đề động cơ không nổ có thể do:\n" +
-                           "• Ắc quy yếu hoặc hết điện\n" +
-                           "• Bugi bị mòn hoặc bẩn\n" +
-                           "• Bộ lọc gió bị tắc\n" +
-                           "• Hết xăng\n" +
-                           "• Hệ thống đánh lửa bị lỗi\n\n" +
-                           "Khuyến nghị: Kiểm tra ắc quy trước, sau đó đến bugi và bộ lọc gió.";
-                }
-                else if (message.Contains("tiếng ồn") || message.Contains("ồn") || message.Contains("kêu"))
+                    model = "gemma3",
+                    messages = new[]
+                    {
+                        new { role = "user", content = fullPrompt }
+                    },
+                    stream = false,
+                    options = new
+                    {
+                        temperature = 0.5,
+                        top_p = 0.9,
+                        num_predict = 500
+                    }
+                };
+
+                var content = new StringContent(
+                    JsonConvert.SerializeObject(requestBody), 
+                    Encoding.UTF8, 
+                    "application/json"
+                );
+
+                var response = await httpClient.PostAsync(
+                    "http://localhost:11434/api/chat", 
+                    content
+                );
+
+                if (response.IsSuccessStatusCode)
                 {
-                    return "Tiếng ồn từ động cơ có thể do:\n" +
-                           "• Dây đai bị mòn hoặc lỏng\n" +
-                           "• Bơm nước bị hỏng\n" +
-                           "• Van bị lỗi\n" +
-                           "• Động cơ thiếu dầu nhớt\n\n" +
-                           "Khuyến nghị: Kiểm tra mức dầu nhớt và dây đai trước.";
-                }
-                else
-                {
-                    return "Vấn đề về động cơ có thể do:\n" +
-                           "• Thiếu dầu nhớt\n" +
-                           "• Bộ lọc gió bẩn\n" +
-                           "• Bugi bị mòn\n" +
-                           "• Hệ thống làm mát\n\n" +
-                           "Khuyến nghị: Kiểm tra mức dầu nhớt và bộ lọc gió trước.";
-                }
-            }
-            
-            // Các từ khóa về phanh
-            else if (message.Contains("phanh") || message.Contains("brake"))
-            {
-                if (message.Contains("mềm") || message.Contains("không ăn"))
-                {
-                    return "Phanh mềm có thể do:\n" +
-                           "• Thiếu dầu phanh\n" +
-                           "• Rò rỉ dầu phanh\n" +
-                           "• Má phanh bị mòn\n" +
-                           "• Không khí trong hệ thống phanh\n\n" +
-                           "Khuyến nghị: Kiểm tra mức dầu phanh và rò rỉ ngay lập tức.";
+                    var responseString = await response.Content.ReadAsStringAsync();
+                    dynamic result = JsonConvert.DeserializeObject(responseString);
+                    return result.message.content.ToString();
                 }
                 else
                 {
-                    return "Vấn đề về phanh có thể do:\n" +
-                           "• Má phanh bị mòn\n" +
-                           "• Dầu phanh bẩn\n" +
-                           "• Đĩa phanh bị cong\n" +
-                           "• Hệ thống phanh bị lỗi\n\n" +
-                           "Khuyến nghị: Kiểm tra má phanh và dầu phanh.";
+                    return "Xin lỗi, có lỗi kết nối với AI. Vui lòng kiểm tra:\n" +
+                           "• Ollama đã được cài đặt và chạy chưa?\n" +
+                           "• Model gemma3 đã được tải chưa?\n" +
+                           "• Thử chạy lệnh 'ollama run gemma3' trong terminal.";
                 }
             }
-            
-            // Các từ khóa về lốp xe
-            else if (message.Contains("lốp") || message.Contains("vỏ") || message.Contains("tire"))
+            catch (Exception ex)
             {
-                if (message.Contains("mòn") || message.Contains("phẳng"))
-                {
-                    return "Lốp xe bị mòn có thể do:\n" +
-                           "• Áp suất lốp không đều\n" +
-                           "• Căn chỉnh bánh xe sai\n" +
-                           "• Chạy quá tốc độ\n" +
-                           "• Tải trọng quá nặng\n\n" +
-                           "Khuyến nghị: Thay lốp mới và kiểm tra căn chỉnh bánh xe.";
-                }
-                else
-                {
-                    return "Vấn đề về lốp xe có thể do:\n" +
-                           "• Áp suất lốp không đúng\n" +
-                           "• Lốp bị thủng\n" +
-                           "• Lốp bị mòn không đều\n" +
-                           "• Cân bằng bánh xe\n\n" +
-                           "Khuyến nghị: Kiểm tra áp suất và tình trạng lốp.";
-                }
-            }
-            
-            // Các từ khóa về điện
-            else if (message.Contains("điện") || message.Contains("đèn") || message.Contains("light"))
-            {
-                return "Vấn đề về điện có thể do:\n" +
-                       "• Ắc quy yếu\n" +
-                       "• Cầu chì bị cháy\n" +
-                       "• Dây điện bị đứt\n" +
-                       "• Công tắc bị hỏng\n\n" +
-                       "Khuyến nghị: Kiểm tra ắc quy và cầu chì trước.";
-            }
-            
-            // Các từ khóa về bảo dưỡng
-            else if (message.Contains("bảo dưỡng") || message.Contains("maintenance"))
-            {
-                return "Bảo dưỡng xe định kỳ bao gồm:\n" +
-                       "• Thay dầu nhớt động cơ (5,000-10,000 km)\n" +
-                       "• Thay bộ lọc gió (20,000 km)\n" +
-                       "• Thay bộ lọc nhiên liệu (40,000 km)\n" +
-                       "• Kiểm tra phanh (10,000 km)\n" +
-                       "• Căn chỉnh bánh xe (20,000 km)\n\n" +
-                       "Khuyến nghị: Tuân thủ lịch bảo dưỡng để xe hoạt động tốt.";
-            }
-            
-            // Các từ khóa về chi phí
-            else if (message.Contains("giá") || message.Contains("tiền") || message.Contains("chi phí") || message.Contains("cost"))
-            {
-                return "Chi phí sửa chữa phụ thuộc vào:\n" +
-                       "• Loại xe và năm sản xuất\n" +
-                       "• Mức độ hư hỏng\n" +
-                       "• Phụ tùng cần thay\n" +
-                       "• Thời gian lao động\n\n" +
-                       "Khuyến nghị: Đưa xe đến garage để được báo giá chính xác.";
-            }
-            
-            // Câu trả lời mặc định
-            else
-            {
-                return "Tôi hiểu bạn đang gặp vấn đề với xe. Để tôi có thể giúp bạn tốt hơn, hãy mô tả chi tiết:\n" +
-                       "• Vấn đề gì đang xảy ra?\n" +
-                       "• Có tiếng ồn lạ không?\n" +
-                       "• Đèn báo lỗi có sáng không?\n" +
-                       "• Vấn đề xảy ra khi nào?\n\n" +
-                       "Hoặc bạn có thể hỏi về: động cơ, phanh, lốp xe, điện, bảo dưỡng, hoặc chi phí sửa chữa.";
+                return "Xin lỗi, có lỗi xảy ra khi kết nối với AI. Vui lòng thử lại sau.\n" +
+                       "Lỗi chi tiết: " + ex.Message;
             }
         }
     }
