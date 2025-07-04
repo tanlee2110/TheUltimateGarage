@@ -469,6 +469,11 @@ namespace UltimateGarage
 
         private void AI_button_Click(object sender, EventArgs e)
         {
+            if (NHANVIENDAO.Instance.flag != 0)
+            {
+                MessageBox.Show("Chỉ khách hàng mới được sử dụng chức năng tư vấn AI!");
+                return;
+            }
             AIChat form = new AIChat();
             form.ShowDialog();
         }
