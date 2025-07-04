@@ -60,13 +60,13 @@
             timkiemtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             SearchLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             phieunhapvtptdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            MaNKVTPT = new DataGridViewTextBoxColumn();
+            MaVTPT = new DataGridViewTextBoxColumn();
+            NgayNhap = new DataGridViewTextBoxColumn();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             thoatbtn = new Guna.UI2.WinForms.Guna2Button();
             xuatbtn = new Guna.UI2.WinForms.Guna2Button();
             xemctbtn = new Guna.UI2.WinForms.Guna2Button();
-            MaNKVTPT = new DataGridViewTextBoxColumn();
-            MaVTPT = new DataGridViewTextBoxColumn();
-            NgayNhap = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)phieunhapvtptdtgrid).BeginInit();
@@ -268,6 +268,26 @@
             phieunhapvtptdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(245, 215, 95);
             phieunhapvtptdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black;
             // 
+            // MaNKVTPT
+            // 
+            MaNKVTPT.DataPropertyName = "MaNKVTPT";
+            MaNKVTPT.HeaderText = "Số phiếu nhập";
+            MaNKVTPT.MinimumWidth = 6;
+            MaNKVTPT.Name = "MaNKVTPT";
+            // 
+            // MaVTPT
+            // 
+            MaVTPT.DataPropertyName = "MaVTPT";
+            MaVTPT.HeaderText = "Mã VTPT";
+            MaVTPT.Name = "MaVTPT";
+            // 
+            // NgayNhap
+            // 
+            NgayNhap.DataPropertyName = "NgayNhap";
+            NgayNhap.HeaderText = "Ngày nhập";
+            NgayNhap.MinimumWidth = 6;
+            NgayNhap.Name = "NgayNhap";
+            // 
             // guna2Panel2
             // 
             guna2Panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
@@ -342,26 +362,6 @@
             xemctbtn.TabIndex = 0;
             xemctbtn.Text = "Xem chi tiết";
             xemctbtn.Click += xemctbtn_Click;
-            // 
-            // MaNKVTPT
-            // 
-            MaNKVTPT.DataPropertyName = "MaNKVTPT";
-            MaNKVTPT.HeaderText = "Số phiếu nhập";
-            MaNKVTPT.MinimumWidth = 6;
-            MaNKVTPT.Name = "MaNKVTPT";
-            // 
-            // MaVTPT
-            // 
-            MaVTPT.DataPropertyName = "MaVTPT";
-            MaVTPT.HeaderText = "Mã VTPT";
-            MaVTPT.Name = "MaVTPT";
-            // 
-            // NgayNhap
-            // 
-            NgayNhap.DataPropertyName = "NgayNhap";
-            NgayNhap.HeaderText = "Ngày nhập";
-            NgayNhap.MinimumWidth = 6;
-            NgayNhap.Name = "NgayNhap";
             // 
             // DSPNKVTPT
             // 

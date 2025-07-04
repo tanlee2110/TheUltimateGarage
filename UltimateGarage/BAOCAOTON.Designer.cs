@@ -63,13 +63,13 @@
             label2 = new Label();
             guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             bctdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            thoatbtn = new Button();
             MaVTPT = new DataGridViewTextBoxColumn();
             TenVTPT = new DataGridViewTextBoxColumn();
             TonDau = new DataGridViewTextBoxColumn();
             PhatSinh = new DataGridViewTextBoxColumn();
             SuDung = new DataGridViewTextBoxColumn();
             TonCuoi = new DataGridViewTextBoxColumn();
+            thoatbtn = new Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             guna2GroupBox1.SuspendLayout();
@@ -391,18 +391,6 @@
             bctdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             bctdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
-            // thoatbtn
-            // 
-            thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(876, 481);
-            thoatbtn.Margin = new Padding(3, 2, 3, 2);
-            thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(83, 24);
-            thoatbtn.TabIndex = 3;
-            thoatbtn.Text = "Thoát";
-            thoatbtn.UseVisualStyleBackColor = true;
-            thoatbtn.Click += thoat_btnClick;
-            // 
             // MaVTPT
             // 
             MaVTPT.DataPropertyName = "MaVTPT";
@@ -444,6 +432,18 @@
             TonCuoi.HeaderText = "Tồn cuối";
             TonCuoi.MinimumWidth = 8;
             TonCuoi.Name = "TonCuoi";
+            // 
+            // thoatbtn
+            // 
+            thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            thoatbtn.Location = new Point(876, 481);
+            thoatbtn.Margin = new Padding(3, 2, 3, 2);
+            thoatbtn.Name = "thoatbtn";
+            thoatbtn.Size = new Size(83, 24);
+            thoatbtn.TabIndex = 3;
+            thoatbtn.Text = "Thoát";
+            thoatbtn.UseVisualStyleBackColor = true;
+            thoatbtn.Click += thoat_btnClick;
             // 
             // BAOCAOTON
             // 
