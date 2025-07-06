@@ -65,14 +65,14 @@
             label2 = new Label();
             guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             bcdsdtgrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            label5 = new Label();
-            tongThanhTien_txtbox = new Guna.UI2.WinForms.Guna2TextBox();
-            thoatbtn = new Button();
-            bieudobtn = new Button();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
+            label5 = new Label();
+            tongThanhTien_txtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            thoatbtn = new Button();
+            bieudobtn = new Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             guna2GroupBox1.SuspendLayout();
@@ -88,10 +88,10 @@
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.CustomizableEdges = customizableEdges1;
             guna2Panel1.Location = new Point(0, -1);
-            guna2Panel1.Margin = new Padding(1, 1, 1, 1);
+            guna2Panel1.Margin = new Padding(1);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(970, 49);
+            guna2Panel1.Size = new Size(1109, 65);
             guna2Panel1.TabIndex = 0;
             // 
             // label1
@@ -99,10 +99,10 @@
             label1.Anchor = AnchorStyles.Top;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(297, 7);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(339, 9);
+            label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(405, 32);
+            label1.Size = new Size(463, 43);
             label1.TabIndex = 0;
             label1.Text = "BÁO CÁO DOANH SỐ THÁNG";
             label1.UseMnemonic = false;
@@ -135,8 +135,7 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(17, 157);
-            guna2DataGridView1.Margin = new Padding(3, 2, 3, 2);
+            guna2DataGridView1.Location = new Point(19, 209);
             guna2DataGridView1.Name = "guna2DataGridView1";
             guna2DataGridView1.RowHeadersVisible = false;
             guna2DataGridView1.RowHeadersWidth = 62;
@@ -179,11 +178,10 @@
             guna2GroupBox1.CustomizableEdges = customizableEdges11;
             guna2GroupBox1.Font = new Font("Segoe UI", 9F);
             guna2GroupBox1.ForeColor = SystemColors.ControlText;
-            guna2GroupBox1.Location = new Point(10, 53);
-            guna2GroupBox1.Margin = new Padding(3, 2, 3, 2);
+            guna2GroupBox1.Location = new Point(11, 71);
             guna2GroupBox1.Name = "guna2GroupBox1";
             guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2GroupBox1.Size = new Size(946, 74);
+            guna2GroupBox1.Size = new Size(1081, 99);
             guna2GroupBox1.TabIndex = 1;
             guna2GroupBox1.Text = "Báo cáo tháng, năm";
             // 
@@ -204,11 +202,10 @@
             xuatbtn.Image = Properties.Resources.clipboard;
             xuatbtn.ImageAlign = HorizontalAlignment.Left;
             xuatbtn.ImageSize = new Size(30, 30);
-            xuatbtn.Location = new Point(708, 29);
-            xuatbtn.Margin = new Padding(3, 2, 3, 2);
+            xuatbtn.Location = new Point(809, 39);
             xuatbtn.Name = "xuatbtn";
             xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            xuatbtn.Size = new Size(232, 41);
+            xuatbtn.Size = new Size(265, 55);
             xuatbtn.TabIndex = 59;
             xuatbtn.Text = "Xuất báo cáo";
             xuatbtn.Click += xuat_btnClick;
@@ -230,11 +227,10 @@
             hienbcbtn.Image = Properties.Resources.report1;
             hienbcbtn.ImageAlign = HorizontalAlignment.Left;
             hienbcbtn.ImageSize = new Size(30, 30);
-            hienbcbtn.Location = new Point(470, 29);
-            hienbcbtn.Margin = new Padding(3, 2, 3, 2);
+            hienbcbtn.Location = new Point(537, 39);
             hienbcbtn.Name = "hienbcbtn";
             hienbcbtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            hienbcbtn.Size = new Size(232, 41);
+            hienbcbtn.Size = new Size(265, 55);
             hienbcbtn.TabIndex = 41;
             hienbcbtn.Text = "Hiện báo cáo";
             hienbcbtn.Click += hienBaoCao_btnClick;
@@ -247,13 +243,13 @@
             thangnumeric.CustomizableEdges = customizableEdges7;
             thangnumeric.Font = new Font("Segoe UI", 9F);
             thangnumeric.ForeColor = SystemColors.WindowText;
-            thangnumeric.Location = new Point(105, 41);
-            thangnumeric.Margin = new Padding(4, 5, 4, 5);
+            thangnumeric.Location = new Point(120, 55);
+            thangnumeric.Margin = new Padding(5, 7, 5, 7);
             thangnumeric.Maximum = new decimal(new int[] { 12, 0, 0, 0 });
             thangnumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             thangnumeric.Name = "thangnumeric";
             thangnumeric.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            thangnumeric.Size = new Size(120, 19);
+            thangnumeric.Size = new Size(137, 25);
             thangnumeric.TabIndex = 58;
             thangnumeric.UpDownButtonFillColor = Color.FromArgb(222, 227, 62);
             thangnumeric.UpDownButtonForeColor = Color.White;
@@ -265,9 +261,9 @@
             label4.AutoSize = true;
             label4.BackColor = Color.White;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(260, 39);
+            label4.Location = new Point(297, 52);
             label4.Name = "label4";
-            label4.Size = new Size(47, 21);
+            label4.Size = new Size(58, 28);
             label4.TabIndex = 57;
             label4.Text = "Năm:";
             // 
@@ -279,25 +275,25 @@
             namnumeric.CustomizableEdges = customizableEdges9;
             namnumeric.Font = new Font("Segoe UI", 9F);
             namnumeric.ForeColor = SystemColors.WindowText;
-            namnumeric.Location = new Point(316, 41);
-            namnumeric.Margin = new Padding(4, 5, 4, 5);
+            namnumeric.Location = new Point(361, 55);
+            namnumeric.Margin = new Padding(5, 7, 5, 7);
             namnumeric.Maximum = new decimal(new int[] { 2050, 0, 0, 0 });
-            namnumeric.Minimum = new decimal(new int[] { 2000, 0, 0, 0 });
+            namnumeric.Minimum = new decimal(new int[] { 2025, 0, 0, 0 });
             namnumeric.Name = "namnumeric";
             namnumeric.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            namnumeric.Size = new Size(120, 19);
+            namnumeric.Size = new Size(137, 25);
             namnumeric.TabIndex = 56;
             namnumeric.UpDownButtonFillColor = Color.FromArgb(222, 227, 62);
             namnumeric.UpDownButtonForeColor = Color.White;
-            namnumeric.Value = new decimal(new int[] { 2000, 0, 0, 0 });
+            namnumeric.Value = new decimal(new int[] { 2025, 0, 0, 0 });
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(322, 42);
+            label3.Location = new Point(368, 56);
             label3.Margin = new Padding(1, 0, 1, 0);
             label3.Name = "label3";
-            label3.Size = new Size(0, 15);
+            label3.Size = new Size(0, 20);
             label3.TabIndex = 1;
             // 
             // label2
@@ -306,9 +302,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.White;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(38, 39);
+            label2.Location = new Point(43, 52);
             label2.Name = "label2";
-            label2.Size = new Size(56, 21);
+            label2.Size = new Size(70, 28);
             label2.TabIndex = 54;
             label2.Text = "Tháng:";
             // 
@@ -320,12 +316,11 @@
             guna2GroupBox2.CustomizableEdges = customizableEdges13;
             guna2GroupBox2.Font = new Font("Segoe UI", 9F);
             guna2GroupBox2.ForeColor = SystemColors.ControlText;
-            guna2GroupBox2.Location = new Point(10, 132);
-            guna2GroupBox2.Margin = new Padding(3, 2, 3, 2);
+            guna2GroupBox2.Location = new Point(11, 176);
             guna2GroupBox2.Name = "guna2GroupBox2";
-            guna2GroupBox2.Padding = new Padding(3, 2, 3, 2);
+            guna2GroupBox2.Padding = new Padding(3, 3, 3, 3);
             guna2GroupBox2.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2GroupBox2.Size = new Size(946, 337);
+            guna2GroupBox2.Size = new Size(1081, 449);
             guna2GroupBox2.TabIndex = 2;
             guna2GroupBox2.Text = "Chi tiết báo cáo";
             // 
@@ -359,8 +354,7 @@
             bcdsdtgrid.DefaultCellStyle = dataGridViewCellStyle6;
             bcdsdtgrid.EnableHeadersVisualStyles = true;
             bcdsdtgrid.GridColor = SystemColors.ControlDark;
-            bcdsdtgrid.Location = new Point(0, 24);
-            bcdsdtgrid.Margin = new Padding(3, 2, 3, 2);
+            bcdsdtgrid.Location = new Point(0, 32);
             bcdsdtgrid.Name = "bcdsdtgrid";
             dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = SystemColors.Control;
@@ -373,7 +367,7 @@
             bcdsdtgrid.RowHeadersVisible = false;
             bcdsdtgrid.RowHeadersWidth = 51;
             bcdsdtgrid.RowTemplate.Height = 33;
-            bcdsdtgrid.Size = new Size(946, 313);
+            bcdsdtgrid.Size = new Size(1081, 417);
             bcdsdtgrid.TabIndex = 1;
             bcdsdtgrid.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             bcdsdtgrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -396,64 +390,6 @@
             bcdsdtgrid.ThemeStyle.RowsStyle.Height = 33;
             bcdsdtgrid.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             bcdsdtgrid.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(244, 481);
-            label5.Name = "label5";
-            label5.Size = new Size(122, 21);
-            label5.TabIndex = 16;
-            label5.Text = "Tổng thành tiền:";
-            // 
-            // tongThanhTien_txtbox
-            // 
-            tongThanhTien_txtbox.BackColor = Color.Transparent;
-            tongThanhTien_txtbox.BorderRadius = 18;
-            tongThanhTien_txtbox.CustomizableEdges = customizableEdges15;
-            tongThanhTien_txtbox.DefaultText = "";
-            tongThanhTien_txtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            tongThanhTien_txtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            tongThanhTien_txtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            tongThanhTien_txtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            tongThanhTien_txtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            tongThanhTien_txtbox.Font = new Font("Segoe UI", 9F);
-            tongThanhTien_txtbox.ForeColor = SystemColors.WindowText;
-            tongThanhTien_txtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tongThanhTien_txtbox.Location = new Point(379, 481);
-            tongThanhTien_txtbox.Margin = new Padding(4, 4, 4, 4);
-            tongThanhTien_txtbox.Name = "tongThanhTien_txtbox";
-            tongThanhTien_txtbox.PlaceholderText = "";
-            tongThanhTien_txtbox.SelectedText = "";
-            tongThanhTien_txtbox.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            tongThanhTien_txtbox.Size = new Size(346, 24);
-            tongThanhTien_txtbox.TabIndex = 17;
-            tongThanhTien_txtbox.TextChanged += guna2TextBox1_TextChanged;
-            // 
-            // thoatbtn
-            // 
-            thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            thoatbtn.Location = new Point(876, 481);
-            thoatbtn.Margin = new Padding(3, 2, 3, 2);
-            thoatbtn.Name = "thoatbtn";
-            thoatbtn.Size = new Size(83, 24);
-            thoatbtn.TabIndex = 3;
-            thoatbtn.Text = "Thoát";
-            thoatbtn.UseVisualStyleBackColor = true;
-            thoatbtn.Click += thoat_btnClick;
-            // 
-            // bieudobtn
-            // 
-            bieudobtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            bieudobtn.Location = new Point(8, 481);
-            bieudobtn.Margin = new Padding(3, 2, 3, 2);
-            bieudobtn.Name = "bieudobtn";
-            bieudobtn.Size = new Size(83, 24);
-            bieudobtn.TabIndex = 18;
-            bieudobtn.Text = "Biểu đồ";
-            bieudobtn.UseVisualStyleBackColor = true;
-            bieudobtn.Click += bieudobtn_Click;
             // 
             // Column1
             // 
@@ -483,12 +419,68 @@
             Column4.MinimumWidth = 8;
             Column4.Name = "Column4";
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(279, 641);
+            label5.Name = "label5";
+            label5.Size = new Size(154, 28);
+            label5.TabIndex = 16;
+            label5.Text = "Tổng thành tiền:";
+            // 
+            // tongThanhTien_txtbox
+            // 
+            tongThanhTien_txtbox.BackColor = Color.Transparent;
+            tongThanhTien_txtbox.BorderRadius = 18;
+            tongThanhTien_txtbox.CustomizableEdges = customizableEdges15;
+            tongThanhTien_txtbox.DefaultText = "";
+            tongThanhTien_txtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tongThanhTien_txtbox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tongThanhTien_txtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tongThanhTien_txtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tongThanhTien_txtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tongThanhTien_txtbox.Font = new Font("Segoe UI", 9F);
+            tongThanhTien_txtbox.ForeColor = SystemColors.WindowText;
+            tongThanhTien_txtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tongThanhTien_txtbox.Location = new Point(433, 641);
+            tongThanhTien_txtbox.Margin = new Padding(5, 5, 5, 5);
+            tongThanhTien_txtbox.Name = "tongThanhTien_txtbox";
+            tongThanhTien_txtbox.PlaceholderText = "";
+            tongThanhTien_txtbox.SelectedText = "";
+            tongThanhTien_txtbox.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            tongThanhTien_txtbox.Size = new Size(395, 32);
+            tongThanhTien_txtbox.TabIndex = 17;
+            tongThanhTien_txtbox.TextChanged += guna2TextBox1_TextChanged;
+            // 
+            // thoatbtn
+            // 
+            thoatbtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            thoatbtn.Location = new Point(1001, 641);
+            thoatbtn.Name = "thoatbtn";
+            thoatbtn.Size = new Size(95, 32);
+            thoatbtn.TabIndex = 3;
+            thoatbtn.Text = "Thoát";
+            thoatbtn.UseVisualStyleBackColor = true;
+            thoatbtn.Click += thoat_btnClick;
+            // 
+            // bieudobtn
+            // 
+            bieudobtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            bieudobtn.Location = new Point(9, 641);
+            bieudobtn.Name = "bieudobtn";
+            bieudobtn.Size = new Size(95, 32);
+            bieudobtn.TabIndex = 18;
+            bieudobtn.Text = "Biểu đồ";
+            bieudobtn.UseVisualStyleBackColor = true;
+            bieudobtn.Click += bieudobtn_Click;
+            // 
             // BAOCAODOANHSO
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = hienbcbtn;
-            ClientSize = new Size(969, 517);
+            ClientSize = new Size(1107, 689);
             Controls.Add(bieudobtn);
             Controls.Add(thoatbtn);
             Controls.Add(tongThanhTien_txtbox);
@@ -499,7 +491,7 @@
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(1, 1, 1, 1);
+            Margin = new Padding(1);
             MaximizeBox = false;
             Name = "BAOCAODOANHSO";
             Text = "Báo cáo doanh số tháng";
