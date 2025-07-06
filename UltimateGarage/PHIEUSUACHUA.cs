@@ -132,10 +132,14 @@ namespace UltimateGarage
         {
             if (pscdtgrid.Rows.Count > 0)
             {
-                double tt = Convert.ToDouble(pscdtgrid.CurrentRow.Cells["ThanhTien"].Value);
-                pscdtgrid.Rows.RemoveAt(pscdtgrid.CurrentCell.RowIndex);
-                s -= tt;
-                ttttxtbox.Text = s.ToString();
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá thông tin này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    double tt = Convert.ToDouble(pscdtgrid.CurrentRow.Cells["ThanhTien"].Value);
+                    pscdtgrid.Rows.RemoveAt(pscdtgrid.CurrentCell.RowIndex);
+                    s -= tt;
+                    ttttxtbox.Text = s.ToString();
+                }
             }
             else
                 MessageBox.Show("Không có thông tin để xóa!");

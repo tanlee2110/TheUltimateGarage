@@ -52,7 +52,13 @@ namespace UltimateGarage
         private void xoabtn_Click(object sender, EventArgs e)
         {
             if (ctnkgrid.Rows.Count > 0)
-                ctnkgrid.Rows.RemoveAt(ctnkgrid.CurrentCell.RowIndex);
+            {
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá thông tin này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    ctnkgrid.Rows.RemoveAt(ctnkgrid.CurrentCell.RowIndex);
+                }
+            }
             else
                 MessageBox.Show("Không có thông tin để xóa!");
         }

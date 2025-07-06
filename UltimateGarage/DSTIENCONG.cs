@@ -78,27 +78,31 @@ namespace UltimateGarage
         {
             if (ptdtgrid.Rows.Count > 0)
             {
-                string mtc = matctxtbox.Text;
-                if (!TIENCONGDAO.Instance.Xoa(mtc))
-                    MessageBox.Show("Không thể xóa tiền công!");
-                else
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá thông tin này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
                 {
-                    if (ptdtgrid.Rows.Count == 0)
-                    {
-                        tctxtbox.Clear();
-                        ndtxtbox.Clear();
-                        matctxtbox.Clear();
-                    }
+                    string mtc = matctxtbox.Text;
+                    if (!TIENCONGDAO.Instance.Xoa(mtc))
+                        MessageBox.Show("Không thể xóa tiền công!");
                     else
                     {
-                        matctxtbox.DataBindings.Clear();
-                        matctxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "MaTienCong");
-                        tctxtbox.DataBindings.Clear();
-                        tctxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "TienCong");
-                        ndtxtbox.DataBindings.Clear();
-                        ndtxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "NoiDung");
+                        if (ptdtgrid.Rows.Count == 0)
+                        {
+                            tctxtbox.Clear();
+                            ndtxtbox.Clear();
+                            matctxtbox.Clear();
+                        }
+                        else
+                        {
+                            matctxtbox.DataBindings.Clear();
+                            matctxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "MaTienCong");
+                            tctxtbox.DataBindings.Clear();
+                            tctxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "TienCong");
+                            ndtxtbox.DataBindings.Clear();
+                            ndtxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "NoiDung");
+                        }
+                        HienThi();
                     }
-                    HienThi();
                 }
             }
             else

@@ -91,34 +91,38 @@ namespace UltimateGarage
         {
             if (nvdtgrid.Rows.Count > 0)
             {
-                NHANVIENDAO.Instance.Xoa(tdntxtbox.Text);
-                HienThi();
-                if (nvdtgrid.Rows.Count == 0)
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá thông tin này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
                 {
-                    tdntxtbox.Clear();
-                    mktxtbox.Clear();
-                    tentxtbox.Clear();
-                    dctxtbox.Clear();
-                    dthtxtbox.Clear();
-                    emailtxtbox.Clear();
-                    chucvutxtbox.Clear();
-                }
-                else
-                {
-                    tdntxtbox.DataBindings.Clear();
-                    tdntxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "TenDangNhap");
-                    mktxtbox.DataBindings.Clear();
-                    mktxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "MatKhau");
-                    tentxtbox.DataBindings.Clear();
-                    tentxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "TenNV");
-                    dctxtbox.DataBindings.Clear();
-                    dctxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "DiaChi");
-                    dthtxtbox.DataBindings.Clear();
-                    dthtxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "DienThoai");
-                    emailtxtbox.DataBindings.Clear();
-                    emailtxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "Email");
-                    chucvutxtbox.DataBindings.Clear();
-                    chucvutxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "ChucVu");
+                    NHANVIENDAO.Instance.Xoa(tdntxtbox.Text);
+                    HienThi();
+                    if (nvdtgrid.Rows.Count == 0)
+                    {
+                        tdntxtbox.Clear();
+                        mktxtbox.Clear();
+                        tentxtbox.Clear();
+                        dctxtbox.Clear();
+                        dthtxtbox.Clear();
+                        emailtxtbox.Clear();
+                        chucvutxtbox.Clear();
+                    }
+                    else
+                    {
+                        tdntxtbox.DataBindings.Clear();
+                        tdntxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "TenDangNhap");
+                        mktxtbox.DataBindings.Clear();
+                        mktxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "MatKhau");
+                        tentxtbox.DataBindings.Clear();
+                        tentxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "TenNV");
+                        dctxtbox.DataBindings.Clear();
+                        dctxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "DiaChi");
+                        dthtxtbox.DataBindings.Clear();
+                        dthtxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "DienThoai");
+                        emailtxtbox.DataBindings.Clear();
+                        emailtxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "Email");
+                        chucvutxtbox.DataBindings.Clear();
+                        chucvutxtbox.DataBindings.Add("Text", nvdtgrid.DataSource, "ChucVu");
+                    }
                 }
             }
             else

@@ -68,34 +68,35 @@ namespace UltimateGarage
         {
             if (ptdtgrid.Rows.Count > 0)
             {
-                string ma = mavtpttxtbox.Text;
-                if (!VTPTDAO.Instance.Xoa(ma))
-                    MessageBox.Show("Không thể xóa vật tư phụ tùng!");
-                else
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá thông tin này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
                 {
-                    if (ptdtgrid.Rows.Count == 0)
-                    {
-                        mavtpttxtbox.Clear();
-                        tenvtpttxtbox.Clear();
-                        dgtxtbox.Clear();
-                        sltxtbox.Clear();
-                    }
+                    string ma = mavtpttxtbox.Text;
+                    if (!VTPTDAO.Instance.Xoa(ma))
+                        MessageBox.Show("Không thể xóa vật tư phụ tùng!");
                     else
                     {
-                        mavtpttxtbox.DataBindings.Clear();
-                        mavtpttxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "MaVTPT");
-                        tenvtpttxtbox.DataBindings.Clear();
-                        tenvtpttxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "TenVTPT");
-                        sltxtbox.DataBindings.Clear();
-                        sltxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "SoLuongTon");
-                        dgtxtbox.DataBindings.Clear();
-                        dgtxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "DonGia");
+                        if (ptdtgrid.Rows.Count == 0)
+                        {
+                            mavtpttxtbox.Clear();
+                            tenvtpttxtbox.Clear();
+                            dgtxtbox.Clear();
+                            sltxtbox.Clear();
+                        }
+                        else
+                        {
+                            mavtpttxtbox.DataBindings.Clear();
+                            mavtpttxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "MaVTPT");
+                            tenvtpttxtbox.DataBindings.Clear();
+                            tenvtpttxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "TenVTPT");
+                            sltxtbox.DataBindings.Clear();
+                            sltxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "SoLuongTon");
+                            dgtxtbox.DataBindings.Clear();
+                            dgtxtbox.DataBindings.Add("Text", ptdtgrid.DataSource, "DonGia");
+                        }
+                        HienThi();
                     }
-                    HienThi();
-
                 }
-
-
             }
             else
                 MessageBox.Show("Không có vật tư phụ tùng để xóa!");

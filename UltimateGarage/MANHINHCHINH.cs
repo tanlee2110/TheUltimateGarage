@@ -193,44 +193,46 @@ namespace UltimateGarage
                     MessageBox.Show("Không có xe để xóa");
                 else
                 {
-                    if (!XEDAO.Instance.XoaXe(bienso))
-                        MessageBox.Show("Không thể xóa xe!");
-                    else
+                    var result = MessageBox.Show("Bạn có thực sự muốn xoá thông tin này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (result == DialogResult.Yes)
                     {
-                        if (xedtgrid.Rows.Count == 0)
-                        {
-                            biensotxtbox.Clear();
-                            tentxtbox.Clear();
-                            dthtxtbox.Clear();
-                            diachitxtbox.Clear();
-                            emailtxtbox.Clear();
-                            hieuxetxtbox.Clear();
-                            notxtbox.Clear();
-                        }
+                        if (!XEDAO.Instance.XoaXe(bienso))
+                            MessageBox.Show("Không thể xóa xe!");
                         else
                         {
-                            biensotxtbox.DataBindings.Clear();
-                            biensotxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "BienSo");
-                            tentxtbox.DataBindings.Clear();
-                            tentxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "TenChuXe");
-                            hieuxetxtbox.DataBindings.Clear();
-                            hieuxetxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "HieuXe");
-                            diachitxtbox.DataBindings.Clear();
-                            diachitxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "DiaChi");
-                            dthtxtbox.DataBindings.Clear();
-                            dthtxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "DienThoai");
-                            emailtxtbox.DataBindings.Clear();
-                            emailtxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "Email");
-                            notxtbox.DataBindings.Clear();
-                            notxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "TienNo");
-                            ngaydtpicker.DataBindings.Clear();
-                            ngaydtpicker.DataBindings.Add("Value", xedtgrid.DataSource, "NgayTiepNhan");
+                            if (xedtgrid.Rows.Count == 0)
+                            {
+                                biensotxtbox.Clear();
+                                tentxtbox.Clear();
+                                dthtxtbox.Clear();
+                                diachitxtbox.Clear();
+                                emailtxtbox.Clear();
+                                hieuxetxtbox.Clear();
+                                notxtbox.Clear();
+                            }
+                            else
+                            {
+                                biensotxtbox.DataBindings.Clear();
+                                biensotxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "BienSo");
+                                tentxtbox.DataBindings.Clear();
+                                tentxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "TenChuXe");
+                                hieuxetxtbox.DataBindings.Clear();
+                                hieuxetxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "HieuXe");
+                                diachitxtbox.DataBindings.Clear();
+                                diachitxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "DiaChi");
+                                dthtxtbox.DataBindings.Clear();
+                                dthtxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "DienThoai");
+                                emailtxtbox.DataBindings.Clear();
+                                emailtxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "Email");
+                                notxtbox.DataBindings.Clear();
+                                notxtbox.DataBindings.Add("Text", xedtgrid.DataSource, "TienNo");
+                                ngaydtpicker.DataBindings.Clear();
+                                ngaydtpicker.DataBindings.Add("Value", xedtgrid.DataSource, "NgayTiepNhan");
+                            }
+                            HienThi();
                         }
-                        HienThi();
                     }
                 }
-
-
             }
         }
 

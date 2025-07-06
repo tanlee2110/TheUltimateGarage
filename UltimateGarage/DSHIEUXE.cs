@@ -36,10 +36,14 @@ namespace UltimateGarage
         {
             if (hieuxedtgrid.Rows.Count > 0)
             {
-                string s = hieuxedtgrid.CurrentRow.Cells[0].Value.ToString();
-                if (!HIEUXEDAO.Instance.Xoa(s))
-                    MessageBox.Show("Không thể xóa hiệu xe!");
-                HienThi();
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá thông tin này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    string s = hieuxedtgrid.CurrentRow.Cells[0].Value.ToString();
+                    if (!HIEUXEDAO.Instance.Xoa(s))
+                        MessageBox.Show("Không thể xóa hiệu xe!");
+                    HienThi();
+                }
             }
             else
             {
