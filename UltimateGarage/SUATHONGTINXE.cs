@@ -53,10 +53,12 @@ namespace UltimateGarage
                 string diachi = diachitxtbox.Text;
                 string dth = dthtxtbox.Text;
                 string email = emailtxtbox.Text;
-                if (XEDAO.Instance.Sua(bienso, ten, hieu, diachi, dth, email))
+                DateTime ngayTiepNhan = ngaydtpicker.Value;
+                bool ok1 = XEDAO.Instance.Sua(bienso, ten, hieu, diachi, dth, email);
+                bool ok2 = XEDAO.Instance.CapNhatNgayTiepNhan(bienso, ngayTiepNhan);
+                if (ok1 && ok2)
                 {
                     this.Close();
-
                 }
                 else
                 {
@@ -79,6 +81,7 @@ namespace UltimateGarage
             diachitxtbox.Text = diachi;
             emailtxtbox.Text = email;
             dthtxtbox.Text = dth;
+            ngaydtpicker.Value = ngay;
         }
     }
 }

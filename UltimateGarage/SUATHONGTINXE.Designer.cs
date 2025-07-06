@@ -66,6 +66,7 @@
             biensotxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             emailtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             tentxtbox = new Guna.UI2.WinForms.Guna2TextBox();
+            ngaydtpicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
             panel1.SuspendLayout();
             guna2Panel1.SuspendLayout();
             SuspendLayout();
@@ -111,6 +112,7 @@
             guna2Panel1.Controls.Add(biensotxtbox);
             guna2Panel1.Controls.Add(emailtxtbox);
             guna2Panel1.Controls.Add(tentxtbox);
+            guna2Panel1.Controls.Add(ngaydtpicker);
             guna2Panel1.CustomizableEdges = customizableEdges19;
             guna2Panel1.FillColor = Color.White;
             guna2Panel1.Location = new Point(2, 62);
@@ -358,6 +360,13 @@
             tentxtbox.Size = new Size(250, 27);
             tentxtbox.TabIndex = 3;
             // 
+            // ngaydtpicker
+            // 
+            ngaydtpicker.Location = new Point(251, 200);
+            ngaydtpicker.Name = "ngaydtpicker";
+            ngaydtpicker.Size = new Size(250, 27);
+            ngaydtpicker.TabIndex = 26;
+            // 
             // SUATHONGTINXE
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -385,7 +394,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel PhieuSuaChua_Title;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2ComboBox hieuxecbbox;
-        private Guna.UI2.WinForms.Guna2DateTimePicker ngaydtpicker;
         private Guna.UI2.WinForms.Guna2Button thoatbtn;
         private Guna.UI2.WinForms.Guna2Button capnhatbtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel label5;
@@ -394,11 +402,11 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel label2;
         private Guna.UI2.WinForms.Guna2HtmlLabel TenChuXe;
         private Guna.UI2.WinForms.Guna2HtmlLabel label1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel label6;
         private Guna.UI2.WinForms.Guna2TextBox dthtxtbox;
         private Guna.UI2.WinForms.Guna2TextBox diachitxtbox;
         private Guna.UI2.WinForms.Guna2TextBox biensotxtbox;
         private Guna.UI2.WinForms.Guna2TextBox emailtxtbox;
         private Guna.UI2.WinForms.Guna2TextBox tentxtbox;
+        private Guna.UI2.WinForms.Guna2DateTimePicker ngaydtpicker;
     }
 }

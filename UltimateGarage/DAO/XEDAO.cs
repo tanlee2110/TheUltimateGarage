@@ -218,7 +218,24 @@ namespace UltimateGarage.DAO
             }
             return true;
         }
-        
-
+        public bool CapNhatNgayTiepNhan(string bienso, DateTime ngayTiepNhan)
+        {
+            string sql = "UPDATE XE SET NgayTiepNhan = @ngayTiepNhan WHERE BienSo = @bienso";
+            SqlConnection con = dc.getConnect();
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("@bienso", bienso);
+                cmd.Parameters.AddWithValue("@ngayTiepNhan", ngayTiepNhan);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }
