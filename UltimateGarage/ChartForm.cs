@@ -92,7 +92,7 @@ namespace UltimateGarage
             {
                 using (Font font = new Font("Arial", 16, FontStyle.Bold))
                 {
-                    g.DrawString("Không có dữ liệu để vẽ biểu đồ", font, Brushes.Red, 150, 300);
+                    g.DrawString("Không có dữ liệu để vẽ biểu đồ", font, Brushes.Red, 20, 300);
                 }
                 return;
             }
