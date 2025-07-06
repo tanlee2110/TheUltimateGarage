@@ -15,9 +15,15 @@ namespace UltimateGarage
     public partial class PHIEUTHUTIEN : Form
     {
         int flag;
+        int pos;
         public PHIEUTHUTIEN()
         {
             InitializeComponent();
+        }
+        public PHIEUTHUTIEN(int _pos)
+        {
+            InitializeComponent();
+            pos = _pos;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -38,6 +44,7 @@ namespace UltimateGarage
             {
                 biensocbbox.Items.Add(dr["BienSo"]);
             }
+            biensocbbox.SelectedIndex = pos;
         }
 
         private void thoatbtn_Click(object sender, EventArgs e)

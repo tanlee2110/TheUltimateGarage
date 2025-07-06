@@ -119,18 +119,25 @@ namespace UltimateGarage
 
         private void xedtgrid_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            PHIEUTHUTIEN phieuthu = new PHIEUTHUTIEN();
-            phieuthu.biensocbbox.SelectedValue = this.xedtgrid.CurrentRow.Cells[0].Value.ToString();
-            phieuthu.tentxtbox.Text = this.xedtgrid.CurrentRow.Cells[1].Value.ToString();
-            phieuthu.hieuxetxtbox.Text = this.xedtgrid.CurrentRow.Cells[2].Value.ToString();
-            phieuthu.diachitxtbox.Text = this.xedtgrid.CurrentRow.Cells[3].Value.ToString();
-            phieuthu.dthtxtbox.Text = this.xedtgrid.CurrentRow.Cells[4].Value.ToString();
-            phieuthu.emailtxtbox.Text = this.xedtgrid.CurrentRow.Cells[5].Value.ToString();
-            phieuthu.tiennotxtbox.Text = this.xedtgrid.CurrentRow.Cells[6].Value.ToString();
-            phieuthu.tienthutxtbox.Text = "0";
-            phieuthu.tienconnotxtbox.Text = this.xedtgrid.CurrentRow.Cells[6].Value.ToString();
-            phieuthu.ShowDialog();
-            HienThi();
+            if (NHANVIENDAO.Instance.flag != 0)
+            {
+                int pos = this.xedtgrid.CurrentRow.Index;
+                PHIEUTHUTIEN phieuthu = new PHIEUTHUTIEN(pos);
+                phieuthu.biensocbbox.SelectedValue = this.xedtgrid.CurrentRow.Cells[0].Value.ToString();
+                phieuthu.tentxtbox.Text = this.xedtgrid.CurrentRow.Cells[1].Value.ToString();
+                phieuthu.hieuxetxtbox.Text = this.xedtgrid.CurrentRow.Cells[2].Value.ToString();
+                phieuthu.diachitxtbox.Text = this.xedtgrid.CurrentRow.Cells[3].Value.ToString();
+                phieuthu.dthtxtbox.Text = this.xedtgrid.CurrentRow.Cells[4].Value.ToString();
+                phieuthu.emailtxtbox.Text = this.xedtgrid.CurrentRow.Cells[5].Value.ToString();
+                phieuthu.tiennotxtbox.Text = this.xedtgrid.CurrentRow.Cells[6].Value.ToString();
+                phieuthu.tienthutxtbox.Text = "0";
+                phieuthu.tienconnotxtbox.Text = this.xedtgrid.CurrentRow.Cells[6].Value.ToString();
+                phieuthu.ShowDialog();
+                HienThi();
+            }
+            else
+                 MessageBox.Show("Khách không được sử dụng chức năng này!");
+
         }
 
         private void lapphieuvtptbtn_Click(object sender, EventArgs e)
