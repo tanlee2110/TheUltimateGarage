@@ -25,7 +25,7 @@ namespace UltimateGarage
         {
             mapsctxtbox.Text = PHIEUSUACHUADAO.Instance.LoadMPSC();
             dateTimePicker1.Value = DateTime.Now;
-            dateTimePicker1.Enabled = false;
+            dateTimePicker1.Enabled = true;
             SqlDataReader dr = XEDAO.Instance.LoadBienSo();
             while (dr.Read())
             {
@@ -146,6 +146,12 @@ namespace UltimateGarage
             this.Close();
         }
 
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            // Event handler for dateTimePicker1 value change
+            // You can add any logic here if needed when the date changes
+        }
+
         private void lapphieubtn_Click(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(biensocbbox.Text))
@@ -163,7 +169,8 @@ namespace UltimateGarage
                 string masc = mapsctxtbox.Text;
                 string bienso = biensocbbox.Text;
                 double tongtien = Convert.ToDouble(ttttxtbox.Text);
-                PHIEUSUACHUADAO.Instance.Them(masc, bienso, tongtien);
+                DateTime ngaySuaChua = dateTimePicker1.Value;
+                PHIEUSUACHUADAO.Instance.Them(masc, bienso, tongtien, ngaySuaChua);
 
                 foreach (DataGridViewRow dataRow in pscdtgrid.Rows)
                 {

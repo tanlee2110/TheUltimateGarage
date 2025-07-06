@@ -41,17 +41,17 @@ namespace UltimateGarage.DAO
             da.Fill(dt);
             return dt;
         }
-        public bool Them(string masc, string bienso, double tongtien)
+        public bool Them(string masc, string bienso, double tongtien, DateTime ngaySuaChua)
         {
-            string sql = "INSERT INTO PHIEUSUACHUA (MaPSC, BienSo, NgaySuaChua, TongTien) VALUES (@masc, @bienso, GETDATE(), @tongtien)";
+            string sql = "INSERT INTO PHIEUSUACHUA (MaPSC, BienSo, NgaySuaChua, TongTien) VALUES (@masc, @bienso, @ngaySuaChua, @tongtien)";
             SqlConnection con = dc.getConnect();
             try
             {
                 SqlCommand cmd = new SqlCommand(sql, con);
-
                 con.Open();
                 cmd.Parameters.AddWithValue("@masc", masc);
                 cmd.Parameters.AddWithValue("@bienso", bienso);
+                cmd.Parameters.AddWithValue("@ngaySuaChua", ngaySuaChua);
                 cmd.Parameters.AddWithValue("@tongtien", tongtien);
                 cmd.ExecuteNonQuery();
                 con.Close();
