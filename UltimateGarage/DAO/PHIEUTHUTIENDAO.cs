@@ -98,5 +98,24 @@ namespace UltimateGarage.DAO
             }
             return true;
         }
+        public bool Xoa(string maPTT)
+        {
+            string sql = "DELETE FROM PHIEUTHUTIEN WHERE MaPTT = @maPTT";
+            SqlConnection con = dc.getConnect();
+            try
+            {
+                SqlCommand cmd = new SqlCommand(sql, con);
+                con.Open();
+                cmd.Parameters.AddWithValue("@maPTT", maPTT);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Lỗi khi xóa phiếu thu tiền: " + ex.Message);
+                return false;
+            }
+            return true;
+        }
     }
 }

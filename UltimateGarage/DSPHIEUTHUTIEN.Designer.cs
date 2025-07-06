@@ -40,6 +40,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DSPHIEUTHUTIEN));
             Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             label1 = new Label();
@@ -56,6 +58,7 @@
             NgayThuTien = new DataGridViewTextBoxColumn();
             BienSo = new DataGridViewTextBoxColumn();
             SoTienThu = new DataGridViewTextBoxColumn();
+            xoaButton = new Guna.UI2.WinForms.Guna2Button();
             Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pttdtgrid).BeginInit();
             SuspendLayout();
@@ -224,7 +227,7 @@
             pttdtgrid.Name = "pttdtgrid";
             pttdtgrid.ReadOnly = true;
             pttdtgrid.RowHeadersWidth = 51;
-            pttdtgrid.Size = new Size(1165, 423);
+            pttdtgrid.Size = new Size(1165, 385);
             pttdtgrid.TabIndex = 28;
             pttdtgrid.TabStop = false;
             // 
@@ -260,12 +263,32 @@
             SoTienThu.Name = "SoTienThu";
             SoTienThu.ReadOnly = true;
             // 
+            // xoaButton
+            // 
+            xoaButton.BorderRadius = 10;
+            xoaButton.CustomizableEdges = customizableEdges13;
+            xoaButton.DisabledState.BorderColor = Color.DarkGray;
+            xoaButton.DisabledState.CustomBorderColor = Color.DarkGray;
+            xoaButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            xoaButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            xoaButton.FillColor = Color.FromArgb(222, 227, 62);
+            xoaButton.Font = new Font("Segoe UI", 9F);
+            xoaButton.ForeColor = Color.Black;
+            xoaButton.Location = new Point(1087, 183);
+            xoaButton.Name = "xoaButton";
+            xoaButton.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            xoaButton.Size = new Size(83, 41);
+            xoaButton.TabIndex = 29;
+            xoaButton.Text = "Xóa";
+            xoaButton.Click += xoaButton_Click_1;
+            // 
             // DSPHIEUTHUTIEN
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1183, 669);
+            Controls.Add(xoaButton);
             Controls.Add(pttdtgrid);
             Controls.Add(xuatbtn);
             Controls.Add(thoatbtn);
@@ -306,5 +329,6 @@
         private DataGridViewTextBoxColumn NgayThuTien;
         private DataGridViewTextBoxColumn BienSo;
         private DataGridViewTextBoxColumn SoTienThu;
+        private Guna.UI2.WinForms.Guna2Button xoaButton;
     }
 }

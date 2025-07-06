@@ -38,14 +38,16 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DSPNKVTPT));
             panel1 = new Guna.UI2.WinForms.Guna2Panel();
             VatTuPhuTung_Title = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -57,6 +59,7 @@
             timkiemtxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             SearchLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            xoaButton = new Guna.UI2.WinForms.Guna2Button();
             thoatbtn = new Guna.UI2.WinForms.Guna2Button();
             xuatbtn = new Guna.UI2.WinForms.Guna2Button();
             xemctbtn = new Guna.UI2.WinForms.Guna2Button();
@@ -205,20 +208,40 @@
             // 
             guna2Panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             guna2Panel2.BackColor = Color.White;
+            guna2Panel2.Controls.Add(xoaButton);
             guna2Panel2.Controls.Add(thoatbtn);
             guna2Panel2.Controls.Add(xuatbtn);
             guna2Panel2.Controls.Add(xemctbtn);
-            guna2Panel2.CustomizableEdges = customizableEdges17;
+            guna2Panel2.CustomizableEdges = customizableEdges19;
             guna2Panel2.Location = new Point(2, 612);
             guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Panel2.Size = new Size(1205, 80);
             guna2Panel2.TabIndex = 3;
+            // 
+            // xoaButton
+            // 
+            xoaButton.BorderRadius = 10;
+            xoaButton.CustomizableEdges = customizableEdges11;
+            xoaButton.DisabledState.BorderColor = Color.DarkGray;
+            xoaButton.DisabledState.CustomBorderColor = Color.DarkGray;
+            xoaButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            xoaButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            xoaButton.FillColor = Color.FromArgb(222, 227, 62);
+            xoaButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            xoaButton.ForeColor = Color.Black;
+            xoaButton.Location = new Point(840, 5);
+            xoaButton.Name = "xoaButton";
+            xoaButton.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            xoaButton.Size = new Size(218, 67);
+            xoaButton.TabIndex = 3;
+            xoaButton.Text = "Xóa";
+            xoaButton.Click += xoaButton_Click;
             // 
             // thoatbtn
             // 
             thoatbtn.BorderRadius = 10;
-            thoatbtn.CustomizableEdges = customizableEdges11;
+            thoatbtn.CustomizableEdges = customizableEdges13;
             thoatbtn.DisabledState.BorderColor = Color.DarkGray;
             thoatbtn.DisabledState.CustomBorderColor = Color.DarkGray;
             thoatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -228,7 +251,7 @@
             thoatbtn.ForeColor = Color.Black;
             thoatbtn.Location = new Point(1103, 28);
             thoatbtn.Name = "thoatbtn";
-            thoatbtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            thoatbtn.ShadowDecoration.CustomizableEdges = customizableEdges14;
             thoatbtn.Size = new Size(83, 41);
             thoatbtn.TabIndex = 2;
             thoatbtn.Text = "Thoát";
@@ -237,7 +260,7 @@
             // xuatbtn
             // 
             xuatbtn.BorderRadius = 10;
-            xuatbtn.CustomizableEdges = customizableEdges13;
+            xuatbtn.CustomizableEdges = customizableEdges15;
             xuatbtn.DisabledState.BorderColor = Color.DarkGray;
             xuatbtn.DisabledState.CustomBorderColor = Color.DarkGray;
             xuatbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -245,9 +268,9 @@
             xuatbtn.FillColor = Color.FromArgb(222, 227, 62);
             xuatbtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             xuatbtn.ForeColor = Color.Black;
-            xuatbtn.Location = new Point(685, 3);
+            xuatbtn.Location = new Point(508, 5);
             xuatbtn.Name = "xuatbtn";
-            xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            xuatbtn.ShadowDecoration.CustomizableEdges = customizableEdges16;
             xuatbtn.Size = new Size(218, 67);
             xuatbtn.TabIndex = 1;
             xuatbtn.Text = "Xuất file";
@@ -256,7 +279,7 @@
             // xemctbtn
             // 
             xemctbtn.BorderRadius = 10;
-            xemctbtn.CustomizableEdges = customizableEdges15;
+            xemctbtn.CustomizableEdges = customizableEdges17;
             xemctbtn.DisabledState.BorderColor = Color.DarkGray;
             xemctbtn.DisabledState.CustomBorderColor = Color.DarkGray;
             xemctbtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -264,9 +287,9 @@
             xemctbtn.FillColor = Color.FromArgb(222, 227, 62);
             xemctbtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             xemctbtn.ForeColor = Color.Black;
-            xemctbtn.Location = new Point(337, 5);
+            xemctbtn.Location = new Point(176, 5);
             xemctbtn.Name = "xemctbtn";
-            xemctbtn.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            xemctbtn.ShadowDecoration.CustomizableEdges = customizableEdges18;
             xemctbtn.Size = new Size(218, 67);
             xemctbtn.TabIndex = 0;
             xemctbtn.Text = "Xem chi tiết";
@@ -346,5 +369,6 @@
         private DataGridView phieunhapvtptdtgrid;
         private DataGridViewTextBoxColumn MaNKVTPT;
         private DataGridViewTextBoxColumn NgayNhap;
+        private Guna.UI2.WinForms.Guna2Button xoaButton;
     }
 }

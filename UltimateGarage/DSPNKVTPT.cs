@@ -99,5 +99,23 @@ namespace UltimateGarage
         {
             flag = 1;
         }
+
+        private void xoaButton_Click(object sender, EventArgs e)
+        {
+            if (phieunhapvtptdtgrid.Rows.Count > 0 && phieunhapvtptdtgrid.CurrentRow != null)
+            {
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá phiếu nhập này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    string maNKVTPT = phieunhapvtptdtgrid.CurrentRow.Cells[0].Value.ToString();
+                    PNKVTPTDAO.Instance.Xoa(maNKVTPT);
+                    HienThi();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có phiếu nhập để xóa!");
+            }
+        }
     }
 }

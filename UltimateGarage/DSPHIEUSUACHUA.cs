@@ -102,5 +102,23 @@ namespace UltimateGarage
         {
             flag = 2;
         }
+
+        private void xoaButton_Click(object sender, EventArgs e)
+        {
+            if (pscdtgrid.Rows.Count > 0 && pscdtgrid.CurrentRow != null)
+            {
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá phiếu sửa chữa này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    string maPSC = pscdtgrid.CurrentRow.Cells["MaPSC"].Value.ToString();
+                    PHIEUSUACHUADAO.Instance.Xoa(maPSC);
+                    HienThi();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có phiếu sửa chữa để xóa!");
+            }
+        }
     }
 }

@@ -96,5 +96,32 @@ namespace UltimateGarage.DAO
                 l = dr["SO"].ToString();
             return "NK" + l;
         }
+        public bool Xoa(string maNKVTPT)
+        {
+            SqlConnection con = dc.getConnect();
+            try
+            {
+                con.Open();
+                // Xóa chi tiết phiếu nhập trước
+                string sql1 = "DELETE FROM CT_PNKVTPT WHERE MaNKVTPT = @maNKVTPT";
+                SqlCommand cmd1 = new SqlCommand(sql1, con);
+                cmd1.Parameters.AddWithValue("@maNKVTPT", maNKVTPT);
+                cmd1.ExecuteNonQuery();
+
+                // Sau đó xóa phiếu nhập
+                string sql2 = "DELETE FROM PHIEUNHAPKHOVTPT WHERE MaNKVTPT = @maNKVTPT";
+                SqlCommand cmd2 = new SqlCommand(sql2, con);
+                cmd2.Parameters.AddWithValue("@maNKVTPT", maNKVTPT);
+                cmd2.ExecuteNonQuery();
+
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Lỗi khi xóa phiếu nhập kho: " + ex.Message);
+                return false;
+            }
+            return true;
+        }
     }
 }

@@ -98,6 +98,34 @@ namespace UltimateGarage.DAO
             da.Fill(dt);
             return dt;
         }
-       
+        public bool Xoa(string maPSC)
+        {
+            SqlConnection con = dc.getConnect();
+            try
+            {
+                con.Open();
+
+                // Xóa chi tiết phiếu sửa chữa trước
+                string sql1 = "DELETE FROM CT_PSC WHERE MaPSC = @maPSC";
+                SqlCommand cmd1 = new SqlCommand(sql1, con);
+                cmd1.Parameters.AddWithValue("@maPSC", maPSC);
+                cmd1.ExecuteNonQuery();
+
+                // Sau đó xóa phiếu sửa chữa
+                string sql2 = "DELETE FROM PHIEUSUACHUA WHERE MaPSC = @maPSC";
+                SqlCommand cmd2 = new SqlCommand(sql2, con);
+                cmd2.Parameters.AddWithValue("@maPSC", maPSC);
+                cmd2.ExecuteNonQuery();
+
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi xóa phiếu sửa chữa: " + ex.Message);
+                return false;
+            }
+            return true;
+        }
+
     }
 }

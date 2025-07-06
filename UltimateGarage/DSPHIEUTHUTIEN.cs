@@ -83,6 +83,11 @@ namespace UltimateGarage
 
         }
 
+        private void xoaButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         private void mapnradio_CheckedChanged(object sender, EventArgs e)
         {
             flag = 1;
@@ -91,6 +96,24 @@ namespace UltimateGarage
         private void timtheongayradio_CheckedChanged(object sender, EventArgs e)
         {
             flag = 2;
+        }
+
+        private void xoaButton_Click_1(object sender, EventArgs e)
+        {
+            if (pttdtgrid.Rows.Count > 0 && pttdtgrid.CurrentRow != null)
+            {
+                var result = MessageBox.Show("Bạn có thực sự muốn xoá phiếu thu tiền này không?", "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    string maPTT = pttdtgrid.CurrentRow.Cells[0].Value.ToString();
+                    PHIEUTHUTIENDAO.Instance.Xoa(maPTT);
+                    HienThi();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có phiếu thu tiền để xóa!");
+            }
         }
     }
 }
