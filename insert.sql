@@ -228,17 +228,17 @@ insert into TIENCONG(MaTienCong, NoiDung, TienCong) values
 ('TC156',N'Công thay chắn bùn gầm máy','100000')
 
 insert into XE(Bienso, Hieuxe, TenChuXe, DiaChi, DienThoai, NgayTiepNhan, TienNo) values
-('72F-48539','Innova',N'Lày A Cẩu',N'Quận Bình Thạnh, TP.HCM','982527982','2022-05-05 00:00:00','7800000'),
-('88G-91668','Innova',N'Bùi Mạnh Quốc Huy',N'Quận Bình Thạnh, TP.HCM','973776072','2022-05-05 00:00:00','530000'),
-('21A-22382','Innova',N'Lê Thị Mai',N'Quận Bình Thạnh, TP.HCM','917749254','2022-05-05 00:00:00','2000000'),
-('77H-86543','Innova',N'Trần Kim Ngọc',N'Quận Gò Vấp, TP.HCM','904770053','2022-05-05 00:00:00','1950000'),
-('41A-61395','Innova',N'Lai Như Quỳnh',N'Quận 2, TP.HCM','974880788','2022-05-05 00:00:00','1300000'),
-('74E-31587','Innova',N'Đặng Ngọc Thanh Loan',N'Quận 2, TP.HCM','983888611','2022-05-05 00:00:00','1050000'),
-('27B-81356','Innova',N'Đặng Ngọc Thanh Loan',N'Phường Thắng Tam, TP. Vũng Tàu','984603663','2022-05-05 00:00:00','750000'),
-('31L-28260','Innova',N'Phạm Đoàn Minh Hiếu',N'Quận Thủ Đức, TP.HCM','986375176','2022-08-05 00:00:00','700000'),
-('76L-27275','Honda',N'Cao Ngọc Phương Trinh',N'Quận Thủ Đức, TP.HCM','986253482','2022-08-05 00:00:00','2200000'),
-('83B-83361','Honda',N'Đỗ Thị Thùy Dương',N'Quận Thủ Đức, TP.HCM','944545232','2022-08-05 00:00:00','460000'),
-('82F-55255','Honda',N'Nguyễn Thị Phương',N'Quận Thủ Đức, TP.HCM','912644784','2022-08-05 00:00:00','260000')
+('72F-48539','Innova',N'Lày A Cẩu',N'Quận Bình Thạnh, TP.HCM','982527982','2025-05-05 00:00:00','7800000'),
+('88G-91668','Innova',N'Bùi Mạnh Quốc Huy',N'Quận Bình Thạnh, TP.HCM','973776072','2025-05-05 00:00:00','530000'),
+('21A-22382','Innova',N'Lê Thị Mai',N'Quận Bình Thạnh, TP.HCM','917749254','2025-05-05 00:00:00','2000000'),
+('77H-86543','Innova',N'Trần Kim Ngọc',N'Quận Gò Vấp, TP.HCM','904770053','2025-05-05 00:00:00','1950000'),
+('41A-61395','Innova',N'Lai Như Quỳnh',N'Quận 2, TP.HCM','974880788','2025-05-05 00:00:00','1300000'),
+('74E-31587','Innova',N'Đặng Ngọc Thanh Loan',N'Quận 2, TP.HCM','983888611','2025-05-05 00:00:00','1050000'),
+('27B-81356','Innova',N'Đặng Ngọc Thanh Loan',N'Phường Thắng Tam, TP. Vũng Tàu','984603663','2025-05-05 00:00:00','750000'),
+('31L-28260','Innova',N'Phạm Đoàn Minh Hiếu',N'Quận Thủ Đức, TP.HCM','986375176','2025-06-05 00:00:00','700000'),
+('76L-27275','Honda',N'Cao Ngọc Phương Trinh',N'Quận Thủ Đức, TP.HCM','986253482','2025-06-05 00:00:00','2200000'),
+('83B-83361','Honda',N'Đỗ Thị Thùy Dương',N'Quận Thủ Đức, TP.HCM','944545232','2025-06-05 00:00:00','460000'),
+('82F-55255','Honda',N'Nguyễn Thị Phương',N'Quận Thủ Đức, TP.HCM','912644784','2025-06-05 00:00:00','260000')
 insert into QUYDINH(SoXeSuaChuaToiDa, TiLeLai) VALUES (100, 1.05)
 insert into CHUCVU VALUES(N'Quản lý'), (N'Nhân viên')
 
